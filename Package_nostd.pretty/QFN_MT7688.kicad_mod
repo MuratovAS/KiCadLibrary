@@ -1,4 +1,4 @@
-(module QFN_MT7688 (layer F.Cu) (tedit 5E15777A)
+(module QFN_MT7688 (layer F.Cu) (tedit 5E5A695C)
   (descr SoC)
   (attr smd)
   (fp_text reference REF** (at 0 -7.3) (layer F.SilkS)
