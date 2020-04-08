@@ -176,7 +176,7 @@
   (pad "" np_thru_hole circle (at 58 25) (size 9 9) (drill 9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -58 -25) (size 9 9) (drill 9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -58 25) (size 9 9) (drill 9) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MY:Econopack4.STEP
+  (model :KISYS3DMOD_MAS:Econopack4.STEP
     (offset (xyz 0 0 -16.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

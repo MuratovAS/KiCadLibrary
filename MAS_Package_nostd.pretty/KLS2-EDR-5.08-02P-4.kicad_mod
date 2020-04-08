@@ -22,7 +22,7 @@
   (fp_line (start -2.01 -2.96) (end -2.01 -0.96) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole rect (at 0 0) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 5.08) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MY:KLS2-EDR-5.08-02P-4.step
+  (model :KISYS3DMOD_MAS:KLS2-EDR-5.08-02P-4.step
     (offset (xyz -1.6 0 4.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

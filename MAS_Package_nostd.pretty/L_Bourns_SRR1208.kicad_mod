@@ -50,7 +50,7 @@
   (fp_line (start -6.25 -5.75) (end -6.25 -2.9) (layer F.CrtYd) (width 0.05))
   (pad 2 smd rect (at 5.05 0) (size 4 5.3) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5.05 0) (size 4 5.3) (layers F.Cu F.Paste F.Mask))
-  (model :KISYS3DMOD_MY:SRR1208.stp
+  (model :KISYS3DMOD_MAS:SRR1208.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
