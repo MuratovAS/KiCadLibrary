@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USBLC6-4SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K SD Protection Diode, SOT-23-6
+F https://www.st.com/resource/en/datasheet/cd00047494.pdf
+$ENDCMP
+#
+#End Doc Library

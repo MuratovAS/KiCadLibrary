@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AM1LS-0505S-NZ
+D 1W, 1500 VDC Isolated DC/DC Converter Module, Output Voltage 5V, ±200mA, 5V Input Voltage,
+K DC/DC isolated Converter module
+F http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1LS-NZ.pdf
+$ENDCMP
+#
+$CMP Mornsun_QA03
+D DC/DC Converter for IGBT Driver
+K DC/DC Converter for IGBT Driver
+F https://www.electricautomationnetwork.com/PDF/ENGLISH/MORNSUN/450.pdf
+$ENDCMP
+#
+#End Doc Library

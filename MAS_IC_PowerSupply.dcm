@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP irs27951s
+D  500kHz per channel output with 50% duty cycle
+K  RESONANT HALF-BRIDGE CONVERTER CONTROL IC
+F https://www.infineon.com/dgdl/irs27951s.pdf?fileId=5546d462533600a40153567b77792849
+$ENDCMP
+#
+$CMP ucc38084
+D current mode push-pull PWM with prog. slope comp, 3.5ms soft start, 4.3/4.1 UVLO
+K UCC38083/4/5/6 is a family of BiCMOS pulse width modulation (PWM) controllers for dc-to-dc
+$ENDCMP
+#
+#End Doc Library

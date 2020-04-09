@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO5451
+D ISO5451 High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver With Active Protection Features
+K ISO5451 High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver With Active Protection Features
+F http://www.ti.com/lit/ds/symlink/iso5451.pdf
+$ENDCMP
+#
+$CMP IXDN609SI
+D 9-Ampere Low-Side Ultrafast MOSFET Drivers
+K 9-Ampere Low-Side Ultrafast MOSFET Drivers
+F http://www.claremicronix.com/home/pdfs.nsf/www/IXD_609.pdf/%24file/IXD_609.pdf
+$ENDCMP
+#
+#End Doc Library

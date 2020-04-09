@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KLS2-EDR-5.08-02P-4
+D TERMINAL BLOCK Connector
+K KLS2-EDR-5.08-02P-4 TERMINAL BLOCK Connector
+F https://static.chipdip.ru/lib/507/DOC001507222.pdf
+$ENDCMP
+#
+#End Doc Library

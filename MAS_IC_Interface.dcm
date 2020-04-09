@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM2483
+D Half-Duplex, iCoupler Isolated RS-485 Transceiver
+K Half-Duplex, iCoupler Isolated RS-485 Transceiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
+$ENDCMP
+#
+$CMP ISO1050DW
+D Isolated CAN Transceiver 5000-VRMS Isolation 
+K Isolated CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/iso1050.pdf
+$ENDCMP
+#
+$CMP LAN8742A
+D 10/100 Base-T/TX Ethernet Transceiver with Cable Diagnostics
+K 10/100 Base-T/TX Ethernet Transceiver with Cable Diagnostics
+F https://www.microchip.com/wwwproducts/en/LAN8742A
+$ENDCMP
+#
+#End Doc Library

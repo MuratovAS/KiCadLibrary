@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q256FV
+D Serial flash memory SPI, Dual SPI and Quad SPI operation
+K Serial flash memory SPI, Dual SPI and Quad SPI operation
+F https://www.winbond.com/resource-files/w25q256fv_revg1_120214_qpi_website_rev_g.pdf
+$ENDCMP
+#
+$CMP nt5tu64m16gg-ac
+D DRAM Chip DDR2 SDRAM 1Gbit 64Mx16 1.8V 84-Pin BGA
+K DRAM Chip DDR2 SDRAM 1Gbit 64Mx16 1.8V 84-Pin BGA
+$ENDCMP
+#
+#End Doc Library
