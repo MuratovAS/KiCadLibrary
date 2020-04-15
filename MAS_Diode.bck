@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MBRS360T3G
+D 3.0 AMPERES, 60 VOLTS Surface Mount Schottky Power Rectifier
+K SCHOTTKY BARRIER RECTIFIERS 3.0 AMPERES, 60 VOLTS
+F https://www.onsemi.com/pub/Collateral/MBRS360T3-D.PDF
+$ENDCMP
+#
+$CMP SS16
+D SMA (DO-214AC) Surface Mount Schottky Barrier Rectifier
+K Surface Mount Schottky Barrier Rectifier
+F https://www.vishay.com/docs/88746/ss12.pdf
+$ENDCMP
+#
 $CMP USBLC6-4SC6
 D Bidirectional ESD Protection Diode, SOT-23-6
 K SD Protection Diode, SOT-23-6
