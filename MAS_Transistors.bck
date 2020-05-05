@@ -14,7 +14,7 @@ $ENDCMP
 #
 $CMP FS200R12PT4
 D 1200 V, 200 A sixpack IGBT module with fast TRENCHSTOP™ IGBT4, Emitter Controlled 4 diode, NTC and PressFIT Contact Technology
-K IGBT
+K IGBT 
 F https://www.infineon.com/dgdl/Infineon-FS200R12PT4-DataSheet-v02_02-EN.pdf?fileId=db3a30432239cccd01230df5d3f555e9
 $ENDCMP
 #

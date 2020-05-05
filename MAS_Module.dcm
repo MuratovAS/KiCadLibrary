@@ -12,4 +12,9 @@ K DC/DC Converter for IGBT Driver
 F https://www.electricautomationnetwork.com/PDF/ENGLISH/MORNSUN/450.pdf
 $ENDCMP
 #
+$CMP SSD1306_I2C
+D ssd1306 display LCD OLED
+K ssd1306 display LCD OLED
+$ENDCMP
+#
 #End Doc Library
