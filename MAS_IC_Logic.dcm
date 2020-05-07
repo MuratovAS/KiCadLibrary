@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC8T245
+D Octo-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?ts=1588754291560
+$ENDCMP
+#
+#End Doc Library
