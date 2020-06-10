@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADUM3190B
+D High Stability Isolated Error Amplifier
+K amplifier, feedback, opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3190.pdf
+$ENDCMP
+#
+$CMP MC33272A
+D Single Supply, High Slew Rate, Low Input Offset Voltage Operational Amplifier
+K opamp, dual
+F https://www.onsemi.cn/PowerSolutions/document/MC33272A-D.PDF
+$ENDCMP
+#
+#End Doc Library

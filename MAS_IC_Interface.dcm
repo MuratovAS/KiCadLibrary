@@ -7,7 +7,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pd
 $ENDCMP
 #
 $CMP ISO1050DW
-D Isolated CAN Transceiver 5000-VRMS Isolation 
+D Isolated CAN Transceiver 5000-VRMS Isolation
 K Isolated CAN Transceiver
 F http://www.ti.com/lit/ds/symlink/iso1050.pdf
 $ENDCMP
