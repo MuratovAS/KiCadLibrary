@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRP-07-C-05D
+D Miniature PCB Relay
+K relay, spdt
+F https://static.chipdip.ru/lib/399/DOC001399110.pdf
+$ENDCMP
+#
+#End Doc Library
