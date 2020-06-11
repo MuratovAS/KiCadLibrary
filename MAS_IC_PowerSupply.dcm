@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HV9910B
+D Boost-Buck LED Lamp Driver, SO8
+K Buck-Boost LED Lamp Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005344A.pdf
+$ENDCMP
+#
 $CMP irs27951s
 D  500kHz per channel output with 50% duty cycle
 K  RESONANT HALF-BRIDGE CONVERTER CONTROL IC
