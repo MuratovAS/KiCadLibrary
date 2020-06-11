@@ -6,4 +6,10 @@ K relay, spdt
 F https://static.chipdip.ru/lib/399/DOC001399110.pdf
 $ENDCMP
 #
+$CMP SCT1.0A
+D SMD Ceramic Fuse 1.0A
+K fuse, 2410
+F https://datasheet.lcsc.com/szlcsc/1912111437_TLC-Electronic-SCT1-0A_C312004.pdf
+$ENDCMP
+#
 #End Doc Library

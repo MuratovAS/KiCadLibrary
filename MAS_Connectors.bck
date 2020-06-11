@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP KLS2-301-5.00-02P-2S
+D Terminal block connector
+K connector, vertical, block
+F https://static.chipdip.ru/lib/507/DOC001507148.pdf
+$ENDCMP
+#
 $CMP KLS2-EDR-5.08-02P-4
 D TERMINAL BLOCK Connector
 K KLS2-EDR-5.08-02P-4 TERMINAL BLOCK Connector
