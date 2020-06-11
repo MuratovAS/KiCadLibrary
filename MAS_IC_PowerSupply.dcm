@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TPS60403DBVR
+D Unregulated 60-mA charge pump voltage inverter
+K negative, inverter
+F https://static.chipdip.ru/lib/255/DOC000255442.pdf
+$ENDCMP
+#
 $CMP irs27951s
 D  500kHz per channel output with 50% duty cycle
 K  RESONANT HALF-BRIDGE CONVERTER CONTROL IC

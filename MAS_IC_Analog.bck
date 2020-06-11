@@ -6,6 +6,17 @@ K amplifier, feedback, opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3190.pdf
 $ENDCMP
 #
+$CMP LM311DR
+D DIFFERENTIAL COMPARATOR WITH STROBES
+K differential, comparator, strobes
+$ENDCMP
+#
+$CMP MAX999EUK+T
+D Single Ultra-High-Speed Comparator
+K comparator, ultra-high-speed
+F https://static.chipdip.ru/lib/301/DOC000301078.pdf
+$ENDCMP
+#
 $CMP MC33272A
 D Single Supply, High Slew Rate, Low Input Offset Voltage Operational Amplifier
 K opamp, dual
