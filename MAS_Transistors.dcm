@@ -18,4 +18,10 @@ K IGBT
 F https://www.infineon.com/dgdl/Infineon-FS200R12PT4-DataSheet-v02_02-EN.pdf?fileId=db3a30432239cccd01230df5d3f555e9
 $ENDCMP
 #
+$CMP IPD60R600P6ATMA1
+D MOSFET N TRENCH 600V 7.3A(TC) 4.5V @ 200UA 600 M? @ 2.4A,10V TO-252-2(DPAK) ROHS
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/DS_IPx60R600P6_2_1.pdf?fileId=db3a30433f2e70c5013f3862b5622681
+$ENDCMP
+#
 #End Doc Library
