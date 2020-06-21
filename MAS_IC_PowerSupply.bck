@@ -1,9 +1,28 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP7331-33SNG-7
+D 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT
+LOW DROPOUT LINEAR REGULATOR
+K 150mA LDO Regulator Fixed Positive
+F https://ru.mouser.com/datasheet/2/115/AP7331-84206.pdf
+$ENDCMP
+#
 $CMP HV9910B
 D Boost-Buck LED Lamp Driver, SO8
 K Buck-Boost LED Lamp Driver High Voltage
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005344A.pdf
+$ENDCMP
+#
+$CMP LD39015M08R
+D 150mA low quiescent current low noise voltage regulator, Fixed Output 0.8V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP TPS60403DBVR
+D Unregulated 60-mA charge pump voltage inverter
+K negative, inverter
+F https://static.chipdip.ru/lib/255/DOC000255442.pdf
 $ENDCMP
 #
 $CMP irs27951s

@@ -1,5 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP7331-33SNG-7
+D 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT
+LOW DROPOUT LINEAR REGULATOR
+K 150mA LDO Regulator Fixed Positive
+F https://ru.mouser.com/datasheet/2/115/AP7331-84206.pdf
+$ENDCMP
+#
 $CMP HV9910B
 D Boost-Buck LED Lamp Driver, SO8
 K Buck-Boost LED Lamp Driver High Voltage

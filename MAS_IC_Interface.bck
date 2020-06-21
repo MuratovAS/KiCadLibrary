@@ -6,10 +6,10 @@ K Half-Duplex, iCoupler Isolated RS-485 Transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
 $ENDCMP
 #
-$CMP ADUM3190B
-D High Stability Isolated Error Amplifier
-K amplifier, feedback, opamp
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3190.pdf
+$CMP FM11NC08S
+D RF TRANSCEIVER ICS DFN-10 ROHS
+K RF TRANSCEIVER ICS DFN-10 ROHS
+F https://datasheet.lcsc.com/szlcsc/Shanghai-Fudan-Microelectronics-FM11NC08S_C182885.pdf
 $ENDCMP
 #
 $CMP ISO1050DW

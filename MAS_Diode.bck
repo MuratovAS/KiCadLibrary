@@ -6,6 +6,12 @@ K SCHOTTKY BARRIER RECTIFIERS 3.0 AMPERES, 60 VOLTS
 F https://www.onsemi.com/pub/Collateral/MBRS360T3-D.PDF
 $ENDCMP
 #
+$CMP MHP5050RGBDT
+D High Brightness Tri-Color LED, RGB, 5x5mm
+K LED RGB Diode
+F https://datasheet.lcsc.com/szlcsc/1912111437_MEIHUA-MHP5050RGBDT_C409780.pdf
+$ENDCMP
+#
 $CMP PESD1CAN
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient

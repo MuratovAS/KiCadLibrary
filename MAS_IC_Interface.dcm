@@ -6,6 +6,12 @@ K Half-Duplex, iCoupler Isolated RS-485 Transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
 $ENDCMP
 #
+$CMP FM11NC08S
+D RF TRANSCEIVER ICS DFN-10 ROHS
+K RF TRANSCEIVER ICS DFN-10 ROHS
+F https://datasheet.lcsc.com/szlcsc/Shanghai-Fudan-Microelectronics-FM11NC08S_C182885.pdf
+$ENDCMP
+#
 $CMP ISO1050DW
 D Isolated CAN Transceiver 5000-VRMS Isolation
 K Isolated CAN Transceiver
