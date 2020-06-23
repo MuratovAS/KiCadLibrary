@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AP7331-33SNG-7
 D 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT
-LOW DROPOUT LINEAR REGULATOR
 K 150mA LDO Regulator Fixed Positive
 F https://ru.mouser.com/datasheet/2/115/AP7331-84206.pdf
 $ENDCMP
@@ -22,7 +21,6 @@ $ENDCMP
 $CMP irs27951s
 D  500kHz per channel output with 50% duty cycle
 K  RESONANT HALF-BRIDGE CONVERTER CONTROL IC
-F https://www.infineon.com/dgdl/irs27951s.pdf?fileId=5546d462533600a40153567b77792849
 $ENDCMP
 #
 $CMP ucc38084
