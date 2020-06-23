@@ -12,15 +12,15 @@ K DC/DC Converter for IGBT Driver
 F https://www.electricautomationnetwork.com/PDF/ENGLISH/MORNSUN/450.pdf
 $ENDCMP
 #
-$CMP Mornsun_QA03_copy
-D DC/DC Converter for IGBT Driver
-K DC/DC Converter for IGBT Driver
-F https://www.electricautomationnetwork.com/PDF/ENGLISH/MORNSUN/450.pdf
-$ENDCMP
-#
 $CMP SSD1306_I2C
 D ssd1306 display LCD OLED
 K ssd1306 display LCD OLED
+$ENDCMP
+#
+$CMP TMH_2415D
+D Ultra miniature isolated 2W DC/DC-converter in a SIP-package
+K dc/dc, isolated, SIP
+F https://static.chipdip.ru/lib/005/DOC001005854.pdf
 $ENDCMP
 #
 #End Doc Library
