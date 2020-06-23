@@ -12,6 +12,12 @@ K MOSFET N/P-CH 40V 9A/6.5A DPAK
 F http://www.farnell.com/datasheets/1817591.pdf
 $ENDCMP
 #
+$CMP FDV301N
+D N Channel 25V 220mA 1.06V @ 250uA 4Ω @ 400mA,4.5V 350mW SOT-23(SOT-23-3) MOSFET RoHS
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDV301N-D.PDF
+$ENDCMP
+#
 $CMP FS200R12PT4
 D 1200 V, 200 A sixpack IGBT module with fast TRENCHSTOP™ IGBT4, Emitter Controlled 4 diode, NTC and PressFIT Contact Technology
 K IGBT

@@ -6,16 +6,34 @@ K Dual N-Channel Enhancement Mode Field Effect Transistor
 F https://static.chipdip.ru/lib/033/DOC001033281.pdf
 $ENDCMP
 #
+$CMP BSS138
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
 $CMP FDD8424H
 D MOSFET N/P-CH 40V 9A/6.5A DPAK
 K MOSFET N/P-CH 40V 9A/6.5A DPAK
 F http://www.farnell.com/datasheets/1817591.pdf
 $ENDCMP
 #
+$CMP FDV301N
+D N Channel 25V 220mA 1.06V @ 250uA 4Ω @ 400mA,4.5V 350mW SOT-23(SOT-23-3) MOSFET RoHS
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDV301N-D.PDF
+$ENDCMP
+#
 $CMP FS200R12PT4
 D 1200 V, 200 A sixpack IGBT module with fast TRENCHSTOP™ IGBT4, Emitter Controlled 4 diode, NTC and PressFIT Contact Technology
 K IGBT
 F https://www.infineon.com/dgdl/Infineon-FS200R12PT4-DataSheet-v02_02-EN.pdf?fileId=db3a30432239cccd01230df5d3f555e9
+$ENDCMP
+#
+$CMP IPD60R600P6ATMA1
+D MOSFET N TRENCH 600V 7.3A(TC) 4.5V @ 200UA 600 M? @ 2.4A,10V TO-252-2(DPAK) ROHS
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/DS_IPx60R600P6_2_1.pdf?fileId=db3a30433f2e70c5013f3862b5622681
 $ENDCMP
 #
 #End Doc Library
