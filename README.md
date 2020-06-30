@@ -43,6 +43,16 @@ git clone https://github.com/MuratovAS/KiCadLibrary
 
 ------
 
+# Полезные дополнения 
+
+https://github.com/easyw/RF-tools-KiCAD
+https://github.com/easyw/kicad-action-scripts
+https://github.com/xesscorp/HierPlace
+https://github.com/MitjaNemec/Kicad_action_plugins
+https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops
+
+------
+
 # Подготовка к производству (jlcpcb)
 
 ## Gerber
@@ -114,7 +124,7 @@ xsltproc -o "%O.csv" "ВАШПУТЬ/GitHub/KiCadLibrary/Plugins/bom2grouped_csv
 
 Пример результирующего файла:
 
-<img src="Design/README/JpazXtn.png" alt="img" style="zoom:50%;" />
+<img src="Design/README/JpazXtn.png" alt="img" style="zoom: 33%;" />
 
 ------
 
