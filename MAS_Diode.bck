@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAT54XY
+D schottky barrier diode
+K schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54XY.pdf
+$ENDCMP
+#
 $CMP MBRS360T3G
 D 3.0 AMPERES, 60 VOLTS Surface Mount Schottky Power Rectifier
 K SCHOTTKY BARRIER RECTIFIERS 3.0 AMPERES, 60 VOLTS

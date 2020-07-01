@@ -18,4 +18,10 @@ K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
 $ENDCMP
 #
+$CMP USB_A_PCB
+D USB  Type A connector
+K connector USB PCB
+F ~
+$ENDCMP
+#
 #End Doc Library
