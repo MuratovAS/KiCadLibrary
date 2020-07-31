@@ -30,4 +30,10 @@ K CoolMOS Power MOSFET N-MOS
 F https://www.infineon.com/dgdl/DS_IPx60R600P6_2_1.pdf?fileId=db3a30433f2e70c5013f3862b5622681
 $ENDCMP
 #
+$CMP IRGP50B60PD1
+D WARP2 series IGBT with ultrafast soft recovery diode
+K igbt, to-247
+F https://static.chipdip.ru/lib/427/DOC004427862.pdf
+$ENDCMP
+#
 #End Doc Library
