@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EK950V-02P
+D European P.C.B. types terminal block, pitch 9.52mm
+K terminal block
+F https://static.chipdip.ru/lib/874/DOC000874788.pdf
+$ENDCMP
+#
 $CMP KLS2-301-5.00-02P-2S
 D Terminal block connector
 K connector, vertical, block
@@ -19,8 +25,8 @@ F http://katalog.we-online.de/em/datasheet/693072010801.pdf
 $ENDCMP
 #
 $CMP USB_A_PCB
-D USB Micro Type B connector
-K connector USB micro
+D USB  Type A connector
+K connector USB PCB
 F ~
 $ENDCMP
 #

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B82464G4105M
+D SMT power inductor, 1000uH, 10.4x10.4x4.8mm
+K inductor
+F https://static.chipdip.ru/lib/547/DOC005547906.pdf
+$ENDCMP
+#
+#End Doc Library
