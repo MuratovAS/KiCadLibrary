@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B32654
+D Metallized polypropylene film capacitor
+K MKP, film
+F https://static.chipdip.ru/lib/423/DOC005423579.pdf
+$ENDCMP
+#
 #End Doc Library
