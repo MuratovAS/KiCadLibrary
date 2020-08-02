@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PVM4A
+D Trimmer single turn
+K trimmer
+F https://static.chipdip.ru/lib/244/DOC000244587.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -6,4 +6,10 @@ K trimmer
 F https://static.chipdip.ru/lib/244/DOC000244587.pdf
 $ENDCMP
 #
+$CMP SQP_10W
+D Fixed wire wound resistor (cement type)
+K cement, resistor
+F https://static.chipdip.ru/lib/121/DOC004121986.pdf
+$ENDCMP
+#
 #End Doc Library
