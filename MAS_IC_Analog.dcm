@@ -6,6 +6,10 @@ K amplifier, feedback, opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3190.pdf
 $ENDCMP
 #
+$CMP INA826AIDGKR
+F https://www.promelec.ru/fs/sources/c4/60/17/4c/ef9b519ae3ac1c5c367680b2.pdf
+$ENDCMP
+#
 $CMP LM311DR
 D DIFFERENTIAL COMPARATOR WITH STROBES
 K differential, comparator, strobes

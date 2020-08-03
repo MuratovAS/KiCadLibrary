@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LRS1575
+D Surface mount shunt resistor
+K shunt, smd
+F http://www.farnell.com/datasheets/1610597.pdf
+$ENDCMP
+#
 $CMP PVM4A
 D Trimmer single turn
 K trimmer
