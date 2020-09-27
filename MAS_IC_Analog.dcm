@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACS712
+D Fully Integrated, Hall Effect-Based Linear Current Sensor with 2.1 kVRMS Isolation and a Low-Resistance Current Conductor
+K current sensor, hall effect
+F https://static.chipdip.ru/lib/242/DOC000242949.pdf
+$ENDCMP
+#
 $CMP ADUM3190B
 D High Stability Isolated Error Amplifier
 K amplifier, feedback, opamp
@@ -25,6 +31,12 @@ $CMP MC33272A
 D Single Supply, High Slew Rate, Low Input Offset Voltage Operational Amplifier
 K opamp, dual
 F https://www.onsemi.cn/PowerSolutions/document/MC33272A-D.PDF
+$ENDCMP
+#
+$CMP TLP350(LF5,TP5)
+D Photocouplers Infrared LED & Photo IC, 3750 Vrms
+K photocoupler
+F https://static.chipdip.ru/lib/968/DOC003968965.pdf
 $ENDCMP
 #
 #End Doc Library

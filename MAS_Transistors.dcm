@@ -36,4 +36,10 @@ K igbt, to-247
 F https://static.chipdip.ru/lib/427/DOC004427862.pdf
 $ENDCMP
 #
+$CMP PWD13F60
+D High-density power driver - high voltage full bridge with integrated gate driver
+K full bridge, high voltage
+F https://www.st.com/resource/en/datasheet/pwd13f60.pdf
+$ENDCMP
+#
 #End Doc Library
