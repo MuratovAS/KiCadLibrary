@@ -12,6 +12,12 @@ K Buck-Boost LED Lamp Driver High Voltage
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005344A.pdf
 $ENDCMP
 #
+$CMP LM2734
+D Thin SOT 1A Load Step-Down DC-DC Regulator
+K dc-dc, step-down
+F https://static.chipdip.ru/lib/092/DOC001092665.pdf
+$ENDCMP
+#
 $CMP LNK306D
 D Lowest component count, energy-efficient off-line switcher IC
 K switcher, 66kHz, SO-8C
