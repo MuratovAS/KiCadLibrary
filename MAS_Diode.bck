@@ -30,6 +30,12 @@ K Surface Mount Schottky Barrier Rectifier
 F https://www.vishay.com/docs/88746/ss12.pdf
 $ENDCMP
 #
+$CMP STTH12R06G
+D Diode Switching 600V 12A 3-Pin(2+Tab) D2PAK T/R
+K Diode Switching 600V 12A 3-Pin(2+Tab) D2PAK T/R
+F http://datasheet.elcodis.com/pdf2/106/24/1062443/stth12r06di.pdf
+$ENDCMP
+#
 $CMP USBLC6-4SC6
 D Bidirectional ESD Protection Diode, SOT-23-6
 K SD Protection Diode, SOT-23-6
