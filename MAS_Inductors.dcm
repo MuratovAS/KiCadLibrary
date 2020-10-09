@@ -6,4 +6,10 @@ K inductor
 F https://static.chipdip.ru/lib/547/DOC005547906.pdf
 $ENDCMP
 #
+$CMP B82726S2163
+D Current-compensated ring core double chokes
+K ring, double choke
+F https://static.chipdip.ru/lib/314/DOC005314047.pdf
+$ENDCMP
+#
 #End Doc Library

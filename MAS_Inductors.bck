@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B82464G4105M
+D SMT power inductor, 1000uH, 10.4x10.4x4.8mm
+K inductor
+F https://static.chipdip.ru/lib/547/DOC005547906.pdf
+$ENDCMP
+#
+$CMP B82726S2163
+D Current-compensated ring core double chokes
+K ring, double choke
+F https://static.chipdip.ru/lib/314/DOC005314047.pdf
+$ENDCMP
+#
 #End Doc Library
