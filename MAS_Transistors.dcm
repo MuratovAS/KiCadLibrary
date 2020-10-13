@@ -42,4 +42,10 @@ K full bridge, high voltage
 F https://www.st.com/resource/en/datasheet/pwd13f60.pdf
 $ENDCMP
 #
+$CMP STD10NM60N
+D N-channel 600 V, 0.53 Ohm typ., 10 A
+K  MDmesh II Power MOSFET in DPAK package
+F https://www.st.com/resource/en/datasheet/std10nm60n.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -6,6 +6,12 @@ K current sensor, hall effect
 F https://static.chipdip.ru/lib/242/DOC000242949.pdf
 $ENDCMP
 #
+$CMP AD8591
+D Op Amp Single GP R-R I/O 6V 6-Pin SOT-23 T/R
+K operational amplifier opamp shutdown high-speed
+F https://www.promelec.ru/fs/sources/93/20/9d/46/c0ef790509f5f2e5bf2eeb9e.pdf
+$ENDCMP
+#
 $CMP ADUM3190B
 D High Stability Isolated Error Amplifier
 K amplifier, feedback, opamp
