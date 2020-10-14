@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FH-101C
+D Fuse holder
+K fuse, holder
+F https://static.chipdip.ru/lib/273/DOC000273180.pdf
+$ENDCMP
+#
 $CMP NRP-07-C-05D
 D Miniature PCB Relay
 K relay, spdt
