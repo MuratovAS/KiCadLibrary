@@ -12,4 +12,10 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?ts=1588754291560
 $ENDCMP
 #
+$CMP SN75179BD
+D Differential driver and receiver pair
+K RS-422, RS-485
+F https://datasheet.lcsc.com/szlcsc/1912111437_Texas-Instruments-SN75179BD_C354460.pdf
+$ENDCMP
+#
 #End Doc Library
