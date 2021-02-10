@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1EDI20N12AFXUMA1
+D Single channel MOSFET and GaN HEMT gate driver IC
+K isolated, gate driver, 1200V, 4A
+F https://datasheet.lcsc.com/szlcsc/1811122024_Infineon-Technologies-1EDI20N12AFXUMA1_C148286.pdf
+$ENDCMP
+#
 $CMP ISO5451
 D ISO5451 High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver With Active Protection Features
 K ISO5451 High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver With Active Protection Features
