@@ -24,4 +24,10 @@ K 10/100 Base-T/TX Ethernet Transceiver with Cable Diagnostics
 F https://www.microchip.com/wwwproducts/en/LAN8742A
 $ENDCMP
 #
+$CMP SN75176BDR
+D Differential bus transceiver
+K RS-422, RS-485
+F https://datasheet.lcsc.com/szlcsc/1809151932_Texas-Instruments-SN75176BDR_C7063.pdf
+$ENDCMP
+#
 #End Doc Library
