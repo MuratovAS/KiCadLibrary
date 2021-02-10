@@ -39,6 +39,12 @@ K opamp, dual
 F https://www.onsemi.cn/PowerSolutions/document/MC33272A-D.PDF
 $ENDCMP
 #
+$CMP TLP2362
+D Photocoupler
+K 3750Vrms
+F https://datasheet.lcsc.com/szlcsc/1809291410_TOSHIBA-TLP2362-TPL-E-T_C37658.pdf
+$ENDCMP
+#
 $CMP TLP350(LF5,TP5)
 D Photocouplers Infrared LED & Photo IC, 3750 Vrms
 K photocoupler
