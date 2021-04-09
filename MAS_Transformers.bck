@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP KMB-0231
+D Universal SCR Trigger Transformer
+K Universal SCR Trigger Transformer
+F https://www.alldatasheet.com/datasheet-pdf/pdf/1157188/YHDC/KMB-0231.html
+$ENDCMP
+#
 $CMP ZMPT107-1
 D Current-type voltage transformer
 K small size, high accuracy, good consistency, for voltage and power managment
