@@ -24,6 +24,12 @@ K KLS2-EDR-5.08-02P-4 TERMINAL BLOCK Connector
 F https://static.chipdip.ru/lib/507/DOC001507222.pdf
 $ENDCMP
 #
+$CMP KLS2-EDR-5.08-03P-4
+D TERMINAL BLOCK Connector
+K KLS2-EDR-5.08-03P-4 TERMINAL BLOCK Connector
+F https://static.chipdip.ru/lib/507/DOC001507222.pdf
+$ENDCMP
+#
 $CMP Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd

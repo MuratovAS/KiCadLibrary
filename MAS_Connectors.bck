@@ -7,7 +7,7 @@ F https://static.chipdip.ru/lib/874/DOC000874788.pdf
 $ENDCMP
 #
 $CMP EK950V-03P
-D European P.C.B. type terminal blocks / EK series
+D European P.C.B. type terminal block, pitch 9.52mm
 K terminal block, 3pin
 F https://static.chipdip.ru/lib/874/DOC000874788.pdf
 $ENDCMP
@@ -21,6 +21,12 @@ $ENDCMP
 $CMP KLS2-EDR-5.08-02P-4
 D TERMINAL BLOCK Connector
 K KLS2-EDR-5.08-02P-4 TERMINAL BLOCK Connector
+F https://static.chipdip.ru/lib/507/DOC001507222.pdf
+$ENDCMP
+#
+$CMP KLS2-EDR-5.08-03P-4
+D TERMINAL BLOCK Connector
+K KLS2-EDR-5.08-03P-4 TERMINAL BLOCK Connector
 F https://static.chipdip.ru/lib/507/DOC001507222.pdf
 $ENDCMP
 #
