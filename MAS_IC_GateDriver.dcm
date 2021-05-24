@@ -18,4 +18,10 @@ K 9-Ampere Low-Side Ultrafast MOSFET Drivers
 F http://www.claremicronix.com/home/pdfs.nsf/www/IXD_609.pdf/%24file/IXD_609.pdf
 $ENDCMP
 #
+$CMP UCC27425
+D Dual 4-A High Speed Low-Side MOSFET Driver With Enable
+K mosfet, driver, 4A, high speed, low side, ucc
+F https://www.ti.com/lit/ds/symlink/ucc27425.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1621842193746
+$ENDCMP
+#
 #End Doc Library
