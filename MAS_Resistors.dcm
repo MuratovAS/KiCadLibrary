@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B57237
+D NTC thermistors for inrush current limiting 1-60ohm, 2-9A
+K NTC, thermistor
+F https://product.tdk.com/en/system/files?file=dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s237.pdf
+$ENDCMP
+#
 $CMP LRS1575
 D Surface mount shunt resistor
 K shunt, smd

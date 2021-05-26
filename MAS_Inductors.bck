@@ -12,4 +12,10 @@ K ring, double choke
 F https://static.chipdip.ru/lib/314/DOC005314047.pdf
 $ENDCMP
 #
+$CMP Coilcraft_150
+D 7mm Tunable RF Coils Shielded
+K inductor, coil, rf, tunable
+F https://www.coilcraft.com/getmedia/43fd0e2b-3759-4aaa-98cb-17bac5dd0687/uni7.pdf
+$ENDCMP
+#
 #End Doc Library

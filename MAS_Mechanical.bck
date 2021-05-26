@@ -6,6 +6,12 @@ K fuse, holder
 F https://static.chipdip.ru/lib/273/DOC000273180.pdf
 $ENDCMP
 #
+$CMP HS_115-100
+D Heatsink 100x116x26.5 4 inch*grad/watt
+K heatsink
+F https://static.chipdip.ru/lib/273/DOC000273723.pdf
+$ENDCMP
+#
 $CMP NRP-07-C-05D
 D Miniature PCB Relay
 K relay, spdt
