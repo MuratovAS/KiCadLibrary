@@ -6,6 +6,12 @@ K Dual N-Channel Enhancement Mode Field Effect Transistor
 F https://static.chipdip.ru/lib/033/DOC001033281.pdf
 $ENDCMP
 #
+$CMP AO4828_copy
+D Dual N-Channel Enhancement Mode Field Effect Transistor
+K Dual N-Channel Enhancement Mode Field Effect Transistor
+F https://static.chipdip.ru/lib/033/DOC001033281.pdf
+$ENDCMP
+#
 $CMP FDD8424H
 D MOSFET N/P-CH 40V 9A/6.5A DPAK
 K MOSFET N/P-CH 40V 9A/6.5A DPAK

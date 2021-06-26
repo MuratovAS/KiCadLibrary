@@ -30,6 +30,12 @@ K CoolMOS Power MOSFET N-MOS
 F https://www.infineon.com/dgdl/DS_IPx60R600P6_2_1.pdf?fileId=db3a30433f2e70c5013f3862b5622681
 $ENDCMP
 #
+$CMP IRF8313
+D HEXFET Power MOSFET (dual N-channel)
+K n-channel, dual, mosfet
+F https://static.chipdip.ru/lib/300/DOC000300376.pdf
+$ENDCMP
+#
 $CMP IRGP50B60PD1
 D WARP2 series IGBT with ultrafast soft recovery diode
 K igbt, to-247
