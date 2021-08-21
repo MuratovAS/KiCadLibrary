@@ -1,4 +1,4 @@
-(module EK950V-02P (layer F.Cu) (tedit 5F247686)
+(module EK950V-02P (layer F.Cu) (tedit 6120CD51)
   (fp_text reference REF** (at 5.08 -5.588) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,6 +20,9 @@
   (fp_line (start -3.17 -5.01) (end -5.17 -5.01) (layer F.SilkS) (width 0.12))
   (fp_line (start -5.17 -5.01) (end -5.17 -3.01) (layer F.SilkS) (width 0.12))
   (fp_line (start -4.76 -3.6) (end -3.76 -4.6) (layer F.Fab) (width 0.1))
+  (fp_text user %R (at 5.08 2.54) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 9.52 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask))
   (model :KISYS3DMOD_MAS:EK950V-02P.STEP
