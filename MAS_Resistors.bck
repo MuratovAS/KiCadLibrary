@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3314G-1
+D 4 mm Square Trimming Potentiometer
+K trimmer
+F https://static.chipdip.ru/lib/250/DOC000250617.pdf
+$ENDCMP
+#
 $CMP B57237
 D NTC thermistors for inrush current limiting 1-60ohm, 2-9A
 K NTC, thermistor
