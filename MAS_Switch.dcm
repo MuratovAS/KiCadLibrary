@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRD16E04
+D HEX FLUSH ACT T/H ROTARY SWITCH
+K hex, rotary, switch, through hole
+F https://static.chipdip.ru/lib/679/DOC011679291.pdf
+$ENDCMP
+#
+#End Doc Library
