@@ -1,0 +1,18 @@
+(module Order_number_JLCPCB (layer F.Cu) (tedit 617D6453)
+  (descr Order_number_JLCPCB)
+  (tags JLCJLCJLCJLC)
+  (attr virtual)
+  (fp_text reference REF** (at 10.16 -1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Order_number_JLCPCB (at 10.16 11.43) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 0) (end 20 0) (layer F.SilkS) (width 0.2))
+  (fp_line (start 20 0) (end 20 10) (layer F.SilkS) (width 0.2))
+  (fp_line (start 20 10) (end 0 10) (layer F.SilkS) (width 0.2))
+  (fp_line (start 0 10) (end 0 0) (layer F.SilkS) (width 0.2))
+  (fp_text user JLCJLCJLCJLC (at 10 5) (layer F.SilkS)
+    (effects (font (size 1.8 1.8) (thickness 0.25)))
+  )
+)
