@@ -30,6 +30,12 @@ K switcher, 66kHz, SO-8C
 F https://ru.mouser.com/datasheet/2/328/lnk302_304-306-1512550.pdf
 $ENDCMP
 #
+$CMP QAW0x
+D 4.8W, Wide input, isolated & regulated dual output, IGBT dedicated DC-DC converter
+K dc-dc, IGBT, power, isolated
+F https://www.mornsunpower.ru/html/pdf/QAW02.html
+$ENDCMP
+#
 $CMP TPS60403DBVR
 D Unregulated 60-mA charge pump voltage inverter
 K negative, inverter

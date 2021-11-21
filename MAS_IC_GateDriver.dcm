@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1ED31xxMU12H
+D Single channel 5.7 kV (rms) isolated gate driver IC with active Miller clamp or separate output
+K isolated, gate driver,
+F https://static.chipdip.ru/lib/412/DOC012412099.pdf
+$ENDCMP
+#
 $CMP 1EDI20N12AFXUMA1
 D Single channel MOSFET and GaN HEMT gate driver IC
 K isolated, gate driver, 1200V, 4A
