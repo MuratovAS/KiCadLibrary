@@ -18,12 +18,6 @@ K relay, spdt
 F https://static.chipdip.ru/lib/399/DOC001399110.pdf
 $ENDCMP
 #
-$CMP Order_number_JLCPCB
-D Order number JLCPCB
-K JLCJLCJLCJLC
-F https://support.jlcpcb.com/article/28-how-to-put-jlc-production-id-at-a-specified-area-on-the-pcb
-$ENDCMP
-#
 $CMP SCT1.0A
 D SMD Ceramic Fuse 1.0A
 K fuse, 2410

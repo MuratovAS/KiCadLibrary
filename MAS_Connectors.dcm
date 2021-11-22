@@ -42,8 +42,4 @@ K connector USB PCB
 F ~
 $ENDCMP
 #
-$CMP black-magic-probe
-K connector
-$ENDCMP
-#
 #End Doc Library

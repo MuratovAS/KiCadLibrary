@@ -46,8 +46,4 @@ $CMP black-magic-probe
 K connector
 $ENDCMP
 #
-$CMP black-magic-probe-2
-K connector
-$ENDCMP
-#
 #End Doc Library
