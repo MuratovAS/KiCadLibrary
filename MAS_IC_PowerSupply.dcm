@@ -6,12 +6,6 @@ K 150mA LDO Regulator Fixed Positive
 F https://ru.mouser.com/datasheet/2/115/AP7331-84206.pdf
 $ENDCMP
 #
-$CMP DKA30B-15
-D 30W DC-DC Dual Output Converter
-K dc-dc
-F https://static.chipdip.ru/lib/246/DOC004246978.pdf
-$ENDCMP
-#
 $CMP HV9910B
 D Boost-Buck LED Lamp Driver, SO8
 K Buck-Boost LED Lamp Driver High Voltage
@@ -28,12 +22,6 @@ $CMP LNK306D
 D Lowest component count, energy-efficient off-line switcher IC
 K switcher, 66kHz, SO-8C
 F https://ru.mouser.com/datasheet/2/328/lnk302_304-306-1512550.pdf
-$ENDCMP
-#
-$CMP QAW0x
-D 4.8W, Wide input, isolated & regulated dual output, IGBT dedicated DC-DC converter
-K dc-dc, IGBT, power, isolated
-F https://www.mornsunpower.ru/html/pdf/QAW02.html
 $ENDCMP
 #
 $CMP TPS60403DBVR

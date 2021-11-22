@@ -6,7 +6,19 @@ K DC/DC isolated Converter module
 F http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1LS-NZ.pdf
 $ENDCMP
 #
-$CMP Mornsun_QA03
+$CMP DKA30B-15
+D 30W DC-DC Dual Output Converter
+K dc-dc
+F https://static.chipdip.ru/lib/246/DOC004246978.pdf
+$ENDCMP
+#
+$CMP Mornsun_QAWx
+D 4.8W, Wide input, isolated & regulated dual output, IGBT dedicated DC-DC converter
+K dc-dc, IGBT, power, isolated
+F https://www.mornsunpower.ru/html/pdf/QAW02.html
+$ENDCMP
+#
+$CMP Mornsun_QAx
 D DC/DC Converter for IGBT Driver
 K DC/DC Converter for IGBT Driver
 F https://www.electricautomationnetwork.com/PDF/ENGLISH/MORNSUN/450.pdf
