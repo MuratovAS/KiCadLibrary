@@ -321,7 +321,7 @@
   (pad 2 thru_hole circle (at -19.35 -5.35) (size 5 5) (drill 3) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 19.35 -5.35) (size 5 5) (drill 3) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 46.85 -5.35) (size 5 5) (drill 3) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:HS_115-100.STEP
+  (model ${MAS_3DMODEL_DIR}/HS_115-100.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -35,7 +35,7 @@
   (pad "" smd roundrect (at -0.85 1) (size 1.37 1.61) (layers F.Paste) (roundrect_rratio 0.182482))
   (pad "" smd roundrect (at 0.85 -1) (size 1.37 1.61) (layers F.Paste) (roundrect_rratio 0.182482))
   (pad "" smd roundrect (at 0.85 1) (size 1.37 1.61) (layers F.Paste) (roundrect_rratio 0.182482))
-  (model ":KISYS3DMOD_MAS:8-wson 8x6_v1.step"
+  (model "${MAS_3DMODEL_DIR}/8-wson 8x6_v1.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

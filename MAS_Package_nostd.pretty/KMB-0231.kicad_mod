@@ -29,7 +29,7 @@
   (pad 1 thru_hole circle (at -10.16 10.16) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 5.08 -10.16) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -5.08 -10.16) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:KMB-0231.step
+  (model ${MAS_3DMODEL_DIR}/KMB-0231.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

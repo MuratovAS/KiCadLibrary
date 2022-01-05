@@ -27,7 +27,7 @@
   (fp_arc (start 0 0) (end 1.201687 -0.099602) (angle -170.5) (layer F.Fab) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 10) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:EECS0HD334H.STEP
+  (model ${MAS_3DMODEL_DIR}/EECS0HD334H.STEP
     (offset (xyz 0 -5.3 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

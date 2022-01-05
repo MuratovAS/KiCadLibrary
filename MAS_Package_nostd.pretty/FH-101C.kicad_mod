@@ -24,7 +24,7 @@
   (fp_line (start -1.91 -5.01) (end -1.91 -3.01) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 0 0) (size 2.9 2.9) (drill 1.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 21 0) (size 2.9 2.9) (drill 1.8) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:FH-101C.stp
+  (model ${MAS_3DMODEL_DIR}/FH-101C.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

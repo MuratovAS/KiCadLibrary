@@ -26,7 +26,7 @@
   (pad 2 thru_hole circle (at 9.52 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 19.04 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:EK950V-03P.STEP
+  (model ${MAS_3DMODEL_DIR}/EK950V-03P.STEP
     (offset (xyz -4.76 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

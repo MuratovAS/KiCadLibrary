@@ -42,7 +42,7 @@
   (fp_arc (start 52.5 0) (end 52.5 0.999999) (angle -180) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 52.5 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:SQP_10W.STEP
+  (model ${MAS_3DMODEL_DIR}/SQP_10W.STEP
     (offset (xyz 2.22 -5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

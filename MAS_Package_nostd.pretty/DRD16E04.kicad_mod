@@ -26,7 +26,7 @@
   (pad 8 thru_hole circle (at 7.62 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad C thru_hole circle (at 7.62 2.54) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad C thru_hole circle (at 0 2.54) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:DRD16E04.STEP
+  (model ${MAS_3DMODEL_DIR}/DRD16E04.STEP
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

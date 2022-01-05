@@ -40,7 +40,7 @@
   (pad 2 smd rect (at -0.65 -0.825) (size 0.45 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.65 -0.825) (size 0.45 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -0.825) (size 0.45 1.5) (layers F.Cu F.Paste F.Mask))
-  (model :KISYS3DMOD_MAS:micro_usb_vetical.step
+  (model ${MAS_3DMODEL_DIR}/micro_usb_vetical.step
     (offset (xyz 0 1 2.75))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

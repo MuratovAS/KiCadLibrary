@@ -29,7 +29,7 @@
   (pad 6 smd rect (at 4.35 1.27) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 4.35 -1.27) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 4.35 -3.81) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
-  (model :KISYS3DMOD_MAS:11-10C405S.stp
+  (model ${MAS_3DMODEL_DIR}/11-10C405S.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

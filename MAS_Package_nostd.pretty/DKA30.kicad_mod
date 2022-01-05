@@ -41,7 +41,7 @@
   (pad 6 thru_hole circle (at 45.72 17.78 270) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 45.72 7.62 270) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 45.72 -2.54 270) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:DKA30.STEP
+  (model ${MAS_3DMODEL_DIR}/DKA30.STEP
     (offset (xyz 22.9 -12.74 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -31,7 +31,7 @@
   (pad 9 thru_hole circle (at 6.35 7.62) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -11.43 7.62) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -8.89 7.62) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:QAW0x.step
+  (model ${MAS_3DMODEL_DIR}/QAW0x.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

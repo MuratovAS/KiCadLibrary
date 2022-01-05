@@ -37,7 +37,7 @@
   )
   (pad 1 smd roundrect (at -4.15 0) (size 2.7 3.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.09300000000000001))
   (pad 2 smd roundrect (at 4.15 0) (size 2.7 3.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.09300000000000001))
-  (model :KISYS3DMOD_MAS:B82464G4105M.STEP
+  (model ${MAS_3DMODEL_DIR}/B82464G4105M.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

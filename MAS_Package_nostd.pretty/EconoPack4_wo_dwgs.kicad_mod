@@ -35,7 +35,7 @@
   (pad 17 thru_hole circle (at -20.2 -27.35) (size 2.54 2.54) (drill 1.27) (layers *.Cu *.Mask))
   (pad 20 thru_hole circle (at -46.7 -27.35) (size 2.54 2.54) (drill 1.27) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at -11.9 27.35) (size 2.54 2.54) (drill 1.27) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:Econopack4.STEP
+  (model ${MAS_3DMODEL_DIR}/Econopack4.STEP
     (offset (xyz 0 0 -16.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

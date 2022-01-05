@@ -34,7 +34,7 @@
   (fp_arc (start 4.286954 -1.204903) (end 5.889101 -2.129903) (angle -90) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 5 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:JYC3D332MBF.STEP
+  (model ${MAS_3DMODEL_DIR}/JYC3D332MBF.STEP
     (offset (xyz 3.1 -1.1 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 -30))

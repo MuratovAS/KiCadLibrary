@@ -89,12 +89,12 @@
   (fp_arc (start 8 13) (end 8 15) (angle -90) (layer F.SilkS) (width 0.12))
   (fp_arc (start 8 -13) (end 10 -13) (angle -90) (layer F.SilkS) (width 0.12))
   (fp_arc (start -8 -13) (end -8 -15) (angle -90) (layer F.SilkS) (width 0.12))
-  (model :KISYS3DMOD_MAS:B66283-G-X187.STEP
+  (model ${MAS_3DMODEL_DIR}/B66283-G-X187.STEP
     (offset (xyz 0 0 -4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model :KISYS3DMOD_MAS:B66283-G-X187.STEP
+  (model ${MAS_3DMODEL_DIR}/B66283-G-X187.STEP
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

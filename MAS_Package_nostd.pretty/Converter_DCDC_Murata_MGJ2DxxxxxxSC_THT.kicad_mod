@@ -30,7 +30,7 @@
   (pad 5 thru_hole oval (at 10.16 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 12.7 0) (size 1.7 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole oval (at 15.24 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:Murata_MGJ2_v1.step
+  (model ${MAS_3DMODEL_DIR}/Murata_MGJ2_v1.step
     (offset (xyz 7.5 -1.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

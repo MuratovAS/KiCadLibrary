@@ -27,7 +27,7 @@
   (pad 2 thru_hole circle (at 0 7.2) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 16.3 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 16.3 7.2) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model ":KISYS3DMOD_MAS:ZMPT107 -1.step"
+  (model "${MAS_3DMODEL_DIR}/ZMPT107 -1.step"
     (offset (xyz 8.15 -3.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

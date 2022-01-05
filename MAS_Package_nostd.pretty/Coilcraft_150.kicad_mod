@@ -38,7 +38,7 @@
   (pad 2 thru_hole circle (at -2.25 2.25) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.55 0) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -3.55 0) (size 2.2 2.2) (drill 1.3) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:Coilcraft_150.STEP
+  (model ${MAS_3DMODEL_DIR}/Coilcraft_150.STEP
     (offset (xyz 3.8 -3.8 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

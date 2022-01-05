@@ -34,7 +34,7 @@
   (fp_arc (start -6.5 2.5) (end -7.75 2.5) (angle -90) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at -3.75 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.75 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model :KISYS3DMOD_MAS:B57237.STEP
+  (model ${MAS_3DMODEL_DIR}/B57237.STEP
     (offset (xyz 0 0 15.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

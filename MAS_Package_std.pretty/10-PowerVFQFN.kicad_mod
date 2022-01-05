@@ -161,7 +161,7 @@
          (xy 0.697998 1.678) (xy -1.552002 1.678) (xy -1.552002 2.328) (xy -1.902002 2.328) (xy -1.902002 1.678)
          (xy -2.137002 1.678) (xy -2.137002 -1.722601) (xy 2.733001 -1.722601)) (width 0))
     ))
-  (model :KISYS3DMOD_MAS:10-PowerVFQFN.step
+  (model ${MAS_3DMODEL_DIR}/10-PowerVFQFN.step
     (offset (xyz -5 6.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
