@@ -85,7 +85,7 @@
     (symbol "SN74LVC8T245_0_1"
       (rectangle (start -8.89 0) (end 8.89 -30.48)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
