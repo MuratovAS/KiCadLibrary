@@ -183,7 +183,7 @@
     (property "Datasheet" "https://static.chipdip.ru/lib/774/DOC011774250.pdf" (id 3) (at 0 -21.59 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "LCSC" "C140388" (id 4) (at 0 -24.13 0)
+    (property "lcsc" "C140388" (id 4) (at 0 -24.13 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "current source, 1-40V, 1uA-10mA, 3% accuracy" (id 5) (at 0 0 0)

@@ -1720,7 +1720,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005081816_HUASHUO-HSM1641_C508783.pdf" (id 3) (at 0 -26.67 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "LCSC" "C508783" (id 4) (at 0 -29.21 0)
+    (property "lcsc" "C508783" (id 4) (at 0 -29.21 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "dual mosfets, +-40V, 9A" (id 5) (at 0 0 0)

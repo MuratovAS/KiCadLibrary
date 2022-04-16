@@ -982,7 +982,7 @@
     (property "Datasheet" "https://static.chipdip.ru/lib/098/DOC006098589.pdf" (id 3) (at 0 -13.97 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "LCSC" "C56499" (id 4) (at 0 -16.51 0)
+    (property "lcsc" "C56499" (id 4) (at 0 -16.51 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "photocoupler, 3750 Vrms, 200ns, buffer logic type" (id 5) (at 0 0 0)
