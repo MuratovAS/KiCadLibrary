@@ -1,0 +1,20 @@
+(footprint "SEMITRANS_2_3_4_gate_emitter_pin" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6266D53F)
+  (descr "Push-on receptacles A2.8-0.5 (2.8x0.5)")
+  (tags "SEMITRANS, pin")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -1.905 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f837476f-96c8-4925-a631-e5d17a2f93e0)
+  )
+  (fp_text value "SKM300GB12T4" (at 0 3.175 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e7e8ed8d-4df9-4204-93ee-c3c93707dcc6)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.905 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 93f79444-95e3-43bb-9e0f-7f87c472f06c)
+  )
+  (pad "1" thru_hole roundrect (at 0 0) (size 5 2.3) (drill oval 3.5 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 05c95e20-b8ce-45a0-abe6-40ea1ba1906f))
+)
