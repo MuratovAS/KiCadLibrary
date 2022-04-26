@@ -21,7 +21,7 @@
     (symbol "AP7331-33SNG-7_0_1"
       (rectangle (start -5.08 5.08) (end 7.62 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "AP7331-33SNG-7_1_1"
