@@ -1,14 +1,13 @@
-(footprint "SEMITRANS_2_3_4_gate_emitter_pin" (version 20211014) (generator pcbnew)
+(footprint "Plated_Hole_3.5x1mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6266D53F)
-  (descr "Push-on receptacles A2.8-0.5 (2.8x0.5)")
-  (tags "SEMITRANS, pin")
+  (tedit 62679F4D)
+  (descr "Plated Hole as test Point, 3.5x1mm")
   (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -1.905 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f837476f-96c8-4925-a631-e5d17a2f93e0)
   )
-  (fp_text value "SKM300GB12T4" (at 0 3.175 unlocked) (layer "F.Fab") hide
+  (fp_text value "Plated_Hole_3.5x1mm" (at 0 3.175 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e7e8ed8d-4df9-4204-93ee-c3c93707dcc6)
   )
