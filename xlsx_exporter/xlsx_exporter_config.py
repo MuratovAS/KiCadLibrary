@@ -1,3 +1,4 @@
+KICAD_SCRIPTING_PATH: str = '/usr/share/kicad/plugins'
 DOCUMENT_COMPONY_NAME: str = 'Horns and Hoovers'
 FONT_NAME: str = 'PT Sans'
 FONT_SIZE: int = 12

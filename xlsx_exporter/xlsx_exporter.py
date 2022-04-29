@@ -9,11 +9,12 @@
     python "pathToFile/xlsx_exporter.py" "%I" "%O.xlsx"
 """
 
-import kicad_netlist_reader
 import xlsxwriter
 import string
 import sys
 from xlsx_exporter_config import *
+sys.path.append(KICAD_SCRIPTING_PATH)
+import kicad_netlist_reader
 
 
 def from_netlist_text(text: str):
