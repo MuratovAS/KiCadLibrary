@@ -1,0 +1,64 @@
+(footprint "SIP-4" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 628622DD)
+  (descr "4-pin 11.68x7.5x10.16mm")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 3.81 -6.35 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
+  )
+  (fp_text value "SIP-4" (at 3.81 3.175 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
+  )
+  (fp_text user "${REFERENCE}" (at 3.81 -1.905 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5b96c1ad-46ba-4366-8241-fbc1cd0e9bbd)
+  )
+  (fp_line (start -2.14 2.11) (end -2.14 -5.61) (layer "F.SilkS") (width 0.12) (tstamp 0c544a8c-9f45-4205-9bca-1d91c95d58ef))
+  (fp_line (start -2.44 2.41) (end -0.44 2.41) (layer "F.SilkS") (width 0.12) (tstamp 42ecdba3-f348-4384-8d4b-cd21e56f3613))
+  (fp_line (start -2.14 -5.61) (end 9.76 -5.61) (layer "F.SilkS") (width 0.12) (tstamp bb5d2eae-a96e-45dd-89aa-125fe22cc2fa))
+  (fp_line (start -2.14 2.11) (end 9.76 2.11) (layer "F.SilkS") (width 0.12) (tstamp c37d3f0c-41ec-4928-8869-febc821c6326))
+  (fp_line (start -2.44 0.41) (end -2.44 2.41) (layer "F.SilkS") (width 0.12) (tstamp e4504518-96e7-4c9e-8457-7273f5a490f1))
+  (fp_line (start 9.76 2.11) (end 9.76 -5.61) (layer "F.SilkS") (width 0.12) (tstamp facb0614-068b-4c9c-a466-d374df96a94c))
+  (fp_line (start 9.9 2.25) (end 9.9 -5.75) (layer "F.CrtYd") (width 0.05) (tstamp 1cb64bfe-d819-47e3-be11-515b04f2c451))
+  (fp_line (start -2.28 2.25) (end -2.28 -5.75) (layer "F.CrtYd") (width 0.05) (tstamp 60d26b83-9c3a-4edb-93ef-ab3d9d05e8cb))
+  (fp_line (start -2.28 2.25) (end 9.9 2.25) (layer "F.CrtYd") (width 0.05) (tstamp 9f4abbc0-6ac3-48f0-b823-2c1c19349540))
+  (fp_line (start -2.28 -5.75) (end 9.9 -5.75) (layer "F.CrtYd") (width 0.05) (tstamp ae158d42-76cc-4911-a621-4cc28931c98b))
+  (fp_line (start 9.65 2) (end 9.65 -5.5) (layer "F.Fab") (width 0.1) (tstamp 0fd35a3e-b394-4aae-875a-fac843f9cbb7))
+  (fp_line (start -2.03 1) (end -2.03 -5.5) (layer "F.Fab") (width 0.1) (tstamp 4185c36c-c66e-4dbd-be5d-841e551f4885))
+  (fp_line (start -2.03 -5.5) (end 9.65 -5.5) (layer "F.Fab") (width 0.1) (tstamp a8b4bc7e-da32-4fb8-b71a-d7b47c6f741f))
+  (fp_line (start -1.03 2) (end -2.03 1) (layer "F.Fab") (width 0.1) (tstamp bdf40d30-88ff-4479-bad1-69529464b61b))
+  (fp_line (start -1.03 2) (end 9.65 2) (layer "F.Fab") (width 0.1) (tstamp cc48dd41-7768-48d3-b096-2c4cc2126c9d))
+  (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp d035bb7a-e806-42f2-ba95-a390d279aef1))
+  (pad "2" thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp 3b9c5ffd-e59b-402d-8c5e-052f7ca643a4))
+  (pad "3" thru_hole circle (at 5.08 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp 5a33f5a4-a470-4c04-9e2d-532b5f01a5d6))
+  (pad "4" thru_hole circle (at 7.62 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp bf8d857b-70bf-41ee-a068-5771461e04e9))
+  (group "" (id a22bec73-a69c-4ab7-8d8d-f6a6b09f925f)
+    (members
+      42ecdba3-f348-4384-8d4b-cd21e56f3613
+      e4504518-96e7-4c9e-8457-7273f5a490f1
+    )
+  )
+  (group "" (id d5f4d798-57d3-493b-b57c-3b6e89508879)
+    (members
+      1cb64bfe-d819-47e3-be11-515b04f2c451
+      60d26b83-9c3a-4edb-93ef-ab3d9d05e8cb
+      9f4abbc0-6ac3-48f0-b823-2c1c19349540
+      ae158d42-76cc-4911-a621-4cc28931c98b
+    )
+  )
+  (group "" (id ea77ba09-319a-49bd-ad5b-49f4c76f232c)
+    (members
+      0c544a8c-9f45-4205-9bca-1d91c95d58ef
+      bb5d2eae-a96e-45dd-89aa-125fe22cc2fa
+      c37d3f0c-41ec-4928-8869-febc821c6326
+      facb0614-068b-4c9c-a466-d374df96a94c
+    )
+  )
+  (model "${MAS_3DMODEL_DIR}/SIP-4.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
