@@ -675,7 +675,7 @@
     (property "Value" "HCPL-060L" (id 1) (at -1.27 10.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (id 2) (at 0.635 -10.16 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0.635 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806070751_AVAGO-Broadcom-HCPL-060L-500E_C188699.pdf" (id 3) (at 0.635 -12.7 0)
