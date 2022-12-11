@@ -1,4 +1,4 @@
-(footprint "TRACO_POWER_50-XXXXWI" (version 20211014) (generator pcbnew)
+(footprint "TEN50-xxxxWI" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d700090c-7476-4ac2-89b3-8734d3910c2d)
   )
-  (fp_text value "TRACO_POWER_50-XXXXWI" (at 0 -1.27 unlocked) (layer "F.Fab")
+  (fp_text value "TEN50-xxxxWI" (at 0 -1.27 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fd9346a5-c1b9-488f-8d1c-45489b818e22)
   )
@@ -49,7 +49,7 @@
     (clearance 0.25) (tstamp 4810af79-2e4d-442d-b3e6-820350ed5416))
   (pad "6" thru_hole circle (at 22.86 -10.16) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
     (clearance 0.25) (tstamp 5d548bb5-1a44-430a-ab05-e34c7414419d))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/TEN50WI.stp"
+  (model "${MAS_3DMODEL_DIR}/TEN50WI.stp"
     (offset (xyz 25.5 -12.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

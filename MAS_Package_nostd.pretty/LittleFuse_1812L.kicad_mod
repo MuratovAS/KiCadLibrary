@@ -31,7 +31,7 @@
   (fp_line (start 3.75 1.75) (end -3.75 1.75) (layer "F.Fab") (width 0.1) (tstamp fc8c9ff2-39b8-416f-89de-60b74fc7815e))
   (pad "1" smd roundrect (at -2.625 0) (size 1.78 3.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1428571429) (tstamp b6a6f7a5-b097-4b00-bf68-454ee498f176))
   (pad "2" smd roundrect (at 2.625 0) (size 1.78 3.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1428571429) (tstamp 8152a067-77d9-4cb5-8750-a51232f7e5f9))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/LIttleFuse_1812L.step"
+  (model "${MAS_3DMODEL_DIR}/LIttleFuse_1812L.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
