@@ -50,7 +50,7 @@
   (pad "6" thru_hole circle (at 13.09 5.08) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp cb0e8643-3d88-4584-80b4-11b8f16ea540))
   (pad "7" thru_hole circle (at 13.09 2.54) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp 05ab71f6-1521-4cc0-8f6b-2ed7c2eeadbe))
   (pad "8" thru_hole circle (at 13.09 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp 82d3f689-2ce9-4686-b34e-0d022ce6601d))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/SSCMRNx.step"
+  (model "${MAS_3DMODEL_DIR}/SSCMRNx.step"
     (offset (xyz 13.2 -8.8 -3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

@@ -57,7 +57,7 @@
   (pad "6" smd roundrect (at 6 1.2) (size 2.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d809c23a-32c2-44dd-8c98-6965133e33a2))
   (pad "7" smd roundrect (at 6 -1.3) (size 2.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c0cfee3d-9842-4d91-b5d9-12b40b2cf66b))
   (pad "8" smd roundrect (at 6 -3.8) (size 2.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5155283c-7c5b-4532-a36b-90ecc2298808))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/MS4525DO-DS5x.step"
+  (model "${MAS_3DMODEL_DIR}/MS4525DO-DS5x.step"
     (offset (xyz 0 0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
