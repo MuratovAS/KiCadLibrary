@@ -30,7 +30,7 @@
   (pad "7" smd roundrect (at 2.54 -5.9) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 0a95b443-844a-4637-b02e-950136c06295))
   (pad "9" smd roundrect (at -2.54 -5.9) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 2cc143b8-9d87-4154-8e4c-440cf81ae94c))
   (pad "10" smd roundrect (at -5.08 -5.9) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 35b85a91-7955-4fd8-bfff-5444b58db217))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/TSFN1SM.stp"
+  (model "${MAS_3DMODEL_DIR}//TSFN1SM.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
