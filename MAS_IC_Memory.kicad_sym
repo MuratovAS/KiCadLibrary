@@ -59,11 +59,11 @@
       )
     )
   )
-  (symbol "W25Q256FV" (in_bom yes) (on_board yes)
+  (symbol "W25Qx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "W25Q256FV" (id 1) (at -5.08 13.97 0)
+    (property "Value" "W25Qx" (id 1) (at -5.08 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "MAS_Package_std:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4mm" (id 2) (at 0 -15.24 0)
@@ -81,13 +81,13 @@
     (property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "W25Q256FV_0_1"
+    (symbol "W25Qx_0_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "W25Q256FV_1_1"
+    (symbol "W25Qx_1_1"
       (pin input inverted (at 13.97 -6.35 180) (length 3.81)
         (name "CS" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
