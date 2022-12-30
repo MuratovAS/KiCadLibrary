@@ -44,8 +44,8 @@
   (pad "6" smd roundrect (at 2.5625 0.635) (size 1.775 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9b286a42-0818-432e-bb7e-53fd8156e364))
   (pad "7" smd roundrect (at 2.5625 -0.635) (size 1.775 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9293b5e0-3325-4ebd-a9aa-7147784801dc))
   (pad "8" smd roundrect (at 2.5625 -1.905) (size 1.775 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp afdf6072-ec08-48b5-8b93-f01f77c55ff5))
-  (pad "9" smd rect (at 0 0) (size 2.95 4.9) (layers "F.Cu") (tstamp e40e61ed-f04c-4640-bd11-e47de73ab6a6))
-  (model "${KICAD_MAS_LIB}/MAS_3DModel/R-PDSO-G8.step"
+  (pad "9" smd rect (at 0 0) (size 2.8 4.9) (layers "F.Cu") (tstamp e40e61ed-f04c-4640-bd11-e47de73ab6a6))
+  (model "${MAS_3DMODEL_DIR}//R-PDSO-G8.step"
     (offset (xyz 0 0 0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

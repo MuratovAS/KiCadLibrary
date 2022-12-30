@@ -12,6 +12,12 @@
     (property "Datasheet" "https://eu.mouser.com/datasheet/2/427/vish_s_a0001811239_1-2286271.pdf" (id 3) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_keywords" "High Performance Schottky Rectifier," (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "High Performance Schottky Rectifier," (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "20CTQxxS_0_1"
       (polyline
         (pts

@@ -111,3 +111,6 @@ sed -i 's/Side/Layer/g' *.csv
 
 <img src="Design/JpazXtn.png" alt="img" style="zoom: 33%;" />
 
+TODO:
+- [ ] исправить модель UDFN14_5
+- [ ] исправить модель NLC453232T
