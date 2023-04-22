@@ -1968,7 +1968,7 @@
     (property "Value" "RJ45-B-1*4" (at 7.62 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 0 -26.67 0)
+    (property "Footprint" "MAS_Package_std:RJ45_B_1_4" (at 0 -26.67 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141122_BOOMELE-Boom-Precision-Elec-RJ45-B-1-4_C138390.pdf" (at 0 -29.21 0)
