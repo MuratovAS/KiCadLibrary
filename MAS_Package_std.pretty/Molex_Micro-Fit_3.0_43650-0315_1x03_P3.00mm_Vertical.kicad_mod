@@ -75,8 +75,8 @@
   (pad "2" thru_hole oval (at 3 0) (size 1.6 2.02) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 1ad25810-2c1d-4b32-9eff-2483ffd1afe6))
   (pad "3" thru_hole oval (at 6 0) (size 1.6 2.02) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 37de48f1-b268-4bd4-9b36-dd8ea0e34e2e))
   (model "${MAS_3DMODEL_DIR}/Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical.stp"
-    (offset (xyz 0 0 0))
+    (offset (xyz 3 0 5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
