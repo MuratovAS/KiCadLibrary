@@ -372,6 +372,12 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "F1Cx00s_1_0"
+      (pin power_in line (at -15.24 -58.42 0) (length 2.54)
+        (name "PAD" (effects (font (size 1.27 1.27))))
+        (number "89" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "F1Cx00s_1_1"
       (rectangle (start -12.7 78.74) (end 12.7 -66.04)
         (stroke (width 0) (type default))

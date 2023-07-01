@@ -141,7 +141,7 @@
   (pad "86" smd roundrect (at -3.4 -5 90) (size 0.825 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 93fbd8c7-67d6-4212-a859-3ac096121ead))
   (pad "87" smd roundrect (at -3.8 -5 90) (size 0.825 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ae6505cb-998a-485a-860d-87a9407ff201))
   (pad "88" smd roundrect (at -4.2 -5 90) (size 0.825 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ae42c3be-4a09-4830-b46d-3b943b54ab0e))
-  (pad "88" smd rect (at 0 0 90) (size 6.75 6.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c33ae019-f6e2-4811-9ed3-7aa7f31780ac))
+  (pad "89" smd rect (at 0 0 90) (size 6.75 6.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c33ae019-f6e2-4811-9ed3-7aa7f31780ac))
   (model "${MAS_3DMODEL_DIR}/QFN-88-1EP_10x10mm_P0.4mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
