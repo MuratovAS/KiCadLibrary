@@ -1033,7 +1033,7 @@
         (name "Pin_90" (effects (font (size 1.27 1.27))))
         (number "90" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 1.27 -67.818 90) (length 3.048)
+      (pin passive line (at 1.27 -68.58 90) (length 3.81)
         (name "MountPin" (effects (font (size 1.27 1.27))))
         (number "MP" (effects (font (size 1.27 1.27))))
       )
