@@ -3233,10 +3233,10 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "STM32G431CBU6_0_1"
-      (rectangle (start 16.51 39.37) (end -19.05 -36.83)
+    (symbol "STM32G431CBU6_1_1"
+      (rectangle (start -19.05 39.37) (end 16.51 -36.83)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
   )
