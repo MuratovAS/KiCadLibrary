@@ -144,7 +144,7 @@
   (pad "K8" smd circle (at 4.445 5.715) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin_ratio -0.1) (tstamp 7ba06cf7-7b82-4c15-8d8e-d3d156c06671))
   (model "${MAS_3DMODEL_DIR}/ADIS1647x.step"
-    (offset (xyz 0 0 1))
+    (offset (xyz 0 0 1.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
