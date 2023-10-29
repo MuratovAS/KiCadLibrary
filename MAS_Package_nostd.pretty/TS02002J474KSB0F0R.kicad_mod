@@ -1,0 +1,109 @@
+(footprint "TS02002J474KSB0F0R" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "METALLIZED POLYESTER FILM CAPACITOR 0.47uF 630V")
+  (tags "capacitor, film, TS02")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 10.16 -6.35 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 0d42b646-efda-47d2-871c-e0c0c3c42234)
+  )
+  (fp_text value "TS02002J474KSB0F0R" (at 10.16 6.35 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bf3850db-1a1e-4d4f-a11a-4aba960cd38f)
+  )
+  (fp_text user "${REFERENCE}" (at 10.16 0 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 16bcdbb3-f1cd-4a33-afed-cb224091d98c)
+  )
+  (fp_line (start -1.11 -4) (end -1.11 4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 92123957-38aa-4b45-bc62-2e32223ea825))
+  (fp_line (start 0 -5.11) (end 20 -5.11)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3ac39920-0e41-4705-a901-2e24479851b0))
+  (fp_line (start 0 5.11) (end 20 5.11)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7dcf6b0b-9502-4aa0-acc9-aa30ea22049a))
+  (fp_line (start 21.11 -4) (end 21.11 4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e8f1f114-b276-4e6c-81c0-c1e304534ddf))
+  (fp_arc (start -1.11 -4) (mid -0.784889 -4.784889) (end 0 -5.11)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ab23f338-e6a7-4c08-be3c-35687cfdc513))
+  (fp_arc (start 0 5.11) (mid -0.784889 4.784889) (end -1.11 4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 275d9193-2d6b-469b-a861-3c13fa1c7bbd))
+  (fp_arc (start 20 -5.11) (mid 20.784889 -4.784889) (end 21.11 -4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ab0c5fd1-efc0-4063-98fc-bfbe01cec2ca))
+  (fp_arc (start 21.11 4) (mid 20.784889 4.784889) (end 20 5.11)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 41ede420-e55f-40f0-bb3e-d708f51162fa))
+  (fp_line (start -1.25 -4) (end -1.25 4)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ebf60502-5eae-4abb-93ce-faffc55138f1))
+  (fp_line (start 0 -5.25) (end 20 -5.25)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8edd3c74-b9b6-435a-a236-bd4b5580b9d5))
+  (fp_line (start 0 5.25) (end 20 5.25)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0db2f25a-4b9d-400e-89bf-fcf7b78cc374))
+  (fp_line (start 21.25 -4) (end 21.25 4)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d33a51d1-d359-4fb8-82d7-1d64bc466662))
+  (fp_arc (start -1.25 -4) (mid -0.883883 -4.883883) (end 0 -5.25)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e8405fe0-b866-474d-973a-f39db0439c2b))
+  (fp_arc (start 0 5.25) (mid -0.883883 4.883883) (end -1.25 4)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e1f3050e-b4b7-4f94-87dd-68f03ff3d5fb))
+  (fp_arc (start 20 -5.25) (mid 20.883883 -4.883883) (end 21.25 -4)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp dc200bd6-3e47-4451-bca2-bbc12eaabec0))
+  (fp_arc (start 21.25 4) (mid 20.883883 4.883883) (end 20 5.25)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b9eed388-abda-4162-9687-219e058ea852))
+  (fp_line (start -1 -4) (end -1 4)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 61671d32-8c5e-4cc8-b3a5-e2d72cc127c0))
+  (fp_line (start 0 -5) (end 20 -5)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9da7dd3f-e372-4d51-b2d6-3d652ea2f763))
+  (fp_line (start 0 5) (end 20 5)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 294f4157-6112-4f22-ba17-e1e029b66f03))
+  (fp_line (start 21 -4) (end 21 4)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 551841b4-8d27-4307-b0a5-62d5818bc50a))
+  (fp_arc (start -1 -4) (mid -0.707107 -4.707107) (end 0 -5)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2c990703-61f5-46ef-b3f6-848432b98864))
+  (fp_arc (start 0 5) (mid -0.707107 4.707107) (end -1 4)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2d30ac15-9129-4f64-aa65-e6e1b7728efe))
+  (fp_arc (start 20 -5) (mid 20.707107 -4.707107) (end 21 -4)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 737a39ba-c242-4fb9-9b23-1ce23cc4b9b9))
+  (fp_arc (start 21 4) (mid 20.707107 4.707107) (end 20 5)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 10535fb6-7cef-40d5-b044-f565a0e27f30))
+  (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e5691615-9f38-42d5-a9ae-05073bb12ebe))
+  (pad "2" thru_hole circle (at 20 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp feac08c0-307c-4fb8-bfa6-cbfa829480b1))
+  (group "" (id 86c0e2c6-b4e5-46b3-9bd1-e815c926e0ea)
+    (members
+      275d9193-2d6b-469b-a861-3c13fa1c7bbd
+      3ac39920-0e41-4705-a901-2e24479851b0
+      41ede420-e55f-40f0-bb3e-d708f51162fa
+      7dcf6b0b-9502-4aa0-acc9-aa30ea22049a
+      92123957-38aa-4b45-bc62-2e32223ea825
+      ab0c5fd1-efc0-4063-98fc-bfbe01cec2ca
+      ab23f338-e6a7-4c08-be3c-35687cfdc513
+      e8f1f114-b276-4e6c-81c0-c1e304534ddf
+    )
+  )
+  (group "" (id 23c1e931-7400-475e-aeec-7cc2a681f00b)
+    (members
+      0db2f25a-4b9d-400e-89bf-fcf7b78cc374
+      8edd3c74-b9b6-435a-a236-bd4b5580b9d5
+      b9eed388-abda-4162-9687-219e058ea852
+      d33a51d1-d359-4fb8-82d7-1d64bc466662
+      dc200bd6-3e47-4451-bca2-bbc12eaabec0
+      e1f3050e-b4b7-4f94-87dd-68f03ff3d5fb
+      e8405fe0-b866-474d-973a-f39db0439c2b
+      ebf60502-5eae-4abb-93ce-faffc55138f1
+    )
+  )
+  (group "" (id 88dc9e97-d43d-454e-b120-9558f6494fae)
+    (members
+      10535fb6-7cef-40d5-b044-f565a0e27f30
+      294f4157-6112-4f22-ba17-e1e029b66f03
+      2c990703-61f5-46ef-b3f6-848432b98864
+      2d30ac15-9129-4f64-aa65-e6e1b7728efe
+      551841b4-8d27-4307-b0a5-62d5818bc50a
+      61671d32-8c5e-4cc8-b3a5-e2d72cc127c0
+      737a39ba-c242-4fb9-9b23-1ce23cc4b9b9
+      9da7dd3f-e372-4d51-b2d6-3d652ea2f763
+    )
+  )
+  (model ":MAS_3DMODEL_DIR:TS02002J474KSB0F0R.STEP"
+    (offset (xyz 10 5 8.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
