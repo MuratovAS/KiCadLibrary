@@ -1911,7 +1911,7 @@
     (property "Footprint" "MAS_Package_std:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm" (at -5.08 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54360.pdf" (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54360.pdf" (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "3.5-A, Step-Down DC/DC Converter With Eco-Mode" (at 0 0 0)

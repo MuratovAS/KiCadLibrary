@@ -9,7 +9,7 @@
     (property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" (at 0 -17.78 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf" (at -19.05 1.27 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf" (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "Half-Duplex, iCoupler Isolated RS-485 Transceiver" (at 0 0 0)
