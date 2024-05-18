@@ -755,7 +755,7 @@
 	)
 	(model "${MAS_3DMODEL_DIR}/PinSocket_2x04_P2.00mm_Horizontal_SMD.stp"
 		(offset
-			(xyz 0 0 1.86)
+			(xyz 0 0 2)
 		)
 		(scale
 			(xyz 1 1 1)
