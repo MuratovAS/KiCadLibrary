@@ -1,4 +1,4 @@
-(footprint "HLK-7628N"
+(footprint "HLK-7628"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "HLK-7628N"
+	(property "Value" "HLK-7628"
 		(at 0 11.350025 0)
 		(layer "F.Fab")
 		(uuid "1f58932b-da22-41d8-a3a5-24c61e1b87ef")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "HLK-7628N"
+	(property "Footprint" "HLK-7628"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

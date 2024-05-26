@@ -1,4 +1,4 @@
-(footprint "HLK-7688A"
+(footprint "HLK-7688"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "HLK-7688A"
+	(property "Value" "HLK-7688"
 		(at 0 11.350025 0)
 		(layer "F.Fab")
 		(uuid "864de3a9-531c-49eb-993f-1dd8b497c071")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "HLK-7688A"
+	(property "Footprint" "HLK-7688"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
