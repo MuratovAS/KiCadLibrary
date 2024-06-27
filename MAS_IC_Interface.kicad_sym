@@ -5519,7 +5519,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GND1"
@@ -6826,7 +6826,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GND1"
