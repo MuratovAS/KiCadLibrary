@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -676,6 +679,46 @@
 		(uuid "a7a051d4-5cba-424e-9c07-5e26c37db992")
 	)
 	(fp_line
+		(start -18 -10.5)
+		(end -18 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "434ddfda-022c-47a3-b1e2-365da987cda2")
+	)
+	(fp_line
+		(start -18 -10.5)
+		(end 17.5 -10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9683f98-04a6-4754-bf3e-25013539ee3c")
+	)
+	(fp_line
+		(start 17.5 10.5)
+		(end -18 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c151f168-b73b-403a-b63b-b904e7c0b754")
+	)
+	(fp_line
+		(start 17.5 10.5)
+		(end 17.5 -10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "844df6ce-2596-4b4c-a8a5-0c5676aeda8f")
+	)
+	(fp_line
 		(start -16.5 -9.25)
 		(end -16.5 9.25)
 		(stroke
@@ -1099,6 +1142,18 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/HLK-7688A.step"
+		(hide yes)
+		(offset
+			(xyz -16.6 -9.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
 		)
 	)
 )
