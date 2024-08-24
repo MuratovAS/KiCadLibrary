@@ -16929,7 +16929,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -17.78 180)
+				(at 16.51 -20.32 180)
 				(length 2.54)
 				(name "Y3P"
 					(effects
@@ -16947,7 +16947,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -20.32 180)
+				(at 16.51 -17.78 180)
 				(length 2.54)
 				(name "Y3M"
 					(effects
@@ -16965,7 +16965,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -22.86 180)
+				(at 16.51 -25.4 180)
 				(length 2.54)
 				(name "CLKOUTP"
 					(effects
@@ -17001,7 +17001,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -25.4 180)
+				(at 16.51 -22.86 180)
 				(length 2.54)
 				(name "CLKOUTM"
 					(effects
@@ -17019,7 +17019,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -12.7 180)
+				(at 16.51 -15.24 180)
 				(length 2.54)
 				(name "Y2P"
 					(effects
@@ -17037,7 +17037,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -15.24 180)
+				(at 16.51 -12.7 180)
 				(length 2.54)
 				(name "Y2M"
 					(effects
@@ -17091,7 +17091,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -7.62 180)
+				(at 16.51 -10.16 180)
 				(length 2.54)
 				(name "Y1P"
 					(effects
@@ -17109,7 +17109,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -10.16 180)
+				(at 16.51 -7.62 180)
 				(length 2.54)
 				(name "Y1M"
 					(effects
@@ -17127,7 +17127,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -2.54 180)
+				(at 16.51 -5.08 180)
 				(length 2.54)
 				(name "Y0P"
 					(effects
@@ -17145,7 +17145,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -5.08 180)
+				(at 16.51 -2.54 180)
 				(length 2.54)
 				(name "Y0M"
 					(effects
