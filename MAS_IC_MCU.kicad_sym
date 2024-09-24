@@ -17970,29 +17970,27 @@
 			)
 		)
 	)
-	(symbol "RV1106"
+	(symbol "RV1106Gx"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 107.442 0)
+			(at 0 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "RV1106"
-			(at -3.81 104.902 0)
+		(property "Value" "RV1106Gx"
+			(at 0 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MAS_Package_std:QFN-128_12.3x12.3_Pitch0.35mm_PAD"
+		(property "Footprint" "MAS_Package_std:QFN-128-1EP_12.3x12.3mm_P0.35mm_EP7x7mm"
 			(at 28.194 -104.394 0)
 			(effects
 				(font
@@ -18019,7 +18017,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ARM Cortex-A7 32-bit, Rockchip, RV1106G3"
+		(property "ki_keywords" "ARM Cortex-A7 32-bit, Rockchip, RV1106"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18028,10 +18026,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "RV1106_1_1"
+		(symbol "RV1106Gx_1_1"
 			(rectangle
-				(start -20.32 102.87)
-				(end 20.32 -102.87)
+				(start -20.32 100.33)
+				(end 20.32 -100.33)
 				(stroke
 					(width 0)
 					(type solid)
@@ -18198,7 +18196,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -102.87) (xy 0 102.87)
+					(xy 0 -100.33) (xy 0 100.33)
 				)
 				(stroke
 					(width 0)
@@ -18277,7 +18275,7 @@
 				)
 			)
 			(text "AVDD1V8"
-				(at -2.54 96.52 900)
+				(at -2.54 95.25 900)
 				(effects
 					(font
 						(size 1.27 1.27)
