@@ -1,0 +1,360 @@
+(footprint "ANT_patch_25x25mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "gnss, gps, patch Plugin, 25x25mm Antennas ROHS")
+	(property "Reference" "REF**"
+		(at 0 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17eaaf17-6795-455c-8281-e94942c8ad7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT_patch_25x25mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de413db5-0ce0-4705-8c6a-06d92d4a4a86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bef97c1a-f7b2-427b-bf57-4eb613c9a2d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "859dcc55-41a2-4cde-9fff-9bef7ad38458")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24ea1e2b-5322-47cc-a42a-53e24f2a26e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.5 -9)
+		(end -12.5 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5f34dae-6fe7-4cf4-ab39-167dac4a9075")
+	)
+	(fp_line
+		(start -9 12.5)
+		(end 9 12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f679230-3c3b-4132-a8a5-53d1fcc6eb38")
+	)
+	(fp_line
+		(start 9 -12.5)
+		(end -9 -12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59c4a0b3-e76f-4840-8b15-329d38a0e706")
+	)
+	(fp_line
+		(start 12.5 9)
+		(end 12.5 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51978b31-d81b-49eb-a3b5-db1f1dce73c4")
+	)
+	(fp_arc
+		(start -12.5 -9)
+		(mid -11.474874 -11.474874)
+		(end -9 -12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6385a3d-a156-45de-b802-da8e0f24ad0e")
+	)
+	(fp_arc
+		(start -9 12.5)
+		(mid -11.474874 11.474874)
+		(end -12.5 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b741fb55-524f-4ddc-90b4-370230ad8dfa")
+	)
+	(fp_arc
+		(start 9 -12.5)
+		(mid 11.474874 -11.474874)
+		(end 12.5 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "943e4265-b791-4c6c-97fb-2db3dcb2809f")
+	)
+	(fp_arc
+		(start 12.5 9)
+		(mid 11.474874 11.474874)
+		(end 9 12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecb5fd2d-bd4f-42a7-8cb8-6fce929d7ba1")
+	)
+	(fp_circle
+		(center 0 -2.5)
+		(end 1.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ec3a4726-47a6-451e-ba2c-4cf327a06e10")
+	)
+	(fp_rect
+		(start -12.75 -12.75)
+		(end 12.75 12.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "81571275-25f1-4acf-99bf-7a999c6eeb56")
+	)
+	(fp_line
+		(start -12.5 9)
+		(end -12.500001 -9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7dbfd04-8943-425a-8515-00286585c00b")
+	)
+	(fp_line
+		(start -10 -10)
+		(end -10 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d3d81a2-cb55-4f42-a849-29c4967468a1")
+	)
+	(fp_line
+		(start -10 8)
+		(end -8 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d26c961-21a9-4da1-a04b-f4c2b1408443")
+	)
+	(fp_line
+		(start -9.000001 -12.5)
+		(end 8.999999 -12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "260f3045-3b08-40e6-aed7-1afc863dc2d9")
+	)
+	(fp_line
+		(start -8 10)
+		(end 10 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b39af1b4-3694-48ae-bacd-7ba2483c971b")
+	)
+	(fp_line
+		(start 8 -10)
+		(end -10 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df11fde2-180b-43f4-b80a-5b1f5ec2be2e")
+	)
+	(fp_line
+		(start 8 -10)
+		(end 10 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf4cdbe0-2f32-49f8-a213-5607d21ad0c5")
+	)
+	(fp_line
+		(start 9 12.5)
+		(end -9 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e27238d-e4b9-408c-9884-bd75f7f7902a")
+	)
+	(fp_line
+		(start 10 10)
+		(end 10 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb4d4d9b-f41d-4fa0-ba78-1ca5216e4b75")
+	)
+	(fp_line
+		(start 12.499999 -9)
+		(end 12.5 9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a35c7106-6854-417f-8bd5-97c6a68eb8b0")
+	)
+	(fp_arc
+		(start -12.500001 -9)
+		(mid -11.474875 -11.474875)
+		(end -9.000001 -12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2644f433-30b1-41f9-af86-b5de69b38e7a")
+	)
+	(fp_arc
+		(start -9 12.5)
+		(mid -11.474874 11.474874)
+		(end -12.5 9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ab37493-73bb-426c-a9ad-332b5cba4d10")
+	)
+	(fp_arc
+		(start 8.999999 -12.5)
+		(mid 11.474873 -11.474874)
+		(end 12.499999 -9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c71da394-5e12-46c4-b68a-a099ac0ebe27")
+	)
+	(fp_arc
+		(start 12.5 9)
+		(mid 11.474874 11.474874)
+		(end 9 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4577c9c-c175-458d-b1d1-db02baf0ba41")
+	)
+	(fp_circle
+		(center 0 -2.5)
+		(end 1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "52aba09c-b5e1-4040-a327-013f70525d9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "546425ea-9d09-4f0b-98ce-398a00159689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.5)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1030625e-4e82-438c-9172-67f1d939196c")
+	)
+	(model "${MAS_3DMODEL_DIR}/ANT_patch_25x25mm_4mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
