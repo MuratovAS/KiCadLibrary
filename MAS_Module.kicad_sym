@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Attitude Sensor/Gyroscope"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,19 +56,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "ADIS1647x_0_1"
-			(rectangle
-				(start -7.62 11.43)
-				(end 7.62 -11.43)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
 			)
 		)
 		(symbol "ADIS1647x_1_0"
@@ -865,6 +852,19 @@
 				)
 			)
 		)
+		(symbol "ADIS1647x_1_1"
+			(rectangle
+				(start -7.62 11.43)
+				(end 7.62 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "AM1LS-0505S-NZ"
 		(exclude_from_sim no)
@@ -880,36 +880,33 @@
 			)
 		)
 		(property "Value" "AM1LS-0505S-NZ"
-			(at 1.27 6.35 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:Converter_DCDC_Aimtec_AM1LS_SMD"
-			(at -26.67 -6.35 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1LS-NZ.pdf"
-			(at 26.67 -7.62 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "1W, 1500 VDC Isolated DC/DC Converter Module, Output Voltage 5V, ±200mA, 5V Input Voltage,"
-			(at 0 0 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,17 +998,6 @@
 			)
 		)
 		(symbol "AM1LS-0505S-NZ_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -2.54) (xy 0 -3.81)
@@ -1062,6 +1048,17 @@
 			)
 		)
 		(symbol "AM1LS-0505S-NZ_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin no_connect line
 				(at 0 -5.08 90)
 				(length 2.54) hide
@@ -1217,17 +1214,6 @@
 			)
 		)
 		(symbol "B0505S-1W_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -2.54) (xy 0 -3.81)
@@ -1277,21 +1263,35 @@
 				)
 			)
 		)
+		(symbol "B0505S-1W_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "BL-M8812EU2"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.112 8.89 0)
+			(at -7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "BL-M8812EU2"
-			(at 4.064 8.89 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:BL-M8812EU2"
-			(at 0.254 -8.89 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.b-link.net.cn/product_36_321.html"
-			(at 2.794 -11.43 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Description" "802.11a/n/ac WiFi Module, Realtek RTL8812EU-CG, USB 2.0, DC 5.0V±0.25V @1800mA (Max)"
-			(at 0 0 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,20 +1334,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "BL-M8812EU2_0_1"
+		(symbol "BL-M8812EU2_1_1"
 			(rectangle
 				(start -7.62 7.62)
 				(end 7.62 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "BL-M8812EU2_1_1"
 			(pin power_in line
 				(at 10.16 -5.08 180)
 				(length 2.54)
@@ -1547,7 +1545,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "USB_DM"
 					(effects
@@ -1737,20 +1735,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "DKA30B-15_0_1"
+		(symbol "DKA30B-15_1_1"
 			(rectangle
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "DKA30B-15_1_1"
 			(pin input line
 				(at -10.16 0 0)
 				(length 2.54)
@@ -1884,19 +1880,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 48.26 0)
+			(at -16.51 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HLK-7688"
-			(at -11.43 45.72 0)
+			(at -16.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:HLK-7688"
@@ -2838,17 +2836,6 @@
 			)
 		)
 		(symbol "HLK-7688_0_1"
-			(rectangle
-				(start -16.51 44.45)
-				(end 16.51 -44.45)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 45.72) (xy 0 45.72)
@@ -3026,6 +3013,19 @@
 				)
 			)
 		)
+		(symbol "HLK-7688_1_1"
+			(rectangle
+				(start -16.51 44.45)
+				(end 16.51 -44.45)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Mornsun_QAWx"
 		(pin_names
@@ -3044,12 +3044,12 @@
 			)
 		)
 		(property "Value" "Mornsun_QAWx"
-			(at 2.54 10.16 0)
+			(at 8.89 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:QAW0x"
@@ -3088,20 +3088,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "Mornsun_QAWx_0_1"
+		(symbol "Mornsun_QAWx_1_1"
 			(rectangle
 				(start -8.89 8.89)
 				(end 8.89 -8.89)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "Mornsun_QAWx_1_1"
 			(polyline
 				(pts
 					(xy -0.635 -6.35) (xy -0.635 -5.08)
@@ -3445,7 +3443,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 8.89 0)
+			(at -8.89 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,12 +3452,12 @@
 			)
 		)
 		(property "Value" "Mornsun_QAx"
-			(at -3.81 8.89 0)
+			(at 8.89 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT"
@@ -3499,20 +3497,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "Mornsun_QAx_0_1"
+		(symbol "Mornsun_QAx_1_1"
 			(rectangle
 				(start -8.89 7.62)
 				(end 8.89 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "Mornsun_QAx_1_1"
 			(polyline
 				(pts
 					(xy -0.635 -6.35) (xy -0.635 -5.08)
@@ -3802,23 +3798,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -22.86 33.02 0)
+			(at -12.7 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NV08C-CSM"
-			(at 8.89 34.29 0)
+			(at 12.7 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:NV08C-CSM"
-			(at 1.27 35.56 0)
+			(at 0 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.canalgeomatics.com/wp-content/uploads/2017/08/nvs-nv08c-csm-datasheet.pdf"
-			(at -6.35 38.1 0)
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3834,7 @@
 			)
 		)
 		(property "Description" "GPS/GLONASS/GALILEO/SBAS RECEIVERS"
-			(at 0 0 0)
+			(at 0 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4483,7 @@
 				)
 			)
 		)
-		(symbol "NV08C-CSM_0_1"
+		(symbol "NV08C-CSM_1_1"
 			(rectangle
 				(start -12.7 15.24)
 				(end 12.7 -17.78)
@@ -4509,18 +4507,20 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "RTL8188_module"
-			(at 5.08 7.62 0)
+			(at 7.62 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:RTL8188_module"
-			(at 0 -7.62 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4538,7 @@
 			)
 		)
 		(property "Description" "SINGLE-CHIP IEEE 802.11b/g/n 1T1R WLAN CONTROLLER WITH USB2.0 INTERFACE"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4560,7 @@
 				(start -7.62 6.35)
 				(end 7.62 -6.35)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4682,23 +4682,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 3.81 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SSD1306-OLED-0.91"
-			(at -1.27 6.35 0)
+			(at 0 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:SSD1306-oled-0.91"
-			(at -1.27 3.81 0)
+			(at 0 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4709,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winstar.com.tw/uploads/files/c594deb7d7746375c14ca187463091d6.pdf"
-			(at -1.27 3.81 0)
+			(at 0 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4718,7 @@
 			)
 		)
 		(property "Description" "OLED Display I2C 128x32 0.91\""
-			(at 0 0 0)
+			(at 0 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,23 +5019,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 3.81 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SSD1306-OLED-0.96"
-			(at -1.27 6.35 0)
+			(at 0 -77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:SSD1306-oled-0.96"
-			(at 0 -78.74 0)
+			(at 0 -82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5046,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winstar.com.tw/uploads/files/c594deb7d7746375c14ca187463091d6.pdf"
-			(at 0 -81.28 0)
+			(at 0 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5055,7 @@
 			)
 		)
 		(property "Description" "OLED Display I2C 128x64 0.96\""
-			(at 0 0 0)
+			(at 0 -87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,20 +5695,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TEN50-4811WI_0_1"
+		(symbol "TEN50-4811WI_1_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TEN50-4811WI_1_1"
 			(polyline
 				(pts
 					(xy -0.635 -6.35) (xy -0.635 -5.08)
@@ -6063,20 +6065,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TEN50-4812WI_0_1"
+		(symbol "TEN50-4812WI_1_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TEN50-4812WI_1_1"
 			(polyline
 				(pts
 					(xy -0.635 -6.35) (xy -0.635 -5.08)
@@ -6396,12 +6396,12 @@
 			)
 		)
 		(property "Value" "TMH_xxxxD"
-			(at -0.635 8.89 0)
+			(at 10.16 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:TMH_5pin"
@@ -6446,7 +6446,7 @@
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -6742,19 +6742,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 3.81 0)
+			(at -12.7 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TSRN_1-2433SM"
-			(at 5.08 3.81 0)
+			(at 12.7 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:TSRN-1SM"
@@ -6904,17 +6906,6 @@
 			)
 		)
 		(symbol "TSRN_1-2433SM_0_1"
-			(rectangle
-				(start -12.7 2.54)
-				(end 12.7 -7.62)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy -4.445 -0.635) (xy -3.175 -0.635)
@@ -6976,25 +6967,40 @@
 				)
 			)
 		)
+		(symbol "TSRN_1-2433SM_1_1"
+			(rectangle
+				(start -12.7 2.54)
+				(end 12.7 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "TSRN_1-2450SM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 3.81 0)
+			(at -12.7 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TSRN_1-2450SM"
-			(at 5.08 3.81 0)
+			(at 12.7 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:TSRN-1SM"
@@ -7144,17 +7150,6 @@
 			)
 		)
 		(symbol "TSRN_1-2450SM_0_1"
-			(rectangle
-				(start -12.7 2.54)
-				(end 12.7 -7.62)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy -4.445 -0.635) (xy -3.175 -0.635)
@@ -7213,6 +7208,19 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "TSRN_1-2450SM_1_1"
+			(rectangle
+				(start -12.7 2.54)
+				(end 12.7 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
