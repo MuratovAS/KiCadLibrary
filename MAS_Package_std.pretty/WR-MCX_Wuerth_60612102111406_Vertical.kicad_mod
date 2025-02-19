@@ -1,0 +1,228 @@
+(footprint "WR-MCX_Wuerth_60612102111406_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Würth WR-MCX PCB SMT Jack, Vertical (https://www.we-online.com/components/products/datasheet/60612102111406.pdf)")
+	(tags "Coaxial Connector 50 ohms Female")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "840890a3-93c3-4325-9020-e3456715713a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WR-MCX_Wuerth_60612102111406_Vertical"
+		(at 0 6.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "203eda28-2431-45a6-8325-357d3cd6c987")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8687ea20-2fde-4d92-859f-bfd808bbd2cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "307da7bf-4af4-46ae-b5b5-3ded02c77b50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d672611a-69b1-4af7-8f6a-5e05abc7d3bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 1.25)
+		(end -3 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9435073f-0221-4994-a2fb-ee35dbd30be3")
+	)
+	(fp_line
+		(start -1.25 -3)
+		(end 1.25 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ae10eb8-5f27-4a84-829b-da3438aec999")
+	)
+	(fp_line
+		(start 1.25 3)
+		(end -1.25 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a59aabcd-e130-41eb-bd41-6e3be0767486")
+	)
+	(fp_line
+		(start 3 -1.25)
+		(end 3 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b875bcf-4228-41c6-81fb-15657d6cae64")
+	)
+	(fp_rect
+		(start -2.61 -2.61)
+		(end 2.61 2.61)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0302ee36-a5db-4b80-bb67-acdaa21b84db")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd005325-ed9f-4780-83a1-c8c6f6c2ef1b")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a26f090-0c1e-47d8-b8fb-bdb6da93492d")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89abf07e-6fe9-4ad2-be8f-f40d214607af")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6acc075-ab37-406b-b9e1-8ec19b112a9f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d1576b91-0b26-49a9-a58f-a95499576ffd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5275856c-5626-496b-a790-9028b4786ab1")
+	)
+	(pad "2" smd roundrect
+		(at -2.5 -2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(chamfer_ratio 0.3)
+		(chamfer top_left)
+		(uuid "793c4777-fac2-44df-8fb0-c70490a1e9d4")
+	)
+	(pad "2" smd roundrect
+		(at -2.5 2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(chamfer_ratio 0.3)
+		(chamfer bottom_left)
+		(uuid "583e1ceb-daa1-4420-add8-f319d013b52a")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 -2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(chamfer_ratio 0.3)
+		(chamfer top_right)
+		(uuid "eec95e42-62a4-44d9-8802-57814933918e")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(chamfer_ratio 0.3)
+		(chamfer bottom_right)
+		(uuid "50ddabad-29e6-4625-ae02-97805628e806")
+	)
+	(model "${MAS_3DMODEL_DIR}/WR-MCX_Wuerth_60612102111406_Vertical.step"
+		(offset
+			(xyz 0 0 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
