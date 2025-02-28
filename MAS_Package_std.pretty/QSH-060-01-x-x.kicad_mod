@@ -1,4 +1,4 @@
-(footprint "QSH-060-01-X-D-A"
+(footprint "QSH-060-01-x-x"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "QSH-060-01-X-D-A"
+	(property "Value" "QSH-060-01-x-x"
 		(at 0 5 0)
 		(layer "F.Fab")
 		(uuid "99a3db11-a653-41a3-98c6-ccf7d9f5d58a")
@@ -260,62 +260,62 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "b1161cc8-31fb-41d5-b94d-7c37ea1b234a")
 	)
-	(pad "01" smd rect
+	(pad "1" smd rect
 		(at -17.2529 2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7d971553-1c11-4a46-89fe-1896cc69b239")
 	)
-	(pad "02" smd roundrect
+	(pad "2" smd roundrect
 		(at -17.2529 -2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "d422be5d-bc44-4c18-baef-4fcb6a78cb0e")
 	)
-	(pad "03" smd roundrect
+	(pad "3" smd roundrect
 		(at -16.7528 2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "e320b598-be1a-475e-867d-74785c0dd0f2")
 	)
-	(pad "04" smd roundrect
+	(pad "4" smd roundrect
 		(at -16.7528 -2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "d5b11334-0e70-4eb7-836b-ebb517da49a3")
 	)
-	(pad "05" smd roundrect
+	(pad "5" smd roundrect
 		(at -16.2527 2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "2e9363bb-10b2-4ff3-8cbf-1d54adee6428")
 	)
-	(pad "06" smd roundrect
+	(pad "6" smd roundrect
 		(at -16.2527 -2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "35438470-df9a-4ffa-bbcb-e453277d8f17")
 	)
-	(pad "07" smd roundrect
+	(pad "7" smd roundrect
 		(at -15.7526 2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "3dd6a835-829d-4403-a2c2-e4afdef36cbc")
 	)
-	(pad "08" smd roundrect
+	(pad "8" smd roundrect
 		(at -15.7526 -2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "f2362aa0-d050-448c-bd7a-109a9ef25d9c")
 	)
-	(pad "09" smd roundrect
+	(pad "9" smd roundrect
 		(at -15.2525 2.865)
 		(size 0.279 2.27)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -1155,9 +1155,9 @@
 		(roundrect_rratio 0.25)
 		(uuid "de5e1f9f-8208-48fd-ab8a-7ba46c9db32c")
 	)
-	(model "${MAS_3DMODEL_DIR}/QSH-060-01-X-D-A.step"
+	(model "${MAS_3DMODEL_DIR}/QSH-060-01-x-x.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,4 +1,4 @@
-(footprint "QTH-060-01-X-D-A"
+(footprint "QTH-060-x-x-x"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "QTH-060-01-X-D-A"
+	(property "Value" "QTH-060-x-x-x"
 		(at 0 5 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -197,66 +197,6 @@
 		(uuid "10b03a3f-1f24-403d-bd0b-43e8ef71a7c8")
 	)
 	(fp_line
-		(start -19.99996 -2.9845)
-		(end 19.99996 -2.9845)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "c995464b-7ec1-4e1e-acdb-8e1e830213e1")
-	)
-	(fp_line
-		(start -19.99996 1.4605)
-		(end -19.99996 -2.9845)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "b1bf99e4-0b3f-470d-b830-b326ef4aaa87")
-	)
-	(fp_line
-		(start -18.47596 2.9845)
-		(end -19.99996 1.4605)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "3a34aec2-196b-4471-bbd9-7e550971b38d")
-	)
-	(fp_line
-		(start 18.47596 2.9845)
-		(end -18.47596 2.9845)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "893466b2-65f1-438d-b380-71e721dcb035")
-	)
-	(fp_line
-		(start 19.99996 -2.9845)
-		(end 19.99996 1.4605)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "82d39f66-7e38-490f-9d27-0a68b45db82e")
-	)
-	(fp_line
-		(start 19.99996 1.4605)
-		(end 18.47596 2.9845)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "78e691f0-e813-4208-8fe7-62bd81134ae1")
-	)
-	(fp_line
 		(start -20.25 -4.065)
 		(end 20.25 -4.065)
 		(stroke
@@ -374,62 +314,62 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "216459ef-a12f-40ee-b92e-377fa4c88216")
 	)
-	(pad "01" smd rect
+	(pad "1" smd rect
 		(at -17.25 -3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d964bc3d-c648-4aeb-bf66-cffd0d8d651f")
 	)
-	(pad "02" smd roundrect
+	(pad "2" smd roundrect
 		(at -17.25 3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "589852eb-367e-4c1d-b385-966eafff4838")
 	)
-	(pad "03" smd roundrect
+	(pad "3" smd roundrect
 		(at -16.75 -3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "d723222d-f4c3-4d04-a7f8-f3b42a5efb83")
 	)
-	(pad "04" smd roundrect
+	(pad "4" smd roundrect
 		(at -16.75 3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "ed635f96-aaea-4a81-bf3a-47791016724b")
 	)
-	(pad "05" smd roundrect
+	(pad "5" smd roundrect
 		(at -16.25 -3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "db9536c7-cc30-4e00-82ba-f7be457387dd")
 	)
-	(pad "06" smd roundrect
+	(pad "6" smd roundrect
 		(at -16.25 3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "8e137312-e482-45a6-984d-f076a5b112f1")
 	)
-	(pad "07" smd roundrect
+	(pad "7" smd roundrect
 		(at -15.75 -3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "d7a8bbf8-7c45-4711-a1d1-6dd3d76ed8a1")
 	)
-	(pad "08" smd roundrect
+	(pad "8" smd roundrect
 		(at -15.75 3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "a5094c95-bc6e-4063-a525-890a998c7a7c")
 	)
-	(pad "09" smd roundrect
+	(pad "9" smd roundrect
 		(at -15.25 -3.086)
 		(size 0.305 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -1269,9 +1209,9 @@
 		(roundrect_rratio 0.25)
 		(uuid "933080ee-76f5-4576-8e3e-f5cbed3ed73b")
 	)
-	(model "${MAS_3DMODEL_DIR}/QTH-060-01-L-D-A.stp"
+	(model "${MAS_3DMODEL_DIR}/QTH-060-01-x-x.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)
