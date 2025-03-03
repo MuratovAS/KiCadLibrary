@@ -25211,7 +25211,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm"
-			(at 0 -1.778 0)
+			(at 0 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25220,7 +25220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009141737_MaxLinear-XR20M1172IL32TR-F_C702754.pdf"
-			(at 0.762 0.254 0)
+			(at 0.762 -34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25229,7 +25229,7 @@
 			)
 		)
 		(property "Description" "TWO CHANNEL I2C/SPI UART WITH 64-BYTE FIFO"
-			(at 1.27 -3.81 0)
+			(at 1.27 -38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
