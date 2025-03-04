@@ -25259,7 +25259,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 27.94 270)
+				(at 7.62 27.94 270)
 				(length 2.54) hide
 				(name "N.C"
 					(effects
