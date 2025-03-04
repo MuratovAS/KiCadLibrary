@@ -314,6 +314,13 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "216459ef-a12f-40ee-b92e-377fa4c88216")
 	)
+	(pad "" np_thru_hole circle
+		(at 19.24 -2.03)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(uuid "66f7f9f2-75ef-452d-9aad-db984b10f488")
+	)
 	(pad "1" smd rect
 		(at -17.25 -3.086)
 		(size 0.305 1.45)
