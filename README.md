@@ -66,9 +66,3 @@ CGD (УГО):
     + Ключевые слова
     + FP
     + Datasheet
-
-## Заметки:
-
-Q: Как настроить правила проектирования под технологические возможности jlc?
-
-A: Воспользуйся [MuratovAS/KiCAD-Custom-DRC-Rules](https://github.com/MuratovAS/KiCAD-Custom-DRC-Rules-for-JLCPCB-with-Unit-Tests). Стоит отметить что `main.kicad_dru` не может реализовать все правила, по этому приходиться использовать несколько стандартных правил
