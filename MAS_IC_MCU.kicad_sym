@@ -4734,20 +4734,20 @@
 			)
 		)
 	)
-	(symbol "GW2A-LV18PG256XXXX"
+	(symbol "GW2A-LVxxPG256"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -44.958 150.876 0)
+			(at 0 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GW2A-LV18PG256XXXX"
-			(at -50.8 93.98 0)
+		(property "Value" "GW2A-LVxxPG256"
+			(at 0 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4755,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD"
-			(at 20.066 -152.4 0)
+			(at 0 -152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4764,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.gowinsemi.com.cn/DS102E.pdf"
-			(at 8.636 -154.432 0)
+			(at 0 -154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4773,7 @@
 			)
 		)
 		(property "Description" "The GW2A FPGAs are members of the 2 series of the Arora family, featuring high-performance DSP resources, high-speed LVDS interfaces, and abundant BSRAM memory resources"
-			(at 13.462 -156.972 0)
+			(at 0 -157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,12 +4798,12 @@
 				(hide yes)
 			)
 		)
-		(symbol "GW2A-LV18PG256XXXX_1_1"
+		(symbol "GW2A-LVxxPG256_1_1"
 			(rectangle
-				(start -45.72 149.86)
-				(end 45.72 -149.86)
+				(start -35.56 149.86)
+				(end 35.56 -149.86)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4815,7 +4815,7 @@
 					(xy -45.72 -142.24) (xy 0 -142.24)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4824,10 +4824,10 @@
 			)
 			(polyline
 				(pts
-					(xy -45.72 -60.96) (xy 0 -60.96)
+					(xy -35.56 -60.96) (xy 0 -60.96)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4836,10 +4836,10 @@
 			)
 			(polyline
 				(pts
-					(xy -45.72 -2.54) (xy 0 -2.54)
+					(xy -35.56 -2.54) (xy 0 -2.54)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4848,10 +4848,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0 58.42) (xy -45.72 58.42)
+					(xy 0 58.42) (xy -35.56 58.42)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4863,7 +4863,7 @@
 					(xy 0 149.86) (xy 0 -149.86)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4872,10 +4872,10 @@
 			)
 			(polyline
 				(pts
-					(xy 45.72 -101.6) (xy 0 -101.6)
+					(xy 35.56 -101.6) (xy 0 -101.6)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4884,10 +4884,10 @@
 			)
 			(polyline
 				(pts
-					(xy 45.72 -50.8) (xy 0 -50.8)
+					(xy 35.56 -50.8) (xy 0 -50.8)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4896,10 +4896,10 @@
 			)
 			(polyline
 				(pts
-					(xy 45.72 48.26) (xy 0 48.26)
+					(xy 35.56 48.26) (xy 0 48.26)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4908,10 +4908,10 @@
 			)
 			(polyline
 				(pts
-					(xy -45.72 5.08) (xy -25.4 5.08) (xy -25.4 17.78) (xy -45.72 17.78)
+					(xy -35.56 5.08) (xy -15.24 5.08) (xy -15.24 17.78) (xy -35.56 17.78)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4920,18 +4920,18 @@
 			)
 			(polyline
 				(pts
-					(xy -25.4 134.62) (xy -12.7 134.62) (xy -12.7 121.92) (xy -25.4 121.92)
+					(xy -15.24 134.62) (xy -2.54 134.62) (xy -2.54 121.92) (xy -15.24 121.92)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(text "*Согласно тех.док. \nEXTR подключается к VSS через резистор 10 кОм"
-				(at -36.83 -147.32 0)
+			(text "*According to the datasheet for GW2A\nEXTR is tied to VSS by a 10K Resistor"
+				(at -28.448 -146.304 0)
 				(effects
 					(font
 						(size 0.889 0.889)
@@ -4940,87 +4940,79 @@
 				)
 			)
 			(text "IOBANK0"
-				(at -12.954 -102.87 0)
+				(at -3.302 -100.838 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK1"
-				(at -13.208 -30.734 0)
+				(at -3.302 -29.718 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK2"
-				(at -12.954 28.956 0)
+				(at -3.302 26.162 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK3"
-				(at -13.462 102.87 0)
+				(at -3.302 89.662 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK4"
-				(at 13.97 92.71 0)
+				(at 3.048 89.662 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK5"
-				(at 13.716 -2.54 0)
+				(at 3.048 -1.778 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK6"
-				(at 13.97 -78.74 0)
+				(at 3.048 -75.438 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(text "IOBANK7"
-				(at 13.97 -128.016 0)
+				(at 3.048 -123.698 900)
 				(effects
 					(font
 						(size 3.81 3.81)
 						(thickness 0.4763)
-						(color 0 0 0 1)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -68.58 180)
+				(at 40.64 -68.58 180)
 				(length 5.08)
 				(name "IOL33B/LVDS/DQ2"
 					(effects
@@ -5038,7 +5030,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -132.08 180)
+				(at 40.64 -132.08 180)
 				(length 5.08)
 				(name "IOL15A/LVDS/DQ1"
 					(effects
@@ -5056,7 +5048,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -129.54 180)
+				(at 40.64 -129.54 180)
 				(length 5.08)
 				(name "IOL13B/LVDS/DQ1"
 					(effects
@@ -5074,7 +5066,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 124.46 0)
+				(at -40.64 124.46 0)
 				(length 5.08)
 				(name "IOR32A/READY/DQ9"
 					(effects
@@ -5092,7 +5084,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -121.92 180)
+				(at 40.64 -121.92 180)
 				(length 5.08)
 				(name "IOL8B/LPLL1_C_fb/LVDS/DQ0"
 					(effects
@@ -5110,7 +5102,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -111.76 180)
+				(at 40.64 -111.76 180)
 				(length 5.08)
 				(name "IOL2B/LVDS/DQ0"
 					(effects
@@ -5128,7 +5120,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 2.54 180)
+				(at 40.64 2.54 180)
 				(length 5.08)
 				(name "IOB13B/DQ5"
 					(effects
@@ -5146,7 +5138,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 30.48 180)
+				(at 40.64 30.48 180)
 				(length 5.08)
 				(name "IOB4A/LVDS/DQ4"
 					(effects
@@ -5164,7 +5156,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 40.64 180)
+				(at 40.64 40.64 180)
 				(length 5.08)
 				(name "IOB2A/LVDS/DQ4"
 					(effects
@@ -5182,7 +5174,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 25.4 180)
+				(at 40.64 25.4 180)
 				(length 5.08)
 				(name "IOB7A/DQ4"
 					(effects
@@ -5200,7 +5192,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 7.62 0)
+				(at -40.64 7.62 0)
 				(length 5.08)
 				(name "IOR26B/TDI/DQ10"
 					(effects
@@ -5218,7 +5210,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 10.16 0)
+				(at -40.64 10.16 0)
 				(length 5.08)
 				(name "IOR26A/TCK/DQ10"
 					(effects
@@ -5236,7 +5228,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -58.42 180)
+				(at 40.64 -58.42 180)
 				(length 5.08)
 				(name "IOL29B/GCLKC_6"
 					(effects
@@ -5254,7 +5246,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -144.78 180)
+				(at 40.64 -144.78 180)
 				(length 5.08)
 				(name "IOL27A/GCLKT_7"
 					(effects
@@ -5272,7 +5264,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 20.32 180)
+				(at 40.64 20.32 180)
 				(length 5.08)
 				(name "IOB8A/LVDS/DQ4"
 					(effects
@@ -5290,7 +5282,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 127 0)
+				(at -40.64 127 0)
 				(length 5.08)
 				(name "IOR31B/RECONIG_N/LVDS/DQ9"
 					(effects
@@ -5308,7 +5300,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -127 180)
+				(at 40.64 -127 180)
 				(length 5.08)
 				(name "IOL13A/LVDS/DQ1"
 					(effects
@@ -5326,7 +5318,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -116.84 180)
+				(at 40.64 -116.84 180)
 				(length 5.08)
 				(name "IOL7B/LPLL1_C_in/LVDS/DQ0"
 					(effects
@@ -5344,7 +5336,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -119.38 180)
+				(at 40.64 -119.38 180)
 				(length 5.08)
 				(name "IOL8A/LPLL1_T_fb/LVDS/DQ0"
 					(effects
@@ -5362,7 +5354,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -109.22 180)
+				(at 40.64 -109.22 180)
 				(length 5.08)
 				(name "IOL2A/LVDS/DQ0"
 					(effects
@@ -5380,7 +5372,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 132.08 0)
+				(at -40.64 132.08 0)
 				(length 5.08)
 				(name "MODE1/IOR30B"
 					(effects
@@ -5398,7 +5390,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 5.08 180)
+				(at 40.64 5.08 180)
 				(length 5.08)
 				(name "IOB13A/DQ5"
 					(effects
@@ -5416,7 +5408,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 27.94 180)
+				(at 40.64 27.94 180)
 				(length 5.08)
 				(name "IOB4B/LVDS/DQ4"
 					(effects
@@ -5434,7 +5426,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -93.98 180)
+				(at 40.64 -93.98 180)
 				(length 5.08)
 				(name "IOL47B/LPLL2_C_fb/LVDS/DQ3"
 					(effects
@@ -5452,7 +5444,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 22.86 180)
+				(at 40.64 22.86 180)
 				(length 5.08)
 				(name "IOB7B/DQ4"
 					(effects
@@ -5470,7 +5462,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -81.28 180)
+				(at 40.64 -81.28 180)
 				(length 5.08)
 				(name "IOL40A/LVDS/DQ2"
 					(effects
@@ -5488,7 +5480,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 12.7 0)
+				(at -40.64 12.7 0)
 				(length 5.08)
 				(name "IOR25B/TMS/DQ10"
 					(effects
@@ -5506,7 +5498,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -66.04 180)
+				(at 40.64 -66.04 180)
 				(length 5.08)
 				(name "IOL33A/LVDS/DQ2"
 					(effects
@@ -5524,7 +5516,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 0 180)
+				(at 40.64 0 180)
 				(length 5.08)
 				(name "IOB14A/LVDS/DQ5"
 					(effects
@@ -5542,7 +5534,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 93.98 0)
+				(at -40.64 93.98 0)
 				(length 5.08)
 				(name "IOR39A/SCLK/DQ9"
 					(effects
@@ -5560,7 +5552,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -134.62 180)
+				(at 40.64 -134.62 180)
 				(length 5.08)
 				(name "IOL15B/LVDS/DQ1"
 					(effects
@@ -5578,7 +5570,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -114.3 180)
+				(at 40.64 -114.3 180)
 				(length 5.08)
 				(name "IOL7A/LPLL1_T_in/LVDS/DQ0"
 					(effects
@@ -5596,7 +5588,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 121.92 0)
+				(at -40.64 121.92 0)
 				(length 5.08)
 				(name "IOR32B/DONE/DQ9"
 					(effects
@@ -5614,7 +5606,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 129.54 0)
+				(at -40.64 129.54 0)
 				(length 5.08)
 				(name "MODE2/IOB31A"
 					(effects
@@ -5632,7 +5624,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -76.2 0)
+				(at -40.64 -76.2 0)
 				(length 5.08)
 				(name "IOT5A/DQ15"
 					(effects
@@ -5650,7 +5642,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 17.78 180)
+				(at 40.64 17.78 180)
 				(length 5.08)
 				(name "IOB8B/LVDS/DQ4"
 					(effects
@@ -5668,7 +5660,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -91.44 180)
+				(at 40.64 -91.44 180)
 				(length 5.08)
 				(name "IOL47A/LPLL2_T_fb/LVDS/DQ3"
 					(effects
@@ -5686,7 +5678,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 38.1 180)
+				(at 40.64 38.1 180)
 				(length 5.08)
 				(name "IOB2B/LVDS/DQ4"
 					(effects
@@ -5704,7 +5696,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 15.24 0)
+				(at -40.64 15.24 0)
 				(length 5.08)
 				(name "IOR25A/TDO/DQ10"
 					(effects
@@ -5722,7 +5714,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -83.82 180)
+				(at 40.64 -83.82 180)
 				(length 5.08)
 				(name "IOL40B/LVDS/DQ2"
 					(effects
@@ -5740,7 +5732,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -55.88 180)
+				(at 40.64 -55.88 180)
 				(length 5.08)
 				(name "IOL29A/GCLKT_6"
 					(effects
@@ -5758,7 +5750,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -147.32 180)
+				(at 40.64 -147.32 180)
 				(length 5.08)
 				(name "IOL27B/GCLKC_7"
 					(effects
@@ -5776,7 +5768,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 12.7 180)
+				(at 40.64 12.7 180)
 				(length 5.08)
 				(name "IOB9B/DQS4"
 					(effects
@@ -5794,7 +5786,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -137.16 180)
+				(at 40.64 -137.16 180)
 				(length 5.08)
 				(name "IOL17A/LVDS/DQ1"
 					(effects
@@ -5812,7 +5804,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -142.24 180)
+				(at 40.64 -142.24 180)
 				(length 5.08)
 				(name "IOL22A/LVDS/DQ1"
 					(effects
@@ -5830,7 +5822,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -104.14 180)
+				(at 40.64 -104.14 180)
 				(length 5.08)
 				(name "VCCO7"
 					(effects
@@ -5848,7 +5840,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -40.64 0)
+				(at -40.64 -40.64 0)
 				(length 5.08)
 				(name "IOT44A/LVDS/DQ12"
 					(effects
@@ -5866,7 +5858,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -78.74 0)
+				(at -40.64 -78.74 0)
 				(length 5.08)
 				(name "IOT5B/DQ15"
 					(effects
@@ -5884,7 +5876,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -71.12 0)
+				(at -40.64 -71.12 0)
 				(length 5.08)
 				(name "IOT4A/LVDS/DQ15"
 					(effects
@@ -5902,7 +5894,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -2.54 180)
+				(at 40.64 -2.54 180)
 				(length 5.08)
 				(name "IOB14B/LVDS/DQ5"
 					(effects
@@ -5920,7 +5912,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 15.24 180)
+				(at 40.64 15.24 180)
 				(length 5.08)
 				(name "IOB9A/DQS4"
 					(effects
@@ -5938,7 +5930,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -53.34 180)
+				(at 40.64 -53.34 180)
 				(length 5.08)
 				(name "VCCO6"
 					(effects
@@ -5956,7 +5948,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 35.56 180)
+				(at 40.64 35.56 180)
 				(length 5.08)
 				(name "IOB3A/DQ4"
 					(effects
@@ -5974,7 +5966,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -99.06 180)
+				(at 40.64 -99.06 180)
 				(length 5.08)
 				(name "IOL53B/LVDS/DQ3"
 					(effects
@@ -5992,7 +5984,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -76.2 180)
+				(at 40.64 -76.2 180)
 				(length 5.08)
 				(name "IOL38A/LVDS/DQ2"
 					(effects
@@ -6010,7 +6002,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -73.66 180)
+				(at 40.64 -73.66 180)
 				(length 5.08)
 				(name "IOL35B/LVDS/DQ2"
 					(effects
@@ -6028,7 +6020,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -5.08 180)
+				(at 40.64 -5.08 180)
 				(length 5.08)
 				(name "IOB16A/LVDS/DQ5"
 					(effects
@@ -6046,7 +6038,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -139.7 180)
+				(at 40.64 -139.7 180)
 				(length 5.08)
 				(name "IOL17B/LVDS/DQ1"
 					(effects
@@ -6064,7 +6056,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -63.5 180)
+				(at 40.64 -63.5 180)
 				(length 5.08)
 				(name "IOL31B/LVDS/DQ2"
 					(effects
@@ -6082,7 +6074,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 -66.04 0)
+				(at -40.64 -66.04 0)
 				(length 5.08)
 				(name "VCCO0"
 					(effects
@@ -6100,7 +6092,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -73.66 0)
+				(at -40.64 -73.66 0)
 				(length 5.08)
 				(name "IOT4B/LVDS/DQ15"
 					(effects
@@ -6118,7 +6110,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -43.18 0)
+				(at -40.64 -43.18 0)
 				(length 5.08)
 				(name "IOT44B/LVDS/DQ12"
 					(effects
@@ -6136,7 +6128,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -81.28 0)
+				(at -40.64 -81.28 0)
 				(length 5.08)
 				(name "IOT6A/LVDS/DQ15"
 					(effects
@@ -6154,7 +6146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 10.16 180)
+				(at 40.64 10.16 180)
 				(length 5.08)
 				(name "IOB12A/LVDS/DQ5"
 					(effects
@@ -6172,7 +6164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 7.62 180)
+				(at 40.64 7.62 180)
 				(length 5.08)
 				(name "IOB12B/LVDS/DQ5"
 					(effects
@@ -6190,7 +6182,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 43.18 180)
+				(at 40.64 43.18 180)
 				(length 5.08)
 				(name "VCCO5"
 					(effects
@@ -6208,7 +6200,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -96.52 180)
+				(at 40.64 -96.52 180)
 				(length 5.08)
 				(name "IOL53A/LVDS/DQ3"
 					(effects
@@ -6226,7 +6218,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 33.02 180)
+				(at 40.64 33.02 180)
 				(length 5.08)
 				(name "IOB3B/DQ4"
 					(effects
@@ -6244,7 +6236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -88.9 180)
+				(at 40.64 -88.9 180)
 				(length 5.08)
 				(name "IOL45B/LPLL2_C_in"
 					(effects
@@ -6262,7 +6254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -78.74 180)
+				(at 40.64 -78.74 180)
 				(length 5.08)
 				(name "IOL38B/LVDS/DQ2"
 					(effects
@@ -6280,7 +6272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -17.78 180)
+				(at 40.64 -17.78 180)
 				(length 5.08)
 				(name "IOB19B/DQ5"
 					(effects
@@ -6298,7 +6290,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -124.46 180)
+				(at 40.64 -124.46 180)
 				(length 5.08)
 				(name "IOL11A/LVDS/DQ1"
 					(effects
@@ -6316,7 +6308,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -96.52 0)
+				(at -40.64 -96.52 0)
 				(length 5.08)
 				(name "IOT12A/LVDS/DQ14"
 					(effects
@@ -6334,7 +6326,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -86.36 0)
+				(at -40.64 -86.36 0)
 				(length 5.08)
 				(name "IOT8A/LVDS/DQ15"
 					(effects
@@ -6352,7 +6344,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -91.44 0)
+				(at -40.64 -91.44 0)
 				(length 5.08)
 				(name "IOT9A/DQS15"
 					(effects
@@ -6370,7 +6362,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -83.82 0)
+				(at -40.64 -83.82 0)
 				(length 5.08)
 				(name "IOT6B/LVDS/DQ15"
 					(effects
@@ -6388,7 +6380,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -93.98 0)
+				(at -40.64 -93.98 0)
 				(length 5.08)
 				(name "IOT9B/DQS15"
 					(effects
@@ -6406,7 +6398,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -7.62 180)
+				(at 40.64 -7.62 180)
 				(length 5.08)
 				(name "IOB16B/LVDS/DQ5"
 					(effects
@@ -6424,7 +6416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -15.24 180)
+				(at 40.64 -15.24 180)
 				(length 5.08)
 				(name "IOB19A/DQ5"
 					(effects
@@ -6442,7 +6434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -10.16 180)
+				(at 40.64 -10.16 180)
 				(length 5.08)
 				(name "IOB18A/LVDS/DQ5"
 					(effects
@@ -6460,7 +6452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -30.48 180)
+				(at 40.64 -30.48 180)
 				(length 5.08)
 				(name "IOB22A/LVDS/DQ5"
 					(effects
@@ -6478,7 +6470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -86.36 180)
+				(at 40.64 -86.36 180)
 				(length 5.08)
 				(name "IOL45A/LPLL2_T_in"
 					(effects
@@ -6496,7 +6488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -71.12 180)
+				(at 40.64 -71.12 180)
 				(length 5.08)
 				(name "IOL35A/LVDS/DQ2"
 					(effects
@@ -6514,7 +6506,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -60.96 180)
+				(at 40.64 -60.96 180)
 				(length 5.08)
 				(name "IOL31A/LVDS/DQ2"
 					(effects
@@ -6532,7 +6524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -35.56 180)
+				(at 40.64 -35.56 180)
 				(length 5.08)
 				(name "IOB24A/LVDS/DQ5"
 					(effects
@@ -6550,7 +6542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -106.68 0)
+				(at -40.64 -106.68 0)
 				(length 5.08)
 				(name "IOT14A/LVDS/DQ14"
 					(effects
@@ -6568,7 +6560,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -88.9 0)
+				(at -40.64 -88.9 0)
 				(length 5.08)
 				(name "IOT8B/LVDS/DQ15"
 					(effects
@@ -6586,7 +6578,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -99.06 0)
+				(at -40.64 -99.06 0)
 				(length 5.08)
 				(name "IOT12B/LVDS/DQ14"
 					(effects
@@ -6604,7 +6596,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -104.14 0)
+				(at -40.64 -104.14 0)
 				(length 5.08)
 				(name "IOT13B/DQ14"
 					(effects
@@ -6622,7 +6614,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -101.6 0)
+				(at -40.64 -101.6 0)
 				(length 5.08)
 				(name "IOT13A/DQ14"
 					(effects
@@ -6640,7 +6632,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -111.76 0)
+				(at -40.64 -111.76 0)
 				(length 5.08)
 				(name "IOT16A/LVDS/DQ14"
 					(effects
@@ -6658,7 +6650,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -25.4 180)
+				(at 40.64 -25.4 180)
 				(length 5.08)
 				(name "IOB21A/DQ5"
 					(effects
@@ -6676,7 +6668,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -27.94 180)
+				(at 40.64 -27.94 180)
 				(length 5.08)
 				(name "IOB21B/DQ5"
 					(effects
@@ -6694,7 +6686,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -22.86 180)
+				(at 40.64 -22.86 180)
 				(length 5.08)
 				(name "IOB20B/LVDS/DQ5"
 					(effects
@@ -6712,7 +6704,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -20.32 180)
+				(at 40.64 -20.32 180)
 				(length 5.08)
 				(name "IOB20A/LVDS/DQ5"
 					(effects
@@ -6730,7 +6722,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -12.7 180)
+				(at 40.64 -12.7 180)
 				(length 5.08)
 				(name "IOB18B/LVDS/DQ5"
 					(effects
@@ -6748,7 +6740,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -106.68 180)
+				(at 40.64 -106.68 180)
 				(length 5.08)
 				(name "VCCO7"
 					(effects
@@ -6766,7 +6758,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 132.08 180)
+				(at 40.64 132.08 180)
 				(length 5.08)
 				(name "IOB32B/LVDS/DQ6"
 					(effects
@@ -6784,7 +6776,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 -63.5 0)
+				(at -40.64 -63.5 0)
 				(length 5.08)
 				(name "VCCO0"
 					(effects
@@ -6802,7 +6794,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -137.16 0)
+				(at -40.64 -137.16 0)
 				(length 5.08)
 				(name "IOT27A/GCLKT_0/DQ14"
 					(effects
@@ -6820,7 +6812,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -109.22 0)
+				(at -40.64 -109.22 0)
 				(length 5.08)
 				(name "IOT14B/LVDS/DQ14"
 					(effects
@@ -6838,7 +6830,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -116.84 0)
+				(at -40.64 -116.84 0)
 				(length 5.08)
 				(name "IOT18A/LVDS/DQ14"
 					(effects
@@ -6856,7 +6848,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -121.92 0)
+				(at -40.64 -121.92 0)
 				(length 5.08)
 				(name "IOT20A/LVDS/DQ14"
 					(effects
@@ -6874,7 +6866,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -114.3 0)
+				(at -40.64 -114.3 0)
 				(length 5.08)
 				(name "IOT16B/LVDS/DQ14"
 					(effects
@@ -6892,7 +6884,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -124.46 0)
+				(at -40.64 -124.46 0)
 				(length 5.08)
 				(name "IOT20B/LVDS/DQ14"
 					(effects
@@ -6910,7 +6902,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -38.1 180)
+				(at 40.64 -38.1 180)
 				(length 5.08)
 				(name "IOB24B/LVDS/DQ5"
 					(effects
@@ -6928,7 +6920,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 134.62 180)
+				(at 40.64 134.62 180)
 				(length 5.08)
 				(name "IOB32A/LVDS/DQ6"
 					(effects
@@ -6946,7 +6938,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -40.64 180)
+				(at 40.64 -40.64 180)
 				(length 5.08)
 				(name "IOB26A/LVDS/DQ5"
 					(effects
@@ -6964,7 +6956,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 124.46 180)
+				(at 40.64 124.46 180)
 				(length 5.08)
 				(name "IOB35A/DQ6"
 					(effects
@@ -6982,7 +6974,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -33.02 180)
+				(at 40.64 -33.02 180)
 				(length 5.08)
 				(name "IOB22B/LVDS/DQ5"
 					(effects
@@ -7000,7 +6992,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 45.72 180)
+				(at 40.64 45.72 180)
 				(length 5.08)
 				(name "VCCO5"
 					(effects
@@ -7018,7 +7010,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -45.72 180)
+				(at 40.64 -45.72 180)
 				(length 5.08)
 				(name "IOB27A/GCLKT_5"
 					(effects
@@ -7036,7 +7028,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 -5.08 0)
+				(at -40.64 -5.08 0)
 				(length 5.08)
 				(name "VCCO1"
 					(effects
@@ -7054,7 +7046,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -15.24 0)
+				(at -40.64 -15.24 0)
 				(length 5.08)
 				(name "IOT32A/LVDS/DQ13"
 					(effects
@@ -7072,7 +7064,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -119.38 0)
+				(at -40.64 -119.38 0)
 				(length 5.08)
 				(name "IOT18B/LVDS/DQ14"
 					(effects
@@ -7090,7 +7082,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -139.7 0)
+				(at -40.64 -139.7 0)
 				(length 5.08)
 				(name "IOT27B/GCLKC_0/DQ14"
 					(effects
@@ -7108,7 +7100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -129.54 0)
+				(at -40.64 -129.54 0)
 				(length 5.08)
 				(name "IOT22B/LVDS/DQ14"
 					(effects
@@ -7126,7 +7118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -132.08 0)
+				(at -40.64 -132.08 0)
 				(length 5.08)
 				(name "IOT24A/LVDS/DQ14"
 					(effects
@@ -7144,7 +7136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -127 0)
+				(at -40.64 -127 0)
 				(length 5.08)
 				(name "IOT22A/LVDS/DQ14"
 					(effects
@@ -7162,7 +7154,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 129.54 180)
+				(at 40.64 129.54 180)
 				(length 5.08)
 				(name "IOB34A/LVDS/DQ6"
 					(effects
@@ -7180,7 +7172,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -48.26 180)
+				(at 40.64 -48.26 180)
 				(length 5.08)
 				(name "IOB27B/GCLKC_5"
 					(effects
@@ -7198,7 +7190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 121.92 180)
+				(at 40.64 121.92 180)
 				(length 5.08)
 				(name "IOB35B/DQ6"
 					(effects
@@ -7216,7 +7208,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 114.3 180)
+				(at 40.64 114.3 180)
 				(length 5.08)
 				(name "IOB37A/DQ6"
 					(effects
@@ -7234,7 +7226,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -43.18 180)
+				(at 40.64 -43.18 180)
 				(length 5.08)
 				(name "IOB26B/LVDS/DQ5"
 					(effects
@@ -7252,7 +7244,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 142.24 180)
+				(at 40.64 142.24 180)
 				(length 5.08)
 				(name "VCCO4"
 					(effects
@@ -7270,7 +7262,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 127 180)
+				(at 40.64 127 180)
 				(length 5.08)
 				(name "IOB34B/LVDS/DQ6"
 					(effects
@@ -7288,7 +7280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -30.48 0)
+				(at -40.64 -30.48 0)
 				(length 5.08)
 				(name "IOT38A/LVDS/DQ13"
 					(effects
@@ -7306,7 +7298,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -27.94 0)
+				(at -40.64 -27.94 0)
 				(length 5.08)
 				(name "IOT36B/LVDS/DQ13"
 					(effects
@@ -7324,7 +7316,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -25.4 0)
+				(at -40.64 -25.4 0)
 				(length 5.08)
 				(name "IOT36A/LVDS/DQ13"
 					(effects
@@ -7342,7 +7334,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -10.16 0)
+				(at -40.64 -10.16 0)
 				(length 5.08)
 				(name "IOT30A/GCLKT_1/LVDS/DQ13"
 					(effects
@@ -7360,7 +7352,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -12.7 0)
+				(at -40.64 -12.7 0)
 				(length 5.08)
 				(name "IOT30B/GCLKC_1/LVDS/DQ13"
 					(effects
@@ -7378,7 +7370,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -134.62 0)
+				(at -40.64 -134.62 0)
 				(length 5.08)
 				(name "IOT24B/LVDS/DQ14"
 					(effects
@@ -7396,7 +7388,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 116.84 180)
+				(at 40.64 116.84 180)
 				(length 5.08)
 				(name "IOB36B/LVDS/DQ6"
 					(effects
@@ -7414,7 +7406,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 119.38 180)
+				(at 40.64 119.38 180)
 				(length 5.08)
 				(name "IOB36A/LVDS/DQ6"
 					(effects
@@ -7432,7 +7424,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 104.14 180)
+				(at 40.64 104.14 180)
 				(length 5.08)
 				(name "IOB39A/DQ6"
 					(effects
@@ -7450,7 +7442,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 99.06 180)
+				(at 40.64 99.06 180)
 				(length 5.08)
 				(name "IOB40A/LVDS/DQ6"
 					(effects
@@ -7468,7 +7460,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 111.76 180)
+				(at 40.64 111.76 180)
 				(length 5.08)
 				(name "IOB37B/DQ6"
 					(effects
@@ -7486,7 +7478,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 144.78 0)
+				(at -40.64 144.78 0)
 				(length 5.08)
 				(name "VCCO3"
 					(effects
@@ -7504,7 +7496,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 109.22 180)
+				(at 40.64 109.22 180)
 				(length 5.08)
 				(name "IOB38A/LVDS/DQ6"
 					(effects
@@ -7522,7 +7514,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 111.76 0)
+				(at -40.64 111.76 0)
 				(length 5.08)
 				(name "IOR34B/MCLK/D4/DQ9"
 					(effects
@@ -7540,7 +7532,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -17.78 0)
+				(at -40.64 -17.78 0)
 				(length 5.08)
 				(name "IOT32B/LVDS/DQ13"
 					(effects
@@ -7558,7 +7550,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -33.02 0)
+				(at -40.64 -33.02 0)
 				(length 5.08)
 				(name "IOT38B/LVDS/DQ13"
 					(effects
@@ -7576,7 +7568,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -22.86 0)
+				(at -40.64 -22.86 0)
 				(length 5.08)
 				(name "IOT34B/LVDS/DQ13"
 					(effects
@@ -7594,7 +7586,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -68.58 0)
+				(at -40.64 -68.58 0)
 				(length 5.08)
 				(name "IOT2A/LVDS/DQ15"
 					(effects
@@ -7612,7 +7604,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -20.32 0)
+				(at -40.64 -20.32 0)
 				(length 5.08)
 				(name "IOT34A/LVDS/DQ13"
 					(effects
@@ -7630,7 +7622,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 139.7 180)
+				(at 40.64 139.7 180)
 				(length 5.08)
 				(name "IOB30A/GCLKT_4/LVDS/DQ6"
 					(effects
@@ -7648,7 +7640,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 106.68 180)
+				(at 40.64 106.68 180)
 				(length 5.08)
 				(name "IOB38B/LVDS/DQ6"
 					(effects
@@ -7666,7 +7658,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 96.52 180)
+				(at 40.64 96.52 180)
 				(length 5.08)
 				(name "IOB40B/LVDS/DQ6"
 					(effects
@@ -7684,7 +7676,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 101.6 180)
+				(at 40.64 101.6 180)
 				(length 5.08)
 				(name "IOB39B/DQ6"
 					(effects
@@ -7702,7 +7694,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 -144.78 0)
+				(at -40.64 -144.78 0)
 				(length 5.08)
 				(name "EXTR"
 					(effects
@@ -7720,7 +7712,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 78.74 0)
+				(at -40.64 78.74 0)
 				(length 5.08)
 				(name "IOR44B/LVDS/DQ9"
 					(effects
@@ -7738,7 +7730,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 88.9 0)
+				(at -40.64 88.9 0)
 				(length 5.08)
 				(name "IOR40B/LVDS/DQ9"
 					(effects
@@ -7756,7 +7748,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 137.16 180)
+				(at 40.64 137.16 180)
 				(length 5.08)
 				(name "IOB30B/GCLKC_4/LVDS/DQ6"
 					(effects
@@ -7774,7 +7766,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 27.94 0)
+				(at -40.64 27.94 0)
 				(length 5.08)
 				(name "IOR22A/LVDS/DQ10"
 					(effects
@@ -7792,7 +7784,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 0 0)
+				(at -40.64 0 0)
 				(length 5.08)
 				(name "IOR27B/GCLKC_2/DQ10"
 					(effects
@@ -7810,7 +7802,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 -7.62 0)
+				(at -40.64 -7.62 0)
 				(length 5.08)
 				(name "VCCO1"
 					(effects
@@ -7828,7 +7820,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -35.56 0)
+				(at -40.64 -35.56 0)
 				(length 5.08)
 				(name "IOT40A/LVDS/DQ13"
 					(effects
@@ -7846,7 +7838,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -38.1 0)
+				(at -40.64 -38.1 0)
 				(length 5.08)
 				(name "IOT40B/LVDS/DQ13"
 					(effects
@@ -7864,7 +7856,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 134.62 0)
+				(at -40.64 134.62 0)
 				(length 5.08)
 				(name "MODE0/IOR30A"
 					(effects
@@ -7882,7 +7874,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 83.82 180)
+				(at 40.64 83.82 180)
 				(length 5.08)
 				(name "IOB43A/DQ6"
 					(effects
@@ -7900,7 +7892,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 88.9 180)
+				(at 40.64 88.9 180)
 				(length 5.08)
 				(name "IOB42A/LVDS/DQ6"
 					(effects
@@ -7918,7 +7910,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 144.78 180)
+				(at 40.64 144.78 180)
 				(length 5.08)
 				(name "VCCO4"
 					(effects
@@ -7936,7 +7928,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 81.28 0)
+				(at -40.64 81.28 0)
 				(length 5.08)
 				(name "IOR44A/LVDS/DQ9"
 					(effects
@@ -7954,7 +7946,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 76.2 0)
+				(at -40.64 76.2 0)
 				(length 5.08)
 				(name "IOR47A/RPLL2_T_fb"
 					(effects
@@ -7972,7 +7964,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 104.14 0)
+				(at -40.64 104.14 0)
 				(length 5.08)
 				(name "IOR36A/D1/DQS9"
 					(effects
@@ -7990,7 +7982,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 114.3 0)
+				(at -40.64 114.3 0)
 				(length 5.08)
 				(name "IOR34A/MCS_N/D5/DQ9"
 					(effects
@@ -8008,7 +8000,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 86.36 180)
+				(at 40.64 86.36 180)
 				(length 5.08)
 				(name "IOB42B/LVDS/DQ6"
 					(effects
@@ -8026,7 +8018,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 2.54 0)
+				(at -40.64 2.54 0)
 				(length 5.08)
 				(name "IOR27A/GCLKT_2/DQ10"
 					(effects
@@ -8044,7 +8036,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 25.4 0)
+				(at -40.64 25.4 0)
 				(length 5.08)
 				(name "IOR22B/LVDS/DQ10"
 					(effects
@@ -8062,7 +8054,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 55.88 0)
+				(at -40.64 55.88 0)
 				(length 5.08)
 				(name "VCCO2"
 					(effects
@@ -8080,7 +8072,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -53.34 0)
+				(at -40.64 -53.34 0)
 				(length 5.08)
 				(name "IOT52B/LVDS/DQ12"
 					(effects
@@ -8098,7 +8090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -45.72 0)
+				(at -40.64 -45.72 0)
 				(length 5.08)
 				(name "IOT48A/LVDS/DQ12"
 					(effects
@@ -8116,7 +8108,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -50.8 0)
+				(at -40.64 -50.8 0)
 				(length 5.08)
 				(name "IOT52A/LVDS/DQ12"
 					(effects
@@ -8134,7 +8126,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 93.98 180)
+				(at 40.64 93.98 180)
 				(length 5.08)
 				(name "IOB41A/DQ6"
 					(effects
@@ -8152,7 +8144,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 81.28 180)
+				(at 40.64 81.28 180)
 				(length 5.08)
 				(name "IOB43B/DQ6"
 					(effects
@@ -8170,7 +8162,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 142.24 0)
+				(at -40.64 142.24 0)
 				(length 5.08)
 				(name "VCCO3"
 					(effects
@@ -8188,7 +8180,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 66.04 0)
+				(at -40.64 66.04 0)
 				(length 5.08)
 				(name "IOR51A/LVDS/DQ8"
 					(effects
@@ -8206,7 +8198,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 73.66 0)
+				(at -40.64 73.66 0)
 				(length 5.08)
 				(name "IOR47B/RPLL2_C_fb"
 					(effects
@@ -8224,7 +8216,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 91.44 0)
+				(at -40.64 91.44 0)
 				(length 5.08)
 				(name "IOR40A/LVDS/DQ9"
 					(effects
@@ -8242,7 +8234,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 101.6 0)
+				(at -40.64 101.6 0)
 				(length 5.08)
 				(name "IOR36B/D0/DQS9"
 					(effects
@@ -8260,7 +8252,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 91.44 180)
+				(at 40.64 91.44 180)
 				(length 5.08)
 				(name "IOB41B/DQ6"
 					(effects
@@ -8278,7 +8270,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 119.38 0)
+				(at -40.64 119.38 0)
 				(length 5.08)
 				(name "IOR33A/MI/D7/LVDS/DQ9"
 					(effects
@@ -8296,7 +8288,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 20.32 0)
+				(at -40.64 20.32 0)
 				(length 5.08)
 				(name "IOR24B/LVDS/DQ10"
 					(effects
@@ -8314,7 +8306,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 48.26 0)
+				(at -40.64 48.26 0)
 				(length 5.08)
 				(name "IOR8A/RPLL1_T_fb/DQ11"
 					(effects
@@ -8332,7 +8324,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 40.64 0)
+				(at -40.64 40.64 0)
 				(length 5.08)
 				(name "IOR11B/LVDS/DQ10"
 					(effects
@@ -8350,7 +8342,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -55.88 0)
+				(at -40.64 -55.88 0)
 				(length 5.08)
 				(name "IOT54A/LVDS/DQ12"
 					(effects
@@ -8368,7 +8360,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -48.26 0)
+				(at -40.64 -48.26 0)
 				(length 5.08)
 				(name "IOT48B/LVDS/DQ12"
 					(effects
@@ -8386,7 +8378,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 76.2 180)
+				(at 40.64 76.2 180)
 				(length 5.08)
 				(name "IOB44B/LVDS/DQ6"
 					(effects
@@ -8404,7 +8396,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 73.66 180)
+				(at 40.64 73.66 180)
 				(length 5.08)
 				(name "IOB45A/DQ6"
 					(effects
@@ -8422,7 +8414,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 63.5 180)
+				(at 40.64 63.5 180)
 				(length 5.08)
 				(name "IOB50A/LVDS/DQ7"
 					(effects
@@ -8440,7 +8432,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 63.5 0)
+				(at -40.64 63.5 0)
 				(length 5.08)
 				(name "IOR53A/LVDS/DQ8"
 					(effects
@@ -8458,7 +8450,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 68.58 0)
+				(at -40.64 68.58 0)
 				(length 5.08)
 				(name "IOR49B/LVDS/DQ8"
 					(effects
@@ -8476,7 +8468,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 86.36 0)
+				(at -40.64 86.36 0)
 				(length 5.08)
 				(name "IOR42A/LVDS/DQ9"
 					(effects
@@ -8494,7 +8486,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 96.52 0)
+				(at -40.64 96.52 0)
 				(length 5.08)
 				(name "IOR38B/DOUT/LVDS/DQ9"
 					(effects
@@ -8512,7 +8504,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 78.74 180)
+				(at 40.64 78.74 180)
 				(length 5.08)
 				(name "IOB44A/LVDS/DQ6"
 					(effects
@@ -8530,7 +8522,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 116.84 0)
+				(at -40.64 116.84 0)
 				(length 5.08)
 				(name "IOR33B/MO/D6/LVDS/DQ9"
 					(effects
@@ -8548,7 +8540,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 38.1 0)
+				(at -40.64 38.1 0)
 				(length 5.08)
 				(name "IOR17A/LVDS/DQ10"
 					(effects
@@ -8566,7 +8558,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 43.18 0)
+				(at -40.64 43.18 0)
 				(length 5.08)
 				(name "IOR11A/LVDS/DQ10"
 					(effects
@@ -8584,7 +8576,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 33.02 0)
+				(at -40.64 33.02 0)
 				(length 5.08)
 				(name "IOR20A/LVDS/DQ10"
 					(effects
@@ -8602,7 +8594,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 50.8 0)
+				(at -40.64 50.8 0)
 				(length 5.08)
 				(name "IOR7B/RPLL1_C_in/DQ11"
 					(effects
@@ -8620,7 +8612,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 -58.42 0)
+				(at -40.64 -58.42 0)
 				(length 5.08)
 				(name "IOT54B/LVDS/DQ12"
 					(effects
@@ -8638,7 +8630,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 68.58 180)
+				(at 40.64 68.58 180)
 				(length 5.08)
 				(name "IOB48A/LVDS/DQ7"
 					(effects
@@ -8656,7 +8648,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 58.42 180)
+				(at 40.64 58.42 180)
 				(length 5.08)
 				(name "IOB52A/LVDS/DQ7"
 					(effects
@@ -8674,7 +8666,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 60.96 180)
+				(at 40.64 60.96 180)
 				(length 5.08)
 				(name "IOB50B/LVDS/DQ7"
 					(effects
@@ -8692,7 +8684,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 53.34 180)
+				(at 40.64 53.34 180)
 				(length 5.08)
 				(name "IOB54A/LVDS/DQ7"
 					(effects
@@ -8710,7 +8702,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 71.12 0)
+				(at -40.64 71.12 0)
 				(length 5.08)
 				(name "IOR49A/LVDS/DQ8"
 					(effects
@@ -8728,7 +8720,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 137.16 0)
+				(at -40.64 137.16 0)
 				(length 5.08)
 				(name "IOR29B/GCLKT_3/LVDS/DQ9"
 					(effects
@@ -8746,7 +8738,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 109.22 0)
+				(at -40.64 109.22 0)
 				(length 5.08)
 				(name "IOR35A/FASTRD_N/D3/LVDS/DQ9"
 					(effects
@@ -8764,7 +8756,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 106.68 0)
+				(at -40.64 106.68 0)
 				(length 5.08)
 				(name "IOR35B/D2/LVDS/DQ9"
 					(effects
@@ -8782,7 +8774,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 22.86 0)
+				(at -40.64 22.86 0)
 				(length 5.08)
 				(name "IOR24A/LVDS/DQ10"
 					(effects
@@ -8800,7 +8792,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 35.56 0)
+				(at -40.64 35.56 0)
 				(length 5.08)
 				(name "IOR17B/LVDS/DQ10"
 					(effects
@@ -8818,7 +8810,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 45.72 0)
+				(at -40.64 45.72 0)
 				(length 5.08)
 				(name "IOR8B/RPLL1_C_fb/DQ11"
 					(effects
@@ -8836,7 +8828,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 30.48 0)
+				(at -40.64 30.48 0)
 				(length 5.08)
 				(name "IOR20B/LVDS/DQ10"
 					(effects
@@ -8854,7 +8846,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 53.34 0)
+				(at -40.64 53.34 0)
 				(length 5.08)
 				(name "IOR7A/RPLL1_T_in/DQ11"
 					(effects
@@ -8872,7 +8864,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 66.04 180)
+				(at 40.64 66.04 180)
 				(length 5.08)
 				(name "IOB48B/LVDS/DQ7"
 					(effects
@@ -8890,7 +8882,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 55.88 180)
+				(at 40.64 55.88 180)
 				(length 5.08)
 				(name "IOB52B/LVDS/DQ7"
 					(effects
@@ -8908,7 +8900,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 71.12 180)
+				(at 40.64 71.12 180)
 				(length 5.08)
 				(name "IOB45B/DQ6"
 					(effects
@@ -8926,7 +8918,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 50.8 180)
+				(at 40.64 50.8 180)
 				(length 5.08)
 				(name "IOB54B/LVDS/DQ7"
 					(effects
@@ -8944,7 +8936,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 60.96 0)
+				(at -40.64 60.96 0)
 				(length 5.08)
 				(name "IOR53B/LVDS/DQ8"
 					(effects
@@ -8962,7 +8954,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 139.7 0)
+				(at -40.64 139.7 0)
 				(length 5.08)
 				(name "IOR29A/GCLKT_3/LVDS/DQ9"
 					(effects
@@ -8980,7 +8972,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 83.82 0)
+				(at -40.64 83.82 0)
 				(length 5.08)
 				(name "IOR42B/LVDS/DQ9"
 					(effects
@@ -8998,7 +8990,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 99.06 0)
+				(at -40.64 99.06 0)
 				(length 5.08)
 				(name "IOR38A/DIN/LVDS/DQ9"
 					(effects
@@ -9016,12 +9008,12 @@
 				)
 			)
 		)
-		(symbol "GW2A-LV18PG256XXXX_2_1"
+		(symbol "GW2A-LVxxPG256_2_1"
 			(rectangle
-				(start -12.7 35.56)
-				(end 12.7 -35.56)
+				(start -10.16 35.56)
+				(end 10.16 -35.56)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -9030,10 +9022,10 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -12.7) (xy 0 -12.7)
+					(xy -10.16 -12.7) (xy 0 -12.7)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -9042,10 +9034,10 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 15.24) (xy 0 15.24)
+					(xy -10.16 15.24) (xy 0 15.24)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -9057,7 +9049,7 @@
 					(xy 0 35.56) (xy 0 -35.56)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -9065,7 +9057,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 7.62 0)
+				(at -15.24 7.62 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -9083,7 +9075,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 5.08 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -9101,7 +9093,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -27.94 180)
+				(at 15.24 -27.94 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9119,7 +9111,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -30.48 180)
+				(at 15.24 -30.48 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9137,7 +9129,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -22.86 180)
+				(at 15.24 -22.86 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9155,7 +9147,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -25.4 180)
+				(at 15.24 -25.4 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9173,7 +9165,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -17.78 180)
+				(at 15.24 -17.78 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9191,7 +9183,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -20.32 180)
+				(at 15.24 -20.32 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9209,7 +9201,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -12.7 180)
+				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9227,7 +9219,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -15.24 180)
+				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9245,7 +9237,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9263,7 +9255,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -10.16 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9281,7 +9273,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 25.4 0)
+				(at -15.24 25.4 0)
 				(length 5.08)
 				(name "VCCPLLL"
 					(effects
@@ -9299,7 +9291,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 2.54 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -9317,7 +9309,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -22.86 0)
+				(at -15.24 -22.86 0)
 				(length 5.08)
 				(name "VCCX"
 					(effects
@@ -9335,7 +9327,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -5.08 180)
+				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9353,7 +9345,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -2.54 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9371,7 +9363,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 0 180)
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9389,7 +9381,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 5.08 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9407,7 +9399,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 0 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -9425,7 +9417,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 22.86 0)
+				(at -15.24 22.86 0)
 				(length 5.08)
 				(name "VCCPLLR"
 					(effects
@@ -9443,7 +9435,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -20.32 0)
+				(at -15.24 -20.32 0)
 				(length 5.08)
 				(name "VCCX"
 					(effects
@@ -9461,7 +9453,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 10.16 180)
+				(at 15.24 10.16 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9479,7 +9471,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 7.62 180)
+				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9497,7 +9489,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 15.24 180)
+				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9515,7 +9507,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 12.7 180)
+				(at 15.24 12.7 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9533,7 +9525,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 20.32 180)
+				(at 15.24 20.32 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9551,7 +9543,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 17.78 180)
+				(at 15.24 17.78 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9569,7 +9561,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 25.4 180)
+				(at 15.24 25.4 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9587,7 +9579,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 22.86 180)
+				(at 15.24 22.86 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9605,7 +9597,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 30.48 180)
+				(at 15.24 30.48 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9623,7 +9615,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 27.94 180)
+				(at 15.24 27.94 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -9641,7 +9633,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -9659,7 +9651,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -5.08 0)
+				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
