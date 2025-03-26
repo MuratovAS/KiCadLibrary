@@ -1,0 +1,433 @@
+(footprint "MountingHole_SMTSO30xx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT surface mount nut post, M3")
+	(tags "Mounting M3, SMTSO")
+	(property "Reference" "REF**"
+		(at 0 -5.075 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f90ddabe-e1d7-4a92-832c-422453fcc497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_SMTSO30xx"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(uuid "e299ac98-e055-4dc4-a75b-68a9b10ad834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c70ba45-3b7d-41ee-a241-1571e38cd5d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sinhoost.com/Product/PCB-SMT-Muts-SMTSO.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b022ba53-155a-4398-89b8-e701b2aa40dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17845d82-a686-4410-97c1-a93b8d14efc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.85 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "473a4d36-d78e-417a-be6c-30a07f39768a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f1c4ff21-8c24-4445-9439-c71ff6bea55e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8de5f8a3-ded6-4bcd-8e11-e9151046c299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at -2.175 -2.025 180)
+		(size 1 1)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.775 0.5)
+						(mid -0.36729 -0.21729)
+						(end 0.350001 -1.625)
+					)
+					(arc
+						(start 1.199997 -1.625)
+						(mid 0.228188 0.378187)
+						(end -1.775 1.349997)
+					)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "1a2a591f-fb05-456a-b7ba-bf8cf7d70688")
+	)
+	(pad "" smd custom
+		(at -2.025 2.175 270)
+		(size 1 1)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.775 0.5)
+						(mid -0.36729 -0.21729)
+						(end 0.350001 -1.625)
+					)
+					(arc
+						(start 1.199997 -1.625)
+						(mid 0.228188 0.378187)
+						(end -1.775 1.349997)
+					)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "c1b35820-fcff-43a6-a04c-57298c395434")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 4.3)
+		(layers "*.Mask")
+		(uuid "876bdaf6-cb00-45ef-9c1c-422bd906e4de")
+	)
+	(pad "" smd custom
+		(at 2.025 -2.175 90)
+		(size 1 1)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.775 0.5)
+						(mid -0.36729 -0.21729)
+						(end 0.350001 -1.625)
+					)
+					(arc
+						(start 1.199997 -1.625)
+						(mid 0.228188 0.378187)
+						(end -1.775 1.349997)
+					)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "885a5f93-2a96-4387-ac7c-58973aaf3f14")
+	)
+	(pad "" smd custom
+		(at 2.175 2.025)
+		(size 1 1)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.775 0.5)
+						(mid -0.36729 -0.21729)
+						(end 0.350001 -1.625)
+					)
+					(arc
+						(start 1.199997 -1.625)
+						(mid 0.228188 0.378187)
+						(end -1.775 1.349997)
+					)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "cc354e27-0778-4989-b187-0c4401f29af9")
+	)
+	(pad "1" smd custom
+		(at 3.000416 0)
+		(size 0.75 0.75)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -3.000416 0)
+				(end -0.000416 0)
+				(width 1.2)
+				(fill no)
+			)
+		)
+		(uuid "b302f124-db79-40fc-9788-72b3e2225d08")
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_1.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_2.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_2.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_3.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_3.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_4.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_4.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_5.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_6.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_6.5.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_7.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_8.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_9.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/SMTSO30xx_10.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
