@@ -1,0 +1,236 @@
+(footprint "2450FM07A0029T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Filter 0402, 4 pins ")
+	(tags "Antenna, RF, Filter")
+	(property "Reference" "REF**"
+		(at 0 -2.325 0)
+		(layer "F.SilkS")
+		(uuid "57f599d2-a795-4f7a-93a1-b210e16f4adc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2450FM07A0029T"
+		(at 0 2.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e991694-96c2-48bb-8ece-1b8c4dfc38af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea343246-dbef-4749-a159-47f3f3299b79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30014f56-7413-4866-9f03-b1249c4e2ce2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfa95511-2ced-4f0b-ac42-eb45038d3b93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 0)
+		(end -1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cca16eb-1e34-4b9c-ac7e-4261980979a4")
+	)
+	(fp_line
+		(start -1.4 0)
+		(end -1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85e14534-d20f-4a50-860b-9704a79d5f6c")
+	)
+	(fp_arc
+		(start -1.5 0)
+		(mid -1.45 -0.05)
+		(end -1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1effba1d-7d15-4f43-8ed4-24c4f43785e1")
+	)
+	(fp_arc
+		(start -1.4 0)
+		(mid -1.45 0.05)
+		(end -1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "181c19cf-0727-43df-a17f-90c023e9633d")
+	)
+	(fp_line
+		(start -1.913 -1.725)
+		(end 1.913 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfaa33c2-9571-4803-a436-f6c17338bd60")
+	)
+	(fp_line
+		(start -1.913 1.725)
+		(end -1.913 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a72ccdb-6c15-4594-8660-b2f255fa51bf")
+	)
+	(fp_line
+		(start 1.913 -1.725)
+		(end 1.913 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c30960e1-6e67-40a9-b660-edcb4151b4a7")
+	)
+	(fp_line
+		(start 1.913 1.725)
+		(end -1.913 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2f8ec2a-f6d0-4d8d-9b98-7f6dd2486df2")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01509163-8046-4096-b774-be5662ea18bf")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4349fcb5-cc92-40ee-852d-3272ad25a768")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e5a4ab2-af20-4b9b-8c4f-013b92edae57")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2079b6c8-a7c0-4ec3-bc26-818cd29b88f8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d5d01113-56e4-4cff-b6f3-3062a5e614fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.613 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cff9cc38-4fc3-4bff-96e6-0ef7d5871a8d")
+	)
+	(pad "2" smd rect
+		(at 0 0.35)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48c07c3b-04bd-4e06-a1d5-d30c95ea76f7")
+	)
+	(pad "3" smd rect
+		(at 0.613 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3a72bc9-6948-46b7-9946-2b59429973d7")
+	)
+	(pad "4" smd rect
+		(at 0 -0.35)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fbcdc17e-9a8a-4d22-830f-37b8d161521c")
+	)
+	(model "${MAS_3DMODEL_DIR}/CF_0402_4pin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
