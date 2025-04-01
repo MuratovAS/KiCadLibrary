@@ -68,7 +68,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_bom)
+	(attr smd exclude_from_bom allow_missing_courtyard)
 	(fp_circle
 		(center 0 0)
 		(end 1 0)
