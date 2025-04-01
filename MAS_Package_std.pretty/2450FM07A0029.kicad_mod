@@ -1,4 +1,4 @@
-(footprint "2450FM07A0029T"
+(footprint "2450FM07A0029"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "2450FM07A0029T"
+	(property "Value" "2450FM07A0029"
 		(at 0 2.8 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.5 0)
-		(end -1.5 0)
+		(start -1.15 0)
+		(end -1.15 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "2cca16eb-1e34-4b9c-ac7e-4261980979a4")
 	)
 	(fp_line
-		(start -1.4 0)
-		(end -1.4 0)
+		(start -1.05 0)
+		(end -1.05 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,10 +85,50 @@
 		(layer "F.SilkS")
 		(uuid "85e14534-d20f-4a50-860b-9704a79d5f6c")
 	)
+	(fp_line
+		(start -0.465672 -0.375)
+		(end -0.25 -0.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df6157ca-042a-413b-98ea-60bf7b806539")
+	)
+	(fp_line
+		(start -0.465672 0.375)
+		(end -0.25 0.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e44b8643-b853-44ce-94ad-b64c4bc3f53c")
+	)
+	(fp_line
+		(start 0.234328 -0.375)
+		(end 0.45 -0.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f4bdcc5-461c-46fb-88b2-3526f2b5a681")
+	)
+	(fp_line
+		(start 0.234328 0.375)
+		(end 0.45 0.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "883a4a90-3971-4c30-8848-c8546376f06c")
+	)
 	(fp_arc
-		(start -1.5 0)
-		(mid -1.45 -0.05)
-		(end -1.4 0)
+		(start -1.15 0)
+		(mid -1.1 -0.05)
+		(end -1.05 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -97,9 +137,9 @@
 		(uuid "1effba1d-7d15-4f43-8ed4-24c4f43785e1")
 	)
 	(fp_arc
-		(start -1.4 0)
-		(mid -1.45 0.05)
-		(end -1.5 0)
+		(start -1.05 0)
+		(mid -1.1 0.05)
+		(end -1.15 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -108,40 +148,40 @@
 		(uuid "181c19cf-0727-43df-a17f-90c023e9633d")
 	)
 	(fp_line
-		(start -1.913 -1.725)
-		(end 1.913 -1.725)
+		(start -1 -0.5)
+		(end 1 -0.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "bfaa33c2-9571-4803-a436-f6c17338bd60")
 	)
 	(fp_line
-		(start -1.913 1.725)
-		(end -1.913 -1.725)
+		(start -1 0.5)
+		(end -1 -0.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "8a72ccdb-6c15-4594-8660-b2f255fa51bf")
 	)
 	(fp_line
-		(start 1.913 -1.725)
-		(end 1.913 1.725)
+		(start 1 -0.5)
+		(end 1 0.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "c30960e1-6e67-40a9-b660-edcb4151b4a7")
 	)
 	(fp_line
-		(start 1.913 1.725)
-		(end -1.913 1.725)
+		(start 1 0.5)
+		(end -1 0.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")

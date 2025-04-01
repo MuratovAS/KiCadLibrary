@@ -2,28 +2,28 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "2450FM07A0029T"
+	(symbol "2450FM07A0029"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FL"
-			(at 0 10.795 0)
+			(at 0 8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2450FM07A0029T"
-			(at 0 8.89 0)
+		(property "Value" "2450FM07A0029"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MAS_Package_std:2450FM07A0029T"
-			(at 0 12.7 0)
+		(property "Footprint" "MAS_Package_std:2450FM07A0029"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,10 +58,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "2450FM07A0029T_0_1"
+		(symbol "2450FM07A0029_0_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -7.62)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -131,9 +131,9 @@
 				)
 			)
 		)
-		(symbol "2450FM07A0029T_1_1"
+		(symbol "2450FM07A0029_1_1"
 			(pin passive line
-				(at -10.16 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -151,7 +151,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -169,7 +169,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -187,7 +187,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
+				(at 0 -7.62 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -1304,12 +1304,12 @@
 			)
 		)
 	)
-	(symbol "SX128X"
+	(symbol "SX128x"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -17.78 22.86 0)
+			(at -17.78 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,8 +1317,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SX128X"
-			(at -17.78 20.32 0)
+		(property "Value" "SX128x"
+			(at -17.78 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,27 +1362,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "SX128X_0_0"
-			(pin power_out line
-				(at 2.54 20.32 270)
-				(length 2.54)
-				(name "VR_PA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "SX128x_0_0"
 			(pin bidirectional line
-				(at 20.32 0 180)
+				(at -17.78 3.81 0)
 				(length 2.54)
 				(name "DIO3"
 					(effects
@@ -1400,7 +1382,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 20.32 270)
+				(at -2.54 13.97 270)
 				(length 2.54)
 				(name "VBAT_IO"
 					(effects
@@ -1417,26 +1399,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 -2.54 180)
-				(length 2.54)
-				(name "DCC_FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -2.54 -20.32 90)
+				(at -2.54 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1454,7 +1418,7 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 20.32 270)
+				(at 7.62 13.97 270)
 				(length 2.54)
 				(name "DCC_SW"
 					(effects
@@ -1472,7 +1436,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 20.32 270)
+				(at 0 13.97 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -1490,7 +1454,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -5.08 180)
+				(at -17.78 -8.89 0)
 				(length 2.54)
 				(name "MISO_TX"
 					(effects
@@ -1508,7 +1472,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -5.08 0)
+				(at -17.78 -6.35 0)
 				(length 2.54)
 				(name "MOSI_RX"
 					(effects
@@ -1526,7 +1490,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 0 0)
+				(at -17.78 -3.81 0)
 				(length 2.54)
 				(name "SCK_RTSN"
 					(effects
@@ -1544,7 +1508,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -2.54 0)
+				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "NSS_CTS"
 					(effects
@@ -1562,7 +1526,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 20.32 270)
+				(at -5.08 13.97 270)
 				(length 2.54)
 				(name "VDD_IN"
 					(effects
@@ -1580,7 +1544,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -20.32 90)
+				(at 0 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1598,7 +1562,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -20.32 90)
+				(at 2.54 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1616,7 +1580,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -7.62 180)
+				(at 17.78 7.62 180)
 				(length 2.54)
 				(name "RFIO"
 					(effects
@@ -1634,7 +1598,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -20.32 90)
+				(at 5.08 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1652,7 +1616,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 7.62 0)
+				(at 17.78 -1.27 180)
 				(length 2.54)
 				(name "NRESET"
 					(effects
@@ -1669,26 +1633,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 5.08 0)
-				(length 2.54)
-				(name "XTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -5.08 -20.32 90)
+				(at -5.08 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1706,7 +1652,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 2.54 0)
+				(at 17.78 -8.89 180)
 				(length 2.54)
 				(name "XTB"
 					(effects
@@ -1723,26 +1669,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "BUSY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 20.32 5.08 180)
+				(at -17.78 8.89 0)
 				(length 2.54)
 				(name "DIO1"
 					(effects
@@ -1760,7 +1688,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 2.54 180)
+				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "DIO2"
 					(effects
@@ -1778,10 +1706,10 @@
 				)
 			)
 		)
-		(symbol "SX128X_0_1"
+		(symbol "SX128x_0_1"
 			(rectangle
-				(start -17.78 17.78)
-				(end 17.78 -17.78)
+				(start -15.24 11.43)
+				(end 15.24 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -1791,9 +1719,45 @@
 				)
 			)
 		)
-		(symbol "SX128X_1_0"
+		(symbol "SX128x_1_0"
 			(pin power_in line
-				(at 0 -20.32 90)
+				(at -7.62 13.97 270)
+				(length 2.54)
+				(name "VR_PA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 13.97 270)
+				(length 2.54)
+				(name "DCC_FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -13.97 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -1811,7 +1775,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -20.32 90)
+				(at 0 -13.97 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -1821,6 +1785,42 @@
 					)
 				)
 				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -6.35 180)
+				(length 2.54)
+				(name "XTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "BUSY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
