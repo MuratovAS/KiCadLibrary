@@ -1,10 +1,12 @@
-(footprint "SEAF-50-05.0-X-08-X-A-K-XR"
+(footprint "SEAF-50-05.0-x-08-x-A-K"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "400 Position Connector High Density Array, Female Surface Mount Gold")
+	(tags "CONN HD ARRAY RCPT 400P SMD GOLD")
 	(property "Reference" "REF**"
-		(at 0 -6.75 0)
+		(at 0 -6.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2a67f891-ac7b-4b93-b074-75f2ff311d5d")
@@ -15,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "SEAF-50-05.0-X-08-X-A-K-XR"
-		(at 0 -1.25 0)
+	(property "Value" "SEAF-50-05.0-x-08-x-A-K"
+		(at 0 6.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "37f8f231-5ed3-410c-b752-0fb81c7bc31b")
@@ -66,7 +68,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -35.064 -0.9271)
 		(end -35.064 -5.3721)
@@ -1082,7 +1084,7 @@
 		(uuid "a5470919-61a0-4e96-9f06-3b6925b096d5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.25 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3c31c022-b6eb-49ea-8b1d-cf6b02f00358")
