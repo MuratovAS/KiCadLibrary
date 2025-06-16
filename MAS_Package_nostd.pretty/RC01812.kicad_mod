@@ -1,7 +1,7 @@
 (footprint "RC01812"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RJ45Receptacle 1 Shielded Sinking plate WithLED SMD")
 	(tags "RJ45")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ffc6563-ded2-4b8d-bad9-b1559e3bf110")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -911,88 +899,88 @@
 	(pad "1" smd roundrect
 		(at -3.57 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ec09bfa9-9f99-48ea-afda-5e499d424d9c")
 	)
 	(pad "2" smd roundrect
 		(at -2.55 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9f3908f5-a784-4b4a-9f50-ebdf02409025")
 	)
 	(pad "3" smd roundrect
 		(at -1.53 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f257e278-d965-42e6-8530-cba053a91823")
 	)
 	(pad "4" smd roundrect
 		(at -0.51 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5e6ed178-51f8-4786-aa34-17c5e180aa21")
 	)
 	(pad "5" smd roundrect
 		(at 0.51 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "17bfddcf-7dd6-4b07-9c79-3cf9c1716b83")
 	)
 	(pad "6" smd roundrect
 		(at 1.53 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1d48c4da-82b5-4635-85aa-3a3a1b130f77")
 	)
 	(pad "7" smd roundrect
 		(at 2.55 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e5e63d85-b0d5-4add-9ad9-5919448fb794")
 	)
 	(pad "8" smd roundrect
 		(at 3.57 8.4)
 		(size 0.55 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3dbcba87-b6a1-4338-a28b-44e0398d1867")
 	)
 	(pad "9" smd roundrect
 		(at -7.06 6.6)
 		(size 0.7 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ae107981-3b11-424f-ad1c-413bd6193ca3")
 	)
 	(pad "10" smd roundrect
 		(at -4.77 6.6)
 		(size 0.7 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "803f7450-2d95-4537-adec-e1d5168faa58")
 	)
 	(pad "11" smd roundrect
 		(at 4.77 6.6)
 		(size 0.7 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "91a54f8a-9085-4717-940b-99339e8b84e3")
 	)
 	(pad "12" smd roundrect
 		(at 7.06 6.6)
 		(size 0.7 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7842fbbf-38c4-4b0e-9bcb-bcc1140bab14")
 	)
-	(pad "S1" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at -8 0)
 		(size 1.2 2.7)
 		(drill oval 0.7 2.2)
@@ -1000,7 +988,7 @@
 		(remove_unused_layers no)
 		(uuid "218a74ee-551c-4272-a3ec-06e5fd7c7ea2")
 	)
-	(pad "S2" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at 8 0)
 		(size 1.2 2.7)
 		(drill oval 0.7 2.2)
@@ -1008,6 +996,7 @@
 		(remove_unused_layers no)
 		(uuid "48549b86-3402-43c1-a181-f0705f264432")
 	)
+	(embedded_fonts no)
 	(model "${MAS_3DMODEL_DIR}/RC01812.step"
 		(hide yes)
 		(offset
