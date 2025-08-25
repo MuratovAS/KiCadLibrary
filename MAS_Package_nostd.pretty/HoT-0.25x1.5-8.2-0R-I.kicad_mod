@@ -1,0 +1,246 @@
+(footprint "HoT-0.25x1.5-8.2-0R-I"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0Ω SMD,1.5x8.2mm, Current Sense Resistors, Shunt Resistors")
+	(tags "Shunt, Current Sense")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "846b3ea7-d4fa-4157-946f-c22d875d5a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HoT-0.25x1.5-8.2-0R-I"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d251c85-023b-471f-add3-b67b3eec0232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590394985108434944"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a035b9c-a36a-4ba3-be21-2f874a2e3e70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9b9ee8-b753-4859-9fc7-9ea6a4c1adbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -5.05 -1.15)
+		(end -5.05 1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffefa8c6-ac64-42c5-9a19-a8e0a0251986")
+	)
+	(fp_line
+		(start -5.05 1.15)
+		(end -3.525 1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e10e2c60-35e4-4ab8-b9ff-c95c3fc9a788")
+	)
+	(fp_line
+		(start -3.5 -1.15)
+		(end -5.05 -1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ccfd0f9-1da5-4e7b-8e4d-590580a661e6")
+	)
+	(fp_line
+		(start 3.5 -1.15)
+		(end 5.05 -1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8eefad85-63c9-4df9-b58a-185cb3b3607d")
+	)
+	(fp_line
+		(start 5.05 -1.15)
+		(end 5.05 1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c3c7b1e-4864-4fb5-8af1-f1cfc6b1dc5b")
+	)
+	(fp_line
+		(start 5.05 1.15)
+		(end 3.525 1.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d85c47b-7703-4d45-9d43-e0203f519c0c")
+	)
+	(fp_rect
+		(start -5.25 -1.25)
+		(end 5.25 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "77e8f0e9-07bb-4bad-a196-43ac29ce5a40")
+	)
+	(fp_line
+		(start -3.3 0.75)
+		(end -3.3 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4f79984e-1889-44d8-a517-f525fa489397")
+	)
+	(fp_line
+		(start 3.3 0.75)
+		(end 3.3 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "73be5ca8-cd13-4923-b031-b8b2813bdd4e")
+	)
+	(fp_rect
+		(start -4.1 -0.75)
+		(end 4.1 0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "13dc1d05-2b41-410e-8a2e-3dc535f14c4e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9c2f2573-d75b-497e-90ae-2744779f8fa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.05 0)
+		(size 1.7 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "cc322935-1fd2-4e7c-bc70-dc449a22749f")
+	)
+	(pad "2" smd roundrect
+		(at 4.05 0)
+		(size 1.7 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "05bc92d8-08bb-4452-8e09-3af0e076bf9c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "6bec4eff-dbb1-4450-8640-6eec509a7045")
+		(name "mask_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.2 -1.25) (xy 3.2 -1.25) (xy 3.2 1.25) (xy -3.2 1.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${MAS_3DMODEL_DIR}/HoT-x-x.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 8.2 1.5 0.25)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/HoT-x-x.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 8.2 1.5 0.25)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
