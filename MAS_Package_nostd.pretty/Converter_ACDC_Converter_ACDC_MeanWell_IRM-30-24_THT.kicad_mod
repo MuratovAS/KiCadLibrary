@@ -1,0 +1,343 @@
+(footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-30-24_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "30W AC-DC PCB-Mount")
+	(property "Reference" "REF**"
+		(at 0 -25.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e4e9b34-e130-4519-9ac3-2b4cb8467d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-30-24_THT"
+		(at 0 -24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8438703f-675a-4dcd-9282-d9e6b0a7434a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C6280124.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92010bf8-130f-4a08-bbc6-b3357a747bf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DIP,69.5x39mm AC DC Converters (Off-Board) ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38277ab5-0646-4878-bcc1-df20a9280ad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -34.675 -17.425)
+		(end -32.675 -19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3d55705-e66d-4d94-8db3-6abf259d5d3b")
+	)
+	(fp_line
+		(start -34.675 17.425)
+		(end -34.675 -17.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca8bd611-000e-4bd9-ba72-2e1551ea8ca5")
+	)
+	(fp_line
+		(start -34.675 17.425)
+		(end -32.675 19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9205377-044e-4f2f-a5cc-2bcea9d50d19")
+	)
+	(fp_line
+		(start 32.675 -19.425)
+		(end -32.675 -19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fad24ee-f191-451a-8125-4b19ab89fdd1")
+	)
+	(fp_line
+		(start 32.675 19.425)
+		(end -32.675 19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe8899da-42ed-468f-af04-c123522e26f4")
+	)
+	(fp_line
+		(start 34.675 -17.425)
+		(end 32.675 -19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7bbf6a7e-5338-4200-9068-5cbfffa6dbe1")
+	)
+	(fp_line
+		(start 34.675 17.425)
+		(end 32.675 19.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa340726-a2e4-4477-92aa-5e0940ee3751")
+	)
+	(fp_line
+		(start 34.675 17.425)
+		(end 34.675 -17.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "650008ee-278d-419d-8447-2b7818c227f3")
+	)
+	(fp_line
+		(start -34.75 17.5)
+		(end -34.75 -17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ad63b7a-7c8d-4b67-8b1f-e0a66287fb80")
+	)
+	(fp_line
+		(start -32.75 -19.5)
+		(end -34.75 -17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ec425f7-2d8f-4eed-9332-1e1c84c1c6ac")
+	)
+	(fp_line
+		(start -32.75 -19.5)
+		(end 32.75 -19.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a6a0a99-3926-4a8f-8810-0e9f97965489")
+	)
+	(fp_line
+		(start -32.75 19.5)
+		(end -34.75 17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8021c52c-8062-4c37-98cd-ec0f0f5f77d6")
+	)
+	(fp_line
+		(start -32.75 19.5)
+		(end 32.75 19.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c50a1229-3a67-4bb8-bd1f-076c997802f0")
+	)
+	(fp_line
+		(start 32.75 -19.5)
+		(end 34.75 -17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c960e67-19a2-412f-a0af-5a8366e7cf4b")
+	)
+	(fp_line
+		(start 32.75 19.5)
+		(end 34.75 17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d923a99-4078-45c6-8c6b-edd1f8623153")
+	)
+	(fp_line
+		(start 34.75 17.5)
+		(end 34.75 -17.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "29c84556-b314-4951-8a49-da6cf19dbd81")
+	)
+	(fp_line
+		(start -34.575 -17.325)
+		(end -34.575 17.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f5c28fdf-5f38-4288-a844-451433d54d17")
+	)
+	(fp_line
+		(start -32.575 -19.325)
+		(end -34.575 -17.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4de5c8bb-4446-4a65-a054-2a0269993a9c")
+	)
+	(fp_line
+		(start -32.575 19.35)
+		(end -34.575 17.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1a5383d1-ccae-45d1-a9fd-a80d3626d91e")
+	)
+	(fp_line
+		(start 32.575 -19.325)
+		(end -32.575 -19.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a035ea31-0427-4da5-b930-28083e8c4efd")
+	)
+	(fp_line
+		(start 32.575 -19.325)
+		(end 34.575 -17.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f91220ac-8289-45a3-83fe-248a28f5c5bd")
+	)
+	(fp_line
+		(start 32.575 19.35)
+		(end -32.575 19.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "db6dac18-5d8f-4d1e-b815-1082a8646da5")
+	)
+	(fp_line
+		(start 34.575 -17.325)
+		(end 34.575 17.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a79cbb46-7de8-4457-a60c-f5878ececb2e")
+	)
+	(fp_line
+		(start 34.575 17.35)
+		(end 32.575 19.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3176519d-ea7a-4ad5-9921-3736f4cb7cd4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -22.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4144191a-d6d0-4173-a69e-2928e2bbad35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "+V" thru_hole circle
+		(at -30.75 -6)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f2f98a2-2fd4-4977-ac5c-67b250777e6c")
+	)
+	(pad "-V" thru_hole circle
+		(at -30.752275 -15.000835)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "881dc767-26fa-415c-9804-65dea39b95dd")
+	)
+	(pad "AC/L" thru_hole circle
+		(at 30.75 -15)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ddd827a-1174-4ee8-917f-bda6dcd0c085")
+	)
+	(pad "AC/N" thru_hole circle
+		(at 30.75 -9.5)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef285ab0-b4f5-45ca-bc74-fdc257911409")
+	)
+	(embedded_fonts no)
+)
