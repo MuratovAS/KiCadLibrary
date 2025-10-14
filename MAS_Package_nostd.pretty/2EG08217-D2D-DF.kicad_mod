@@ -65,28 +65,6 @@
 		(layer "F.SilkS")
 		(uuid "63798180-e706-4ec5-aa6c-8e3bfb95465f")
 	)
-	(fp_circle
-		(center -30.1 0.025)
-		(end -28.9 0.025)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "21aa2060-64e3-4d6d-9464-2f908c03e9db")
-	)
-	(fp_circle
-		(center 43.05 0.025)
-		(end 44.25 0.025)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "84c8ffe7-f7af-436b-b6b6-28e180f9e7c6")
-	)
 	(fp_rect
 		(start -44.2 -4.125)
 		(end 44.3 5.125)
@@ -120,6 +98,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -30.1 0)
+		(size 2.35 2.35)
+		(drill 2.35)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "133b0350-efc2-4b16-b8a7-e3a0e4af95c0")
+	)
+	(pad "" np_thru_hole circle
+		(at 43.05 0.025)
+		(size 2.35 2.35)
+		(drill 2.35)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2eb48a3b-afed-49e3-a9e8-4f0dfe5a79d2")
 	)
 	(pad "A1" thru_hole circle
 		(at -41.75 -1.225)

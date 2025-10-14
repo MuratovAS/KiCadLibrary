@@ -1,4 +1,4 @@
-(footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-30-24_THT"
+(footprint "Converter_ACDC_Converter_ACDC_MeanWell_IRM-30-24_THT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -307,23 +307,7 @@
 			)
 		)
 	)
-	(pad "+V" thru_hole circle
-		(at -30.75 -6)
-		(size 2.5 2.5)
-		(drill 1.05)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "9f2f98a2-2fd4-4977-ac5c-67b250777e6c")
-	)
-	(pad "-V" thru_hole circle
-		(at -30.752275 -15.000835)
-		(size 2.5 2.5)
-		(drill 1.05)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "881dc767-26fa-415c-9804-65dea39b95dd")
-	)
-	(pad "AC/L" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 30.75 -15)
 		(size 2.5 2.5)
 		(drill 1.05)
@@ -331,13 +315,29 @@
 		(remove_unused_layers no)
 		(uuid "8ddd827a-1174-4ee8-917f-bda6dcd0c085")
 	)
-	(pad "AC/N" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 30.75 -9.5)
 		(size 2.5 2.5)
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ef285ab0-b4f5-45ca-bc74-fdc257911409")
+	)
+	(pad "3" thru_hole circle
+		(at -30.752275 -15.000835)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "881dc767-26fa-415c-9804-65dea39b95dd")
+	)
+	(pad "4" thru_hole circle
+		(at -30.75 -6)
+		(size 2.5 2.5)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f2f98a2-2fd4-4977-ac5c-67b250777e6c")
 	)
 	(embedded_fonts no)
 )
