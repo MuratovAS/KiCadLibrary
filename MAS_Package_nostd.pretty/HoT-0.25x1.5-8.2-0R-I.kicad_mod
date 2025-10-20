@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_pos_files exclude_from_bom)
+	(attr smd)
 	(fp_line
 		(start -4.8 -1)
 		(end -3.3 -1)
