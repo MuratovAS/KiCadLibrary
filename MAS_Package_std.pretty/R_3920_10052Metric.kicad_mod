@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -99,7 +99,7 @@
 		(end -6 -3.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "206c023f-68fe-4780-b9d6-6edda874c2bd")
@@ -129,7 +129,7 @@
 		(end 5.025 2.575)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
@@ -147,16 +147,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -4.128383 0)
 		(size 2.643234 5.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09458110784)
 		(uuid "16fa6fad-8bc4-4779-8b19-1ea48b146366")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 4.124774 0)
 		(size 2.65045 5.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09432360542)
 		(uuid "bbba96b9-f596-4499-8733-e85a7d1236aa")
 	)
 	(embedded_fonts no)
