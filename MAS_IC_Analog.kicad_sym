@@ -667,7 +667,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -12.7 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,15 +675,16 @@
 			)
 		)
 		(property "Value" "AD7401A"
-			(at 0 0 0)
+			(at 15.24 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 0 0 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +693,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/609/ad7401a-1501811.pdf"
-			(at 0 0 0)
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,25 +702,7 @@
 			)
 		)
 		(property "Description" "SPI 20MHz 4.5V~5.5V 16 SOIC-16-300mil ADCs/DACs"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" "C194166"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pn" "AD7401AYRWZ-RL"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +713,7 @@
 		(symbol "AD7401_0_0"
 			(polyline
 				(pts
-					(xy 0 10.16) (xy 0 8.89)
+					(xy -1.27 7.62) (xy -1.27 6.985)
 				)
 				(stroke
 					(width 0)
@@ -742,7 +725,103 @@
 			)
 			(polyline
 				(pts
-					(xy 0 8.255) (xy 0 6.985)
+					(xy -1.27 6.35) (xy -1.27 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 4.445) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy -1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.175) (xy -1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy -1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -6.985) (xy -1.27 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 6.985)
 				)
 				(stroke
 					(width 0)
@@ -838,151 +917,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.985) (xy 0 -8.255)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -8.89) (xy 0 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 10.16) (xy 1.27 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 8.255) (xy 1.27 6.985)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 6.35) (xy 1.27 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 4.445) (xy 1.27 3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0.635) (xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.27) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.175) (xy 1.27 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -5.08) (xy 1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -6.985) (xy 1.27 -8.255)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -8.89) (xy 1.27 -10.16)
+					(xy 0 -6.985) (xy 0 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -996,7 +931,7 @@
 		(symbol "AD7401_0_1"
 			(polyline
 				(pts
-					(xy -8.89 10.16) (xy 13.97 10.16) (xy 13.97 -10.16) (xy -8.89 -10.16) (xy -19.05 0) (xy -8.89 10.16)
+					(xy -7.62 7.62) (xy 15.24 7.62) (xy 15.24 -7.62) (xy -7.62 -7.62) (xy -15.24 0) (xy -7.62 7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -1009,7 +944,7 @@
 		)
 		(symbol "AD7401_1_1"
 			(pin input line
-				(at -21.59 2.54 0)
+				(at -17.78 2.54 0)
 				(length 5.08)
 				(name "AIN_P"
 					(effects
@@ -1027,7 +962,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -2.54 0)
+				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "AIN_N"
 					(effects
@@ -1045,7 +980,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 12.7 270)
+				(at -5.08 10.16 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -1063,7 +998,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -12.7 90)
+				(at -5.08 -10.16 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -1081,27 +1016,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 12.7 270)
+				(at -2.54 10.16 270)
 				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -3.81 -12.7 90)
-				(length 2.54)
-				(name "NC"
+				(name "AVDD/NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1116,44 +1033,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 12.7 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -1.27 -12.7 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 3.81 12.7 270)
+				(at 2.54 10.16 270)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -1171,7 +1052,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -12.7 90)
+				(at 2.54 -10.16 90)
 				(length 2.54)
 				(name "DGND"
 					(effects
@@ -1189,7 +1070,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -12.7 90)
+				(at 5.08 -10.16 90)
 				(length 2.54)
 				(name "DGND"
 					(effects
@@ -1207,7 +1088,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 5.08 180)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "MCLKIN"
 					(effects
@@ -1224,44 +1105,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 16.51 2.54 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 16.51 0 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin tri_state line
-				(at 16.51 -2.54 180)
+				(at 17.78 -2.54 180)
 				(length 2.54)
 				(name "MDAT"
 					(effects
@@ -1279,8 +1124,28 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -5.08 180)
+				(at 17.78 -5.08 180)
 				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1289,6 +1154,82 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3234,7 +3175,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -10.16 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,15 +3183,16 @@
 			)
 		)
 		(property "Value" "AMC1306x"
-			(at 0 0 0)
+			(at 5.334 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "MAS_Package_std:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 0 0 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C471874.pdf"
-			(at 0 0 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,10 +3218,19 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "High-Precision, Isolated, Delta-Sigma, Modulators"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "AMC1306x_0_0"
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy -1.27 5.08)
+					(xy 1.27 6.985) (xy 1.27 5.715)
 				)
 				(stroke
 					(width 0)
@@ -3291,7 +3242,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 4.445) (xy -1.27 3.175)
+					(xy 1.27 5.08) (xy 1.27 3.81)
 				)
 				(stroke
 					(width 0)
@@ -3303,7 +3254,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy -1.27 1.27)
+					(xy 1.27 3.175) (xy 1.27 1.905)
 				)
 				(stroke
 					(width 0)
@@ -3315,7 +3266,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.635) (xy -1.27 -0.635)
+					(xy 1.27 1.27) (xy 1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -3327,7 +3278,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.27 -2.54)
+					(xy 1.27 -0.635) (xy 1.27 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -3339,7 +3290,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.175) (xy -1.27 -4.445)
+					(xy 1.27 -2.54) (xy 1.27 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -3351,7 +3302,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy -1.27 -6.35)
+					(xy 1.27 -4.445) (xy 1.27 -5.715)
 				)
 				(stroke
 					(width 0)
@@ -3363,7 +3314,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 6.35) (xy 0 5.08)
+					(xy 1.27 -6.35) (xy 1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -3375,7 +3326,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 4.445) (xy 0 3.175)
+					(xy 2.54 6.985) (xy 2.54 5.715)
 				)
 				(stroke
 					(width 0)
@@ -3387,7 +3338,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 1.27)
+					(xy 2.54 5.08) (xy 2.54 3.81)
 				)
 				(stroke
 					(width 0)
@@ -3399,7 +3350,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.635) (xy 0 -0.635)
+					(xy 2.54 3.175) (xy 2.54 1.905)
 				)
 				(stroke
 					(width 0)
@@ -3411,7 +3362,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -2.54)
+					(xy 2.54 1.27) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -3423,7 +3374,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.175) (xy 0 -4.445)
+					(xy 2.54 -0.635) (xy 2.54 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -3435,7 +3386,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -6.35)
+					(xy 2.54 -2.54) (xy 2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -4.445) (xy 2.54 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -6.35) (xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -3449,7 +3424,7 @@
 		(symbol "AMC1306x_1_1"
 			(polyline
 				(pts
-					(xy -13.97 0) (xy -7.62 6.35) (xy 11.43 6.35) (xy 11.43 -6.35) (xy -7.62 -6.35) (xy -13.97 0)
+					(xy -12.7 0) (xy -5.08 7.62) (xy 12.7 7.62) (xy 12.7 -7.62) (xy -5.08 -7.62) (xy -12.7 0)
 				)
 				(stroke
 					(width 0.254)
@@ -3461,7 +3436,7 @@
 			)
 			(pin input line
 				(at -15.24 2.54 0)
-				(length 3.81)
+				(length 5.08)
 				(name "AINP"
 					(effects
 						(font
@@ -3479,7 +3454,7 @@
 			)
 			(pin input line
 				(at -15.24 -2.54 0)
-				(length 3.81)
+				(length 5.08)
 				(name "AINN"
 					(effects
 						(font
@@ -3496,8 +3471,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 10.16 270)
-				(length 3.81)
+				(at -2.54 10.16 270)
+				(length 2.54)
 				(name "AVDD"
 					(effects
 						(font
@@ -3514,8 +3489,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -10.16 90)
-				(length 3.81)
+				(at -2.54 -10.16 90)
+				(length 2.54)
 				(name "AGND"
 					(effects
 						(font
@@ -3532,8 +3507,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 10.16 270)
-				(length 3.81)
+				(at 5.08 10.16 270)
+				(length 2.54)
 				(name "DVDD"
 					(effects
 						(font
@@ -3550,8 +3525,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -10.16 90)
-				(length 3.81)
+				(at 5.08 -10.16 90)
+				(length 2.54)
 				(name "DGND"
 					(effects
 						(font
@@ -3568,8 +3543,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 1.27 180)
-				(length 3.81)
+				(at 15.24 2.54 180)
+				(length 2.54)
 				(name "DOUT"
 					(effects
 						(font
@@ -3586,8 +3561,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -1.27 180)
-				(length 3.81)
+				(at 15.24 -2.54 180)
+				(length 2.54)
 				(name "CLKIN"
 					(effects
 						(font
