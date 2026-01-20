@@ -1,0 +1,157 @@
+(footprint "POGO_D1.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "POGO, diameter 1.2mm")
+	(tags "POGO SMD pad ")
+	(property "Reference" "REF**"
+		(at 0 -1.948 0)
+		(layer "F.SilkS")
+		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "POGO_Pad_D1.2mm"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd30b389-dc40-4f96-be89-a1a9c880a408")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33fcbf2c-f8c3-4441-ad42-a7fbab223671")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "232e49b3-175c-43f1-906b-a67d81adeac2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f4b72de1-1d10-4f37-ba98-328ec19a5ffc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae182a66-c739-4e39-8f7f-bcf258095b86")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.775 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dbe457d4-cde6-4bc5-8b5d-bf1234d65bdf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "30223a9e-67d1-4611-982d-7a605b0d329c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.95 0)
+		(layer "F.Fab")
+		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
+	)
+	(embedded_fonts no)
+	(model "${MAS_3DMODEL_DIR}/POGO_PIN_(C2842933).wrl"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${MAS_3DMODEL_DIR}/POGO_PIN_(C2842933).step"
+		(hide yes)
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
