@@ -1011,7 +1011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-BUCF_7460408"
+		(property "Footprint" "MAS_Package_nostd:MP_Wurth_WP-BUCF_7460408"
 			(at 12.7 20.32 0)
 			(effects
 				(font
