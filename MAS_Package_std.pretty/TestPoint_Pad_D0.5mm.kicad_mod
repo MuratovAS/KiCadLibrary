@@ -1,7 +1,7 @@
 (footprint "TestPoint_Pad_D0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD pad as test Point, diameter 0.5mm")
 	(tags "test point SMD pad")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "33e1ffef-f119-44e8-ba5f-e28ba67d06a8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -63,7 +51,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_circle
 		(center 0 0)
 		(end 0.302298 0)
@@ -71,7 +59,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "232e49b3-175c-43f1-906b-a67d81adeac2")
 	)
@@ -92,4 +80,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
 	)
+	(embedded_fonts no)
 )
