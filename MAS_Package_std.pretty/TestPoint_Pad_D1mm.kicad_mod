@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 0.55 0)
@@ -62,6 +62,17 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "232e49b3-175c-43f1-906b-a67d81adeac2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5353fe21-de1b-44cc-adf5-475d1f6640c5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.45 0)
