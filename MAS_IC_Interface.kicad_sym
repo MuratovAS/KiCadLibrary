@@ -8119,6 +8119,7 @@
 						)
 					)
 				)
+				(alternate "SCL" passive line)
 			)
 			(pin passive line
 				(at 10.16 -5.08 180)
@@ -8137,6 +8138,7 @@
 						)
 					)
 				)
+				(alternate "SDA" passive line)
 			)
 		)
 		(embedded_fonts no)
