@@ -1,0 +1,204 @@
+(footprint "L_Vishay_IHLP-5050CE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Vishay, IHLP series, 12.9mmx13.2mm")
+	(tags "inductor vishay ihlp smd")
+	(property "Reference" "REF**"
+		(at 0 -7.58 0)
+		(layer "F.SilkS")
+		(uuid "4b6120c5-4deb-430d-918a-c1ad6e27f8d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Vishay_IHLP-5050CE"
+		(at 0.01 7.81 0)
+		(layer "F.Fab")
+		(uuid "3f9afca9-a5cb-41ad-954c-438ae331df74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60669d96-a586-495f-8353-4331d6982653")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fd59954-6cfd-45ca-9af7-99675de3c1eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.71 -6.56)
+		(end -6.71 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfd84c28-1bee-43ac-840f-3cf6252eea2d")
+	)
+	(fp_line
+		(start -6.71 -6.56)
+		(end 6.19 -6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08f44eaa-721e-4ab1-80dd-0afb281de262")
+	)
+	(fp_line
+		(start -6.71 2.06)
+		(end -6.71 6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c293a8b8-841b-407d-ba62-52e48fe5e802")
+	)
+	(fp_line
+		(start -6.71 6.56)
+		(end -6.61 6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0467bd8-4b7e-40b6-8bcd-5deeeb448c0a")
+	)
+	(fp_line
+		(start -6.61 6.56)
+		(end 6.29 6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eba5b36-28d6-433a-b335-b89ec138037f")
+	)
+	(fp_line
+		(start 6.29 6.56)
+		(end 6.71 6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c98ab2a-f402-45a2-a841-bf031a3ed42f")
+	)
+	(fp_line
+		(start 6.71 -6.56)
+		(end 6.19 -6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28fdc523-b012-416f-a36e-42440034565a")
+	)
+	(fp_line
+		(start 6.71 -2.06)
+		(end 6.71 -6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46b5a0e6-8b76-45a0-93ed-af1b9bf89c9e")
+	)
+	(fp_line
+		(start 6.71 6.56)
+		(end 6.71 2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32284fa0-5f99-414d-aed6-16b8a850fe31")
+	)
+	(fp_rect
+		(start -7.6 -6.8)
+		(end 7.6 6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d2b80928-ad3d-4e13-97b5-643d189fd9d0")
+	)
+	(fp_rect
+		(start -6.6 -6.45)
+		(end 6.6 6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ad1d264-ce9d-4dcd-b835-0534d691feba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "233f1c97-2b3a-48eb-a933-c23719d72bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.715 0)
+		(size 3.175 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b2c8187-23d6-4070-b2dc-24899818b5ec")
+	)
+	(pad "2" smd rect
+		(at 5.715 0)
+		(size 3.175 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "024f9ac8-8dae-4541-854b-c3b07126fb24")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IHLP-5050.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
