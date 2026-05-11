@@ -6,7 +6,7 @@
 	(descr "SMD pad as Pogo test Point, diameter 1.2mm")
 	(tags "POGO test point SMD pad ")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
+		(at 0 -1.948 0)
 		(layer "F.SilkS")
 		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "POGO_TestPoint_Pad_D1.2mm"
-		(at 0 1.55 0)
+		(at 0 2.05 0)
 		(layer "F.Fab")
 		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
 		(effects
@@ -65,6 +65,17 @@
 	)
 	(fp_circle
 		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a3bd2958-7128-4d1c-a007-af7e90408485")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 0.6 0)
 		(stroke
 			(width 0.05)
@@ -75,7 +86,7 @@
 		(uuid "44bf9f09-ae8f-4150-93df-c0e9a60b7b3c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -1.45 0)
+		(at 0 -1.95 0)
 		(layer "F.Fab")
 		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
 		(effects

@@ -1,7 +1,7 @@
 (footprint "MountingHole_SMTSO20xx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT surface mount nut post, M2")
 	(tags "Mounting M2, SMTSO")
@@ -20,23 +20,11 @@
 	(property "Value" "MountingHole_SMTSO20xx"
 		(at 0 3.6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e299ac98-e055-4dc4-a75b-68a9b10ad834")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2c70ba45-3b7d-41ee-a241-1571e38cd5d9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -75,7 +63,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "473a4d36-d78e-417a-be6c-30a07f39768a")
 	)
@@ -86,7 +74,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f1c4ff21-8c24-4445-9439-c71ff6bea55e")
 	)
@@ -239,6 +227,7 @@
 		)
 		(uuid "b302f124-db79-40fc-9788-72b3e2225d08")
 	)
+	(embedded_fonts no)
 	(model "${MAS_3DMODEL_DIR}/SMTSO2005.step"
 		(offset
 			(xyz 0 0 0)
