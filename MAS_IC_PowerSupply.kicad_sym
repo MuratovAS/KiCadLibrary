@@ -1188,8 +1188,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -17.78 3.81 0)
+		(property "Reference" "U?"
+			(at -25.4 37.9843 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1198,7 @@
 			)
 		)
 		(property "Value" "IP2368"
-			(at -17.78 1.27 0)
+			(at -25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm"
-			(at 0 -59.69 0)
+			(at 0 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306211713_INJOINIC-IP2368-BZ_C5203723.pdf"
-			(at 0 -62.23 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1225,7 @@
 			)
 		)
 		(property "Description" "Fully-Integrated Bi-directional PD3.0 and Fast Charge Power Bank SOC with Multiple Input and Output Ports"
-			(at 0 0 0)
+			(at 0 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,103 +1233,20 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Fully-Integrated Bi-directional PD3.0 and Fast Charge Power Bank SOC with Multiple Input and Output Ports"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "IP2368_0_1"
+		(symbol "IP2368_1_1"
 			(rectangle
-				(start 15.24 0)
-				(end -15.24 -54.61)
+				(start -25.4 34.29)
+				(end 25.4 -34.29)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "IP2368_1_1"
-			(pin bidirectional line
-				(at -17.78 -2.54 0)
-				(length 2.54)
-				(name "LG1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -5.08 0)
-				(length 2.54)
-				(name "BST1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -7.62 0)
-				(length 2.54)
-				(name "LX1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -10.16 0)
-				(length 2.54)
-				(name "HG1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -12.7 0)
+			(pin input line
+				(at -27.94 27.94 0)
 				(length 2.54)
 				(name "PCIN"
 					(effects
@@ -1346,8 +1263,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -15.24 0)
+			(pin input line
+				(at -27.94 24.13 0)
 				(length 2.54)
 				(name "CSN1"
 					(effects
@@ -1364,8 +1281,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -17.78 0)
+			(pin input line
+				(at -27.94 20.32 0)
 				(length 2.54)
 				(name "CSP1"
 					(effects
@@ -1382,8 +1299,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -20.32 0)
+			(pin power_in line
+				(at -27.94 16.51 0)
 				(length 2.54)
 				(name "VIO"
 					(effects
@@ -1400,100 +1317,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -22.86 0)
+			(pin input line
+				(at -27.94 12.7 0)
 				(length 2.54)
-				(name "VBUSG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -25.4 0)
-				(length 2.54)
-				(name "CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -27.94 0)
-				(length 2.54)
-				(name "CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -30.48 0)
-				(length 2.54)
-				(name "DPC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -33.02 0)
-				(length 2.54)
-				(name "DMC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -35.56 0)
-				(length 2.54)
-				(name "VBUSI"
+				(name "VBUS_I"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1508,8 +1335,26 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -38.1 0)
+			(pin output line
+				(at -27.94 8.89 0)
+				(length 2.54)
+				(name "VBUS_G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 5.08 0)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -1527,16 +1372,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -40.64 0)
+				(at -27.94 0 0)
 				(length 2.54)
-				(name "HLED"
+				(name "CC1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1545,16 +1390,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -43.18 0)
+				(at -27.94 -2.54 0)
 				(length 2.54)
-				(name "LED3/IIC_INT"
+				(name "CC2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,16 +1408,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -45.72 0)
+				(at -27.94 -6.35 0)
 				(length 2.54)
-				(name "LED2/IIC_SDA"
+				(name "DMC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "42"
+				(number "40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1581,16 +1426,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -48.26 0)
+				(at -27.94 -8.89 0)
 				(length 2.54)
-				(name "LED1/IIC_SCL"
+				(name "DPC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "43"
+				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1598,8 +1443,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -50.8 0)
+			(pin input line
+				(at -27.94 -12.7 0)
 				(length 2.54)
 				(name "LT"
 					(effects
@@ -1616,17 +1461,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -8.89 2.54 270)
+			(pin bidirectional line
+				(at -27.94 -16.51 0)
 				(length 2.54)
-				(name "NC"
+				(name "LED1/I2C_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1634,17 +1479,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -6.35 2.54 270)
+			(pin bidirectional line
+				(at -27.94 -19.05 0)
 				(length 2.54)
-				(name "NC"
+				(name "LED2/I2C_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1652,17 +1497,35 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -3.81 2.54 270)
+			(pin output line
+				(at -27.94 -21.59 0)
 				(length 2.54)
-				(name "NC"
+				(name "LED3/I2C_INT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -24.13 0)
+				(length 2.54)
+				(name "HLED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1671,7 +1534,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -57.15 90)
+				(at -20.32 -36.83 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -1688,27 +1551,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 2.54 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -57.15 90)
+				(at -17.78 -36.83 90)
 				(length 2.54)
+				(hide yes)
 				(name "AGND"
 					(effects
 						(font
@@ -1724,28 +1570,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 2.54 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 2.54 -57.15 90)
+				(at -17.78 -36.83 90)
 				(length 2.54)
-				(name "EPAD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1760,53 +1588,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 3.81 2.54 270)
+			(pin output line
+				(at -12.7 36.83 270)
 				(length 2.54)
-				(name "NC"
+				(name "HG1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 6.35 2.54 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 8.89 2.54 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1815,16 +1607,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at -8.89 36.83 270)
 				(length 2.54)
-				(name "LG2"
+				(name "LG1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -36.83 90)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1833,16 +1643,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at -5.08 36.83 270)
 				(length 2.54)
-				(name "BST2"
+				(name "LX1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1850,17 +1660,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -7.62 180)
+			(pin input line
+				(at -3.81 -36.83 90)
 				(length 2.54)
-				(name "LX2"
+				(name "ISET_MODE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1868,17 +1678,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -10.16 180)
+			(pin output line
+				(at -1.27 36.83 270)
 				(length 2.54)
-				(name "HG2"
+				(name "BST1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1886,206 +1696,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -12.7 180)
-				(length 2.54)
-				(name "PCON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -15.24 180)
-				(length 2.54)
-				(name "CSN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -17.78 180)
-				(length 2.54)
-				(name "CSP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -20.32 180)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -22.86 180)
-				(length 2.54)
-				(name "LX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -25.4 180)
-				(length 2.54)
-				(name "VCC5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -27.94 180)
-				(length 2.54)
-				(name "VCCIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -30.48 180)
-				(length 2.54)
-				(name "BUT_NUM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -33.02 180)
-				(length 2.54)
-				(name "FCAP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -35.56 180)
-				(length 2.54)
-				(name "VSET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -38.1 180)
-				(length 2.54)
-				(name "ISET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -40.64 180)
+			(pin input line
+				(at 0 -36.83 90)
 				(length 2.54)
 				(name "BAT_MODE"
 					(effects
@@ -2103,16 +1715,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -43.18 180)
+				(at 2.54 36.83 270)
 				(length 2.54)
-				(name "ISET_MODE"
+				(name "BST2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "47"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2121,16 +1733,402 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -45.72 180)
+				(at 6.35 36.83 270)
 				(length 2.54)
-				(name "NTC"
+				(name "LX2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "37"
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 36.83 270)
+				(length 2.54)
+				(name "LG2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 36.83 270)
+				(length 2.54)
+				(name "HG2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -36.83 90)
+				(length 2.54)
+				(name "I_SET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -36.83 90)
+				(length 2.54)
+				(name "V_SET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 27.94 180)
+				(length 2.54)
+				(name "PCON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 24.13 180)
+				(length 2.54)
+				(name "CSN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 20.32 180)
+				(length 2.54)
+				(name "CSP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 16.51 180)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 5.08 180)
+				(length 2.54)
+				(name "VCC_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 1.27 180)
+				(length 2.54)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 -3.81 180)
+				(length 2.54)
+				(name "VCC_5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -17.78 180)
+				(length 2.54)
+				(name "BAT_NUM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -21.59 180)
+				(length 2.54)
+				(name "F_CAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -24.13 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -25.4 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -26.67 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -27.94 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -29.21 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -30.48 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -31.75 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -33.02 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
 					(effects
 						(font
 							(size 1.27 1.27)
