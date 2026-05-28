@@ -1,0 +1,252 @@
+(footprint "Fuse_2410"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Surface Mount Fuse, 6.1 x 2.5 mm")
+	(tags "fuse smd 2410")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "9a8fe8fe-35e0-48d5-869e-57a96c10c50b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_2410"
+		(at 0 2.35 0)
+		(layer "F.Fab")
+		(uuid "4512f858-5b03-4a5f-bbee-c2da2a4eb53e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9dcc41d-cb5a-4cce-9285-5491657e3487")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98447153-7b01-4ec5-b68e-bf8082b410fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.16)
+		(end 1.3 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f3b1e2d-6e73-4da5-a8c6-b3790710ebb3")
+	)
+	(fp_line
+		(start -1.3 1.16)
+		(end 1.3 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9dca19e-ca36-4173-af86-6b1d35a6c55f")
+	)
+	(fp_line
+		(start -4.25 -1.75)
+		(end 4.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dc9d6ab-d7b9-4859-bb8e-eef95d926c8d")
+	)
+	(fp_line
+		(start -4.25 1.75)
+		(end -4.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8a5816e-890d-4a60-97b3-ac5a5606f92d")
+	)
+	(fp_line
+		(start -4.25 1.75)
+		(end 4.25 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03208432-12ee-4921-8d31-c6417653cdbc")
+	)
+	(fp_line
+		(start 4.25 1.75)
+		(end 4.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a14b78ae-cc0a-426b-b07c-071d75f6cef9")
+	)
+	(fp_line
+		(start -3.05 -1.25)
+		(end -3.05 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "078eae4a-de2d-4faa-a712-56bb13179840")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end -3.05 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e3af1146-fb4e-4ce8-bf77-962f2409eea7")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "31f44ae2-bd61-4511-8ba6-7b4deb9bc41b")
+	)
+	(fp_line
+		(start -1.65 -1.05)
+		(end 1.65 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b705d27-5566-4fa9-976f-5296a5d19704")
+	)
+	(fp_line
+		(start -1.65 1.25)
+		(end -3.05 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e5b24d98-b792-4c9d-8186-2c3892c06fbf")
+	)
+	(fp_line
+		(start 1.65 -1.25)
+		(end 1.65 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b17fc65-8392-40e4-96f9-939857d92c10")
+	)
+	(fp_line
+		(start 1.65 -1.25)
+		(end 3.05 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8d625a7b-50fa-4d1c-b6bf-d422b339351f")
+	)
+	(fp_line
+		(start 1.65 1.05)
+		(end -1.65 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a00e4a52-0d87-4bb7-a0f3-fbb4e8db5797")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 3.05 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9d626923-5585-4cf7-9af0-14e785418ee4")
+	)
+	(fp_line
+		(start 3.05 -1.25)
+		(end 3.05 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6da0c15b-0380-4dfd-a809-4983b20bd3e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e03d6fb2-f075-4f4b-b820-48cb5355341a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "bf458675-461e-4478-a7b5-4972e055e0dc")
+	)
+	(pad "2" smd roundrect
+		(at 2.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "a94237b2-9bdc-4232-86fb-492227ead79a")
+	)
+	(embedded_fonts no)
+	(model "${MAS_3DMODEL_DIR}/Fuse_2410.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
