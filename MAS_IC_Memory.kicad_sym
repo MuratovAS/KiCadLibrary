@@ -2,258 +2,30 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "FM25V01"
+	(symbol "EMMC_BGA-153"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 8.89 0)
+			(at -10.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "FM25V01"
-			(at 2.54 8.89 0)
+		(property "Value" "EMMC_BGA-153"
+			(at 2.54 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM25V01_128-Kbit_(16_K_8)_Serial_(SPI)_F-RAM_Datasheet-AdditionalTechnicalInformation-v07_00-EN.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128-Kbit (16 K × 8) Serial (SPI) F-RAM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "FRAM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "FM25V01_0_0"
-			(pin output line
-				(at -8.89 5.08 0)
-				(length 2.54)
-				(name "SO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 2.54 0)
-				(length 2.54)
-				(name "SI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "~{CS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -5.08 0)
-				(length 2.54)
-				(name "~{WP}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -7.62 0)
-				(length 2.54)
-				(name "~{HOLD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 8.89 5.08 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 8.89 -7.62 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "FM25V01_0_1"
-			(rectangle
-				(start -6.35 7.62)
-				(end 6.35 -10.16)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "RS70B08G3S03F"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -10.16 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "RS70B08G3S03F"
-			(at 2.54 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MAS_Package_std:TFBGA-153_11.5x13mm_P0.5mm"
-			(at 0 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908735630098432"
-			(at 0 -24.638 0)
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8GB eMMC 5.1 TFBGA-153(11.5x13) Memory"
-			(at 0 -20.32 0)
+		(property "Datasheet" ""
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +42,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "8GB eMMC 5.1 TFBGA-153(11.5x13) Memory"
+		(property "Description" "eMMC Memory"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "EMMC "
 			(at 0 0 0)
 			(effects
 				(font
@@ -279,9 +60,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "RS70B08G3S03F_1_1"
+		(symbol "EMMC_BGA-153_1_1"
 			(rectangle
-				(start -10.16 15.24)
+				(start -10.16 12.7)
 				(end 10.16 -15.24)
 				(stroke
 					(width 0.254)
@@ -366,6 +147,7 @@
 			(pin no_connect line
 				(at -13.97 -12.7 0)
 				(length 3.81)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -2643,9 +2425,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 19.05 270)
+				(at -1.27 16.51 270)
 				(length 3.81)
-				(name "VCC"
+				(name "VCC_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2661,10 +2443,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 19.05 270)
+				(at -1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCC"
+				(name "VCC_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2680,10 +2462,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 19.05 270)
+				(at -1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCC"
+				(name "VCC_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2699,10 +2481,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 19.05 270)
+				(at -1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCC"
+				(name "VCC_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2718,9 +2500,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2736,10 +2518,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2755,10 +2537,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2774,10 +2556,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2793,10 +2575,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2812,10 +2594,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 90)
+				(at -1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSS"
+				(name "VSS_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2831,9 +2613,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 19.05 270)
+				(at 1.27 16.51 270)
 				(length 3.81)
-				(name "VCCQ"
+				(name "VCCQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2849,10 +2631,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 19.05 270)
+				(at 1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCCQ"
+				(name "VCCQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2868,10 +2650,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 19.05 270)
+				(at 1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCCQ"
+				(name "VCCQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2887,10 +2669,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 19.05 270)
+				(at 1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCCQ"
+				(name "VCCQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2906,10 +2688,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 19.05 270)
+				(at 1.27 16.51 270)
 				(length 3.81)
 				(hide yes)
-				(name "VCCQ"
+				(name "VCCQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2925,9 +2707,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -19.05 90)
+				(at 1.27 -19.05 90)
 				(length 3.81)
-				(name "VSSQ"
+				(name "VSSQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2943,10 +2725,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -19.05 90)
+				(at 1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSSQ"
+				(name "VSSQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2962,10 +2744,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -19.05 90)
+				(at 1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSSQ"
+				(name "VSSQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2981,10 +2763,10 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -19.05 90)
+				(at 1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
-				(name "VSSQ"
+				(name "VSSQ_MMC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3000,7 +2782,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -19.05 90)
+				(at 1.27 -19.05 90)
 				(length 3.81)
 				(hide yes)
 				(name "VSSQ"
@@ -3178,6 +2960,223 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FM25V01"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FM25V01"
+			(at 2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM25V01_128-Kbit_(16_K_8)_Serial_(SPI)_F-RAM_Datasheet-AdditionalTechnicalInformation-v07_00-EN.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128-Kbit (16 K × 8) Serial (SPI) F-RAM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "FRAM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FM25V01_0_0"
+			(pin output line
+				(at -8.89 5.08 0)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 5.08 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FM25V01_0_1"
+			(rectangle
+				(start -6.35 7.62)
+				(end 6.35 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
