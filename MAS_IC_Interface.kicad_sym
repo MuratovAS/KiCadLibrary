@@ -10690,7 +10690,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -9.906 50.546 0)
+			(at -9.906 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10698,7 @@
 			)
 		)
 		(property "Value" "DS90LV028A"
-			(at -8.128 48.26 0)
+			(at -8.128 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10706,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0.254 5.588 0)
+			(at 0.254 -28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10715,7 @@
 			)
 		)
 		(property "Datasheet" "https://static.chipdip.ru/lib/005/DOC004005468.pdf"
-			(at 0.254 8.128 0)
+			(at 0.254 -26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10724,7 @@
 			)
 		)
 		(property "Description" "3-V LVDS Dual CMOS Receiver"
-			(at 0.254 3.048 0)
+			(at 0.254 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,8 +10734,8 @@
 		)
 		(symbol "DS90LV028A_0_1"
 			(rectangle
-				(start -10.16 46.99)
-				(end 10.16 21.59)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -10747,7 +10747,7 @@
 		)
 		(symbol "DS90LV028A_1_0"
 			(text "R"
-				(at -0.635 39.37 0)
+				(at -0.635 5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -10755,7 +10755,7 @@
 				)
 			)
 			(text "R"
-				(at -0.635 29.21 0)
+				(at -0.635 -5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -10766,7 +10766,7 @@
 		(symbol "DS90LV028A_1_1"
 			(polyline
 				(pts
-					(xy -3.81 41.91) (xy -3.175 41.91)
+					(xy -3.81 7.62) (xy -3.175 7.62)
 				)
 				(stroke
 					(width 0)
@@ -10778,7 +10778,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 36.83) (xy -3.175 36.83)
+					(xy -3.81 2.54) (xy -3.175 2.54)
 				)
 				(stroke
 					(width 0)
@@ -10790,7 +10790,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 31.75) (xy -3.175 31.75)
+					(xy -3.81 -2.54) (xy -3.175 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -10802,7 +10802,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 26.67) (xy -3.175 26.67)
+					(xy -3.81 -7.62) (xy -3.175 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -10814,7 +10814,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 35.56) (xy -3.175 43.18) (xy 4.445 39.37) (xy -3.175 35.56)
+					(xy -3.175 1.27) (xy -3.175 8.89) (xy 4.445 5.08) (xy -3.175 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -10826,7 +10826,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 25.4) (xy -3.175 33.02) (xy 4.445 29.21) (xy -3.175 25.4)
+					(xy -3.175 -8.89) (xy -3.175 -1.27) (xy 4.445 -5.08) (xy -3.175 -8.89)
 				)
 				(stroke
 					(width 0.254)
@@ -10838,7 +10838,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 39.37) (xy 4.445 39.37)
+					(xy 5.08 5.08) (xy 4.445 5.08)
 				)
 				(stroke
 					(width 0)
@@ -10850,7 +10850,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 29.21) (xy 4.445 29.21)
+					(xy 5.08 -5.08) (xy 4.445 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -10861,7 +10861,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 41.91 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "RI1-"
 					(effects
@@ -10879,7 +10879,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 36.83 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "RI1+"
 					(effects
@@ -10897,7 +10897,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 31.75 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "RI2-"
 					(effects
@@ -10915,7 +10915,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 26.67 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "RI2+"
 					(effects
@@ -10933,7 +10933,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 49.53 270)
+				(at 0 15.24 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -10951,7 +10951,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 19.05 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -10969,7 +10969,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 39.37 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "RO1"
 					(effects
@@ -10987,7 +10987,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 29.21 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "RO2"
 					(effects
