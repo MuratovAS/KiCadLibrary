@@ -9325,6 +9325,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "TPS6282x 2.4-V to 5.5-V Input, 1-, 2-, 3-, 4-A Step-down Converter with 1% Output Accuracy"
