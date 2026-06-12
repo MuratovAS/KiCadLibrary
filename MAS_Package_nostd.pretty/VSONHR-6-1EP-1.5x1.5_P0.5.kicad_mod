@@ -1,0 +1,220 @@
+(footprint "VSONHR-6-1EP-1.5x1.5_P0.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5616325-5369-45f3-b05a-61273c7ff434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VSONHR-6-1EP-1.5x1.5_P0.5"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fab2100-b4f2-46ca-b874-9883a73427dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dde8e5f-6ee3-4d6e-a3c1-83872db138b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2fec09c-954c-4f39-92c8-62c55476c738")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 -0.8)
+		(end 0.75 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5f9c95-3e97-4995-9a42-3a10577580d5")
+	)
+	(fp_line
+		(start -0.75 0.8)
+		(end 0.75 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45c38cca-4bc8-439b-95b8-4f17df20ffd1")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.75) (xy -1.28 -0.75) (xy -1 -1.03) (xy -1 -0.75)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "97e4a73c-2094-406a-a568-1a8ad57e90f6")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9f03af20-3b7d-4fb8-8a42-52a0e1de3f0f")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "37bd39bb-95bb-4edd-9a83-f1fdfc485623")
+	)
+	(fp_line
+		(start -0.25 -0.75)
+		(end -0.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "65e56506-dd78-4f55-b369-f5a850733395")
+	)
+	(fp_line
+		(start -0.25 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b5d80e14-ebcd-409d-986d-320834b61539")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f126249-b7c5-4ecd-b375-03a3cb417c51")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9ff067d9-572a-43be-b285-5daa092565c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e9ddb8e-6343-4e51-b1f6-fcfd04e4f364")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.65 -0.5)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "4a8019de-68e8-429d-a574-f8d60e03c9e3")
+	)
+	(pad "2" smd roundrect
+		(at -0.65 0)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "0088c34b-1983-466e-aa1f-2aef56db351f")
+	)
+	(pad "3" smd roundrect
+		(at -0.65 0.5)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "b4e7c3e8-9a0c-40cc-a4d3-06a3cab705ca")
+	)
+	(pad "4" smd roundrect
+		(at 0.45 0.5)
+		(size 1 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "1c15fda7-01b7-4cb4-aa78-cf0b700bc4c7")
+	)
+	(pad "5" smd roundrect
+		(at 0.45 0)
+		(size 1 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "e59d28c5-cdf0-486c-b948-dc27ba7cebee")
+	)
+	(pad "6" smd roundrect
+		(at 0.45 -0.5)
+		(size 1 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "9904c6d2-4f7c-499c-ae5c-622f8cef28fd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-6_1.5x1.5mm_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
