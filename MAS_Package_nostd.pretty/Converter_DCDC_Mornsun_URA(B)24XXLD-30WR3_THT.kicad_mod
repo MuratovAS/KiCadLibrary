@@ -1,0 +1,223 @@
+(footprint "Converter_DCDC_Mornsun_URA(B)24XXLD-30WR3_THT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://cdn.promelec.ru/upload/items/2025/04/02/URB_LD-30WR3.pdf")
+	(tags "DCDC-Converter Mornsun URA_LD-30WR3 & URB_LD-30WR3 THT 2\"x1\" 30W")
+	(property "Reference" "REF**"
+		(at 7.6 -4.24 0)
+		(layer "F.SilkS")
+		(uuid "6378f5dd-f6ad-4eb5-b9f2-4c9ec9fa0b59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_Mornsun_URA(B)24XXLD-30WR3_THT"
+		(at 7.6 49.96 0)
+		(layer "F.Fab")
+		(uuid "9af951a3-925e-4be4-a099-1ed4d61e5669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2f1a958-dccf-428e-8757-cdf46026e348")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d6302a3-2c28-4823-a054-f996a0d93669")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "converter_ACDC_DCDC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "87c3f838-5c83-44ae-829c-72e418232fbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.96 -3.4)
+		(end -0.296 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b740a850-934b-4bdf-8c33-1e56b1ce4485")
+	)
+	(fp_line
+		(start -5.96 49.12)
+		(end -5.96 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4696732b-5395-4fbc-b84b-bcad3afb9ac4")
+	)
+	(fp_line
+		(start 0.296 -3.4)
+		(end 21.16 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b20d40f-4fef-4f64-a448-a919ae96da54")
+	)
+	(fp_line
+		(start 21.16 -3.4)
+		(end 21.16 49.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6853d924-4c73-48c3-8890-e39abb63fb92")
+	)
+	(fp_line
+		(start 21.16 49.12)
+		(end -5.96 49.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afdf6c54-8aef-4ac4-9172-3a8fc626ec39")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -3.4) (xy -0.44 -4.01) (xy 0.44 -4.01)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dbc04732-ad08-4b6f-82f6-69d1473e9cb9")
+	)
+	(fp_rect
+		(start -6.1 -3.54)
+		(end 21.3 49.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "99b7351d-c874-421f-956e-eae5ed911b41")
+	)
+	(fp_poly
+		(pts
+			(xy -4.1 -2.54) (xy 20.3 -2.54) (xy 20.3 48.26) (xy -5.1 48.26) (xy -5.1 -1.54)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5c39a51c-9060-4dcb-9eef-bf5c711cadfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.6 22.86 0)
+		(layer "F.Fab")
+		(uuid "41a4d620-1bfe-4ac7-a91d-f2805f2e0c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 15.24 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "57be9cfc-4da7-44c9-8d70-a698a583f450")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7b2c3e9-0a99-4860-8c60-1ca928ed23ff")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc42245a-8920-4e80-825b-2a1876e183a7")
+	)
+	(pad "4" thru_hole circle
+		(at -2.6 45.72)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "968fcf3d-a23e-4e72-87ad-f216c4deb691")
+	)
+	(pad "5" thru_hole circle
+		(at 7.56 45.72)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8bdea26-391a-4d7c-b157-ed8a5212b2ec")
+	)
+	(pad "6" thru_hole circle
+		(at 17.72 45.72)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3ac3e60-9497-4f70-a79d-19ce291c9afc")
+	)
+	(embedded_fonts no)
+	(model "${MAS_3DMODEL_DIR}/TRACO_THR_40-72xWI.stp"
+		(offset
+			(xyz 7.65 -22.85 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
