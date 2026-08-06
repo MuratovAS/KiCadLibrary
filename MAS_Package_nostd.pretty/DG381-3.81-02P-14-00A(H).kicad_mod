@@ -1,0 +1,231 @@
+(footprint "DG381-3.81-02P-14-00A(H)"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.7272 -4.9784 0)
+		(layer "F.SilkS")
+		(uuid "cb073960-3fdd-43fd-8722-055d00236afe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DG381-3.81-02P-14-00A(H)"
+		(at 2.1044 -8.7056 0)
+		(layer "F.Fab")
+		(uuid "7702887a-714e-430c-b0cb-816942f8d572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d41d214-66ab-480d-8bd7-45220910876c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa053e54-010d-441e-8044-bd94ba37a9e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.794 -4.4)
+		(end -2.794 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b2a375-78b1-44ae-9f8f-12d08420d0f0")
+	)
+	(fp_line
+		(start -2.54 -4.0646)
+		(end 6.223 -4.0646)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66acede9-6019-4075-9235-e5468310eb3a")
+	)
+	(fp_line
+		(start -2.54 4.064)
+		(end -2.54 -4.0646)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8584d334-4265-4e88-8040-f84049a6d454")
+	)
+	(fp_line
+		(start -1.184 -4.4)
+		(end -2.794 -4.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec8d3911-2447-423f-8771-04c5839bf58b")
+	)
+	(fp_line
+		(start 6.223 -4.0646)
+		(end 6.223 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e315a7b6-cead-4702-b050-8455f1dc6c80")
+	)
+	(fp_line
+		(start 6.223 4.064)
+		(end -2.54 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77cfbf05-523e-4907-87f4-8b534fc1ff98")
+	)
+	(fp_line
+		(start -2.667 -4.191)
+		(end -2.667 4.191)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e80564f0-22e6-4434-b379-dde3d1886ba5")
+	)
+	(fp_line
+		(start -2.667 -4.191)
+		(end 6.35 -4.191)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "620c65a3-9fc6-40ea-aea1-d157a31fcbf4")
+	)
+	(fp_line
+		(start -2.667 4.191)
+		(end 6.35 4.191)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adce4639-915c-406c-a6d7-ec87be249c12")
+	)
+	(fp_line
+		(start 6.35 -4.191)
+		(end 6.35 4.191)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1fd4eee-0102-4740-a20f-36bb6af9c595")
+	)
+	(fp_line
+		(start -2.413 -3.937)
+		(end 6.096 -3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63ce282b-fdb7-4d6f-986d-4a0a12c5d6a9")
+	)
+	(fp_line
+		(start -2.413 3.937)
+		(end -2.413 -3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e47b60c-2baf-4a7b-80b7-0aa921f1c89f")
+	)
+	(fp_line
+		(start 6.096 -3.937)
+		(end 6.096 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53df7605-6f37-4f7f-a30f-7be574fb9def")
+	)
+	(fp_line
+		(start 6.096 3.937)
+		(end -2.413 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "711fc7a0-dd70-4c20-b0e5-b4100b3224d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.1844 -6.7056 0)
+		(layer "F.Fab")
+		(uuid "ed122c29-15c6-45ba-900a-416aec26a4a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a31a8f0-86d4-4ee3-be49-9f11cb9bbb6b")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a50d71ec-4cc4-4bb8-82d7-d6d956634eb5")
+	)
+	(embedded_fonts no)
+	(model "${MAS_3DMODEL_DIR}/DG381-3.81-02P-14-00AH.STEP"
+		(offset
+			(xyz -1.95 3.95 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)
