@@ -3374,7 +3374,7 @@
 			)
 		)
 		(property "Footprint" "MAS_Package_nostd:SCH16T"
-			(at 0 0 0)
+			(at 0 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3385,7 +3385,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/-/media/webrenewal/products/sensor/pdf/datasheet/datasheet-sch16t-k01-short.ashx?la=en-us&cvid=20241226073945000000"
-			(at 0 0 0)
+			(at 1.27 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3396,7 +3396,7 @@
 			)
 		)
 		(property "Description" "6-DOF Gyroscope + Accelerometer, SPI, SOIC-24"
-			(at 0 0 0)
+			(at 0 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3470,7 +3470,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "TA9"
 					(effects
@@ -3488,7 +3488,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "TA8"
 					(effects
@@ -3524,7 +3524,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "EXTRESN"
 					(effects
@@ -3596,7 +3596,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -5.08 180)
+				(at 15.24 8.89 180)
 				(length 2.54)
 				(name "VREGA2"
 					(effects
@@ -3614,7 +3614,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
+				(at 15.24 11.43 180)
 				(length 2.54)
 				(name "VREGA"
 					(effects
@@ -3670,7 +3670,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -10.16 180)
+				(at 15.24 3.81 180)
 				(length 2.54)
 				(name "VREGD2"
 					(effects
@@ -3688,7 +3688,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -7.62 180)
+				(at 15.24 6.35 180)
 				(length 2.54)
 				(name "VREGD"
 					(effects
@@ -3762,7 +3762,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 180)
+				(at -15.24 8.89 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -3780,7 +3780,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 2.54 180)
+				(at -15.24 -1.27 0)
 				(length 2.54)
 				(name "DRY_SYNC"
 					(effects
@@ -3798,7 +3798,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -15.24 6.35 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -3816,7 +3816,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -3834,7 +3834,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
+				(at -15.24 11.43 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
